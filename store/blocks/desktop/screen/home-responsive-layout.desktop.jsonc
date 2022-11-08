@@ -2,6 +2,7 @@
   "responsive-layout.desktop#home__layout--desktop": {
     "children": [
       "video#home__video--section--one",
+      "image#home__image--section--two",
       "rich-text#home__title--test"
     ]
   },
