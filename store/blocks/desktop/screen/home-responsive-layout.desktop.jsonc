@@ -1,6 +1,9 @@
 {
   "responsive-layout.desktop#home__layout--desktop": {
-    "children": ["rich-text#home__title--test"]
+    "children": [
+      "video#home__video--section--one",
+      "rich-text#home__title--test"
+    ]
   },
   "rich-text#home__title--test": {
     "props": {
