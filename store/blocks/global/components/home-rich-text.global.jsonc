@@ -1,0 +1,10 @@
+{
+  "rich-text#home__rich-text--section--four": {
+    "props": {
+      "text": "Los abrazos de emoción en familia, las palabras más lindas de papá,\n los besos uno tras otro de mamá, los regalos inesperados, las visitas sorpresa,\n sentir el amor en casa de los abuelos, los intercambios de regalos entre \n hermanos, las risas entre amigos y sorprender a los pequeños.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__rich-text--section--four"
+    }
+  }
+}
