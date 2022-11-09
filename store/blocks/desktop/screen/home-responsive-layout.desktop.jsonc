@@ -4,6 +4,7 @@
       "video#home__video--section--one",
       "image#home__image--section--two",
       "flex-layout.row#home__flex-layout--section--three",
+      "rich-text#home__rich-text--section--four",
       "rich-text#home__title--test"
     ]
   },
