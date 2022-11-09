@@ -1,0 +1,14 @@
+{
+  "image#flex-layout__section--three--famale": {
+    "props": {
+      "alt": "flex-layout__section--three--famale",
+      "src": "assets/image/NAVIDAD-SECTION-FEMALE-2.png"
+    }
+  },
+  "image#flex-layout__section--three--male": {
+    "props": {
+      "alt": "flex-layout__section--three--male",
+      "src": "assets/image/NAVIDAD-SECTION-MALE-2.png"
+    }
+  }
+}

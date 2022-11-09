@@ -1,0 +1,7 @@
+.flexRow--flex-layout--section--three{
+  padding: 88px 15px 0 15px; 
+}
+
+.flexRow--flex-layout--section--three .stretchChildrenWidth {
+  padding: 0px 15px;
+}

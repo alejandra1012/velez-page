@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#home__flex-layout--section--three": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "flex-layout--section--three"
+    },
+    "children": [
+      "image#flex-layout__section--three--famale",
+      "image#flex-layout__section--three--male"
+    ]
+  }
+}
