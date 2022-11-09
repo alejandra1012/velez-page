@@ -5,6 +5,7 @@
       "image#home__image--section--two",
       "flex-layout.row#home__flex-layout--section--three",
       "rich-text#home__rich-text--section--four",
+      "image#home__image--section--five",
       "rich-text#home__title--test"
     ]
   },
