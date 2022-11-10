@@ -7,5 +7,14 @@
       "textPosition": "CENTER",
       "blockClass": "home__rich-text--section--four"
     }
+  },
+  "rich-text#home__rich-text--section--seven": {
+    "title": "section seven most viewed",
+    "props": {
+      "text": "LOS MÁS VISTOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__rich-text--section--seven"
+    }
   }
 }
