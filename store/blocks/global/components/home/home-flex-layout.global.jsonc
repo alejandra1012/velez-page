@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#home__flex-layout--section--three": {
+    "title":"categories section three",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "flex-layout--section--three"
+    },
+    "children": [
+      "image#flex-layout__section--three--famale",
+      "image#flex-layout__section--three--male"
+    ]
+  },
+  "flex-layout.row#slider__section--six--one": {
+    "title":"slider section six",
+    "children": [
+      "image#slider__section--six--image--one",
+      "flex-layout.row#slider__section--six--categories"
+    ],
+    "props": {
+      "blockClass": "flex-layout__slider--section--six"
+    }
+  },
+  "flex-layout.row#slider__section--six--two": {
+    "title":"slider section six",
+    "children": [
+      "image#slider__section--six--image--two",
+      "flex-layout.row#slider__section--six--categories"
+    ],
+    "props": {
+      "blockClass": "flex-layout__slider--section--six"
+    }
+  },
+  "flex-layout.row#slider__section--six--three": {
+    "title":"slider section six",
+    "children": [
+      "image#slider__section--six--image--three",
+      "flex-layout.row#slider__section--six--categories"
+    ],
+    "props": {
+      "blockClass": "flex-layout__slider--section--six"
+    }
+  },
+  "flex-layout.row#slider__section--six--four": {
+    "title":"slider section six",
+    "children": [
+      "image#slider__section--six--image--four",
+      "flex-layout.row#slider__section--six--categories"
+    ],
+    "props": {
+      "blockClass": "flex-layout__slider--section--six"
+    }
+  },
+  "flex-layout.row#slider__section--six--categories": {
+    "title":"slider section six",
+    "children": [
+      "image#slider__section--six--image--category--female",
+      "image#slider__section--six--image--category--male"
+    ],
+    "props": {
+      "fullwidth": true,
+      "colGap": 4,
+      "blockClass":"slider__section--six--categories"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "image#flex-layout__section--three--famale": {
+    "title": "categories section three",
+    "props": {
+      "alt": "flex-layout__section--three--famale",
+      "src": "assets/image/NAVIDAD-SECTION-FEMALE-2.png"
+    }
+  },
+  "image#flex-layout__section--three--male": {
+    "title": "categories section three",
+    "props": {
+      "alt": "flex-layout__section--three--male",
+      "src": "assets/image/NAVIDAD-SECTION-MALE-2.png"
+    }
+  },
+  "image#slider__section--six--image--one": {
+    "title":"slider section six",
+    "props": {
+      "alt": "slider__section--six--image--one",
+      "src": "assets/image/IMAGE-SLIDER-1.png"
+    }
+  },
+  "image#slider__section--six--image--two": {
+    "title":"slider section six",
+    "props": { 
+      "alt": "slider__section--six--image--two",
+      "src": "assets/image/IMAGE-SLIDER-2.png"
+    }
+  },
+  "image#slider__section--six--image--three": {
+    "title":"slider section six",
+    "props": {
+      "alt": "slider__section--six--image--three",
+      "src": "assets/image/IMAGE-SLIDER-3.png"
+    }
+  },
+  "image#slider__section--six--image--four": {
+    "title":"slider section six",
+    "props": {
+      "alt": "slider__section--six--image--four",
+      "src": "assets/image/IMAGE-SLIDER-4.png"
+    }
+  },
+  "image#slider__section--six--image--category--male": {
+    "title":"slider section six",
+    "props": {
+      "alt": "slider__section--four--category--male",
+      "src": "assets/image/CATEGORY-MALE.png"
+    }
+  },
+  "image#slider__section--six--image--category--female": {
+    "title":"slider section six",
+    "props": {
+      "alt": "slider__section--four--category--female",
+      "src": "assets/image/CATEGORY-FEMALE.png"
+    }
+  }
+}
