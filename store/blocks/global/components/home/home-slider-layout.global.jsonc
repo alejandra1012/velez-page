@@ -1,6 +1,6 @@
 {
   "slider-layout#home__slider-layout--section--six": {
-    "title":"slider section six",
+    "title": "slider section six",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -19,5 +19,15 @@
       "flex-layout.row#slider__section--six--three",
       "flex-layout.row#slider__section--six--four"
     ]
+  },
+  "slider-layout#home__list-context--section--seven": {
+    "title": "section seven most viewed",
+    "props": {
+      "itemsPerPage": {
+         "desktop": 4,
+         "tablet": 2,
+         "mobile": 1
+      }
+    }
   }
 }
