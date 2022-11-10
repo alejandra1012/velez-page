@@ -1,0 +1,23 @@
+{
+  "slider-layout#home__slider-layout--section--six": {
+    "title":"slider section six",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "showPaginationDots": "never",
+      "infinited": true,
+      "centerMode": "center",
+      "centerModeSlidesGap": 60,
+      "blockClass": "home__slider-layout--section--six"
+    },
+    "children": [
+      "flex-layout.row#slider__section--six--one",
+      "flex-layout.row#slider__section--six--two",
+      "flex-layout.row#slider__section--six--three",
+      "flex-layout.row#slider__section--six--four"
+    ]
+  }
+}

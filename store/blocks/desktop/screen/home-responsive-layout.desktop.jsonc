@@ -6,6 +6,7 @@
       "flex-layout.row#home__flex-layout--section--three",
       "rich-text#home__rich-text--section--four",
       "image#home__image--section--five",
+      "slider-layout#home__slider-layout--section--six",
       "rich-text#home__title--test"
     ]
   },

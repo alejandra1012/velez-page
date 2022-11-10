@@ -1,5 +1,6 @@
 {
   "video#home__video--section--one": {
+    "title": "video section one",
     "props": {
       "width": "100%",
       "loop": true,
