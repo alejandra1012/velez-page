@@ -8,15 +8,7 @@
       "image#home__image--section--five",
       "slider-layout#home__slider-layout--section--six",
       "rich-text#home__rich-text--section--seven",
-      "list-context.product-list#home__list-context--section--seven",
-      "rich-text#home__title--test"
+      "list-context.product-list#home__list-context--section--seven"
     ]
-  },
-  "rich-text#home__title--test": {
-    "props": {
-      "text": "hola mundo internet a veces falla en mi casa :(",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
   }
 }

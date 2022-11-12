@@ -1,0 +1,9 @@
+.headerRowBackground--banner__top {
+  background: #852314;
+  height    : 30px;
+}
+
+.headerRowContainer--banner__top {
+  height         : 30px;
+  justify-content: center;
+}

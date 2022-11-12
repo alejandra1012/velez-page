@@ -1,0 +1,14 @@
+.flexRowContent--banner__top .stretchChildrenWidth{
+  text-align: center;
+  font-size : 13px;
+  width: auto !important;
+  
+}
+
+.flexRowContent--banner__top :nth-child(2n)::before {
+  content     : '|';
+  color       : white;
+  font-size   : 15px;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
