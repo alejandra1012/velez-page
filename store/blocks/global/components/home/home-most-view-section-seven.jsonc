@@ -1,0 +1,34 @@
+{
+  "list-context.product-list#home__list-context--section--seven": {
+    "title": "section seven most viewed",
+    "blocks": ["product-summary.shelf#home__list-context--section--seven"],
+    "children": ["slider-layout#home__list-context--section--seven"],
+    "props": {
+      "maxItems": 4
+    }
+  },
+  "product-summary.shelf#home__list-context--section--seven": {
+    "children": ["product-summary-image", "product-summary-name"],
+    "props": {
+      "blockClass": "home__list-context--section--seven"
+    }
+  },
+  "slider-layout#home__list-context--section--seven": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 1
+      }
+    }
+  },
+  "rich-text#home__rich-text--section--seven": {
+    "title": "section seven most viewed",
+    "props": {
+      "text": "LOS MÁS VISTOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__rich-text--section--seven"
+    }
+  }
+}

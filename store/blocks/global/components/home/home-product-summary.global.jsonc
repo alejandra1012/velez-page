@@ -1,9 +1,0 @@
-{
-  "product-summary.shelf#home__list-context--section--seven": {
-    "title": "section seven most viewed",
-    "children": ["product-summary-image", "product-summary-name"],
-    "props":{
-      "blockClass": "home__list-context--section--seven"
-    }
-  }
-}

@@ -9,16 +9,14 @@
 .flexRowContent--flex-layout__slider--section--six {
   flex-direction: column;
   align-items   : center;
-  margin-top: 30px;
+  margin-top    : 30px;
 }
 
 .flexRowContent--flex-layout__slider--section--six :first-child {
   width: auto !important;
 }
 
-.flexRowContent--slider__section--six--categories{
-  height: 25px !important;
-  margin-top: 5px; 
+.flexRowContent--slider__section--six--categories {
+  height    : 25px !important;
+  margin-top: 5px;
 }
-
-

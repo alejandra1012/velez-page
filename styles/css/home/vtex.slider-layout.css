@@ -1,0 +1,8 @@
+.sliderArrows {
+   border-radius  : 50%;
+   background     : #fff7 !important;
+   background-size: 27px 44px;
+   width          : 60px;
+   height         : 60px;
+   margin         : 0 30px;
+}
