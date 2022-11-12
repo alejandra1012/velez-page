@@ -3,6 +3,13 @@
   height    : 30px;
 }
 
+.headerRowBackground--header__banner--top--mobile {
+  display: flex;
+  background: #852314;
+  height: 3rem;
+  text-align: center;
+}
+
 .headerRowContainer--banner__top {
   height         : 30px;
   justify-content: center;

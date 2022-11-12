@@ -1,5 +1,5 @@
 {
   "header-layout.mobile": {
-    "children": []
+    "children": ["header-row#header__banner--top--mobile"]
   }
 }
