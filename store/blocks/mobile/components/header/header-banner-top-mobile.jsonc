@@ -1,0 +1,42 @@
+{
+  "header-row#header__banner--top--mobile": {
+    "children": ["slider-layout#banner__top--mobile"],
+    "props": {
+      "sticky": true,
+      "blockClass": "header__banner--top--mobile"
+    }
+  },
+  "slider-layout#banner__top--mobile": {
+    "children": [
+      "link#banner__top--mobile--one",
+      "link#banner__top--mobile--two"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "tablet": 1,
+        "mobile": 1
+      },
+      "slideTransition": {
+        "speed": 800,
+        "delay": 200,
+        "timing": "linear"
+      },
+      "autoplay": {
+        "timeout": 8000
+      },
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "blockClass": "header__banner--top--mobile"
+    }
+  },
+  "link#banner__top--mobile--one": {
+    "props": {
+      "label": "Exclusivo online. TODO OUTLET desde 40% dcto | COMPRAR >>  "
+    }
+  },
+  "link#banner__top--mobile--two": {
+    "props": {
+      "label": "Exclusivo online. 15% DCTO en Producto de linea. Ref Selecc | COMPRAR >>"
+    }
+  }
+}
