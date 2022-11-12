@@ -1,6 +1,6 @@
 {
   "header-row#header__banner--top": {
-    "title": "header__banner--top",
+    "title": "header banner top",
     "children": ["flex-layout.row#banner__top"],
     "props": {
       "sticky": true,

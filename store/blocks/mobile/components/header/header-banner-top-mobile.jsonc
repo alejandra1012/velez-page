@@ -1,5 +1,6 @@
 {
   "header-row#header__banner--top--mobile": {
+    "title": "header banner top mobile",
     "children": ["slider-layout#banner__top--mobile"],
     "props": {
       "sticky": true,
@@ -26,6 +27,7 @@
       },
       "showNavigationArrows": false,
       "showPaginationDots": false,
+      "fullWidth": true,
       "blockClass": "header__banner--top--mobile"
     }
   },
