@@ -1,0 +1,44 @@
+{
+  "header-row#haeder__menu--mobile": {
+    "title": "haeder menu mobile",
+    "children": [
+      "drawer#menu__mobile",
+      "header-force-center#menu__mobile",
+      "header-spacer",
+      "search-bar#menu__mobile",
+      "login#menu__mobile",
+      "minicart.v2#menu__mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "sticky": true
+    }
+  },
+  "drawer#menu__mobile": {},
+  "header-force-center#menu__mobile": {
+    "children": ["logo#menu__mobile"],
+    "props":{
+      "blockClass": "menu__mobile"
+    }
+  },
+  "logo#menu__mobile": {
+    "props": {
+      "url": "assets/image/logo_velez.svg",
+      "mobileWidth": "140px",
+      "mobileHeight": "30px"
+    }
+  },
+  "search-bar#menu__mobile": {
+    "props": {
+      "maxWidth": 30,
+      "blockClass": "header__menu--search-bar"
+    }
+  },
+  "login#menu__mobile": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true
+    }
+  },
+  "minicart.v2#menu__mobile": {}
+}
