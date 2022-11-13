@@ -1,7 +1,7 @@
 {
   "responsive-layout.desktop#home__layout--desktop": {
     "children": [
-      "video#home__video--section--one",
+      "flex-layout.row#home__video--section--one",
       "image#home__image--section--two",
       "flex-layout.row#home__flex-layout--section--three",
       "rich-text#home__rich-text--section--four",
