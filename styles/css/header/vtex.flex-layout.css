@@ -12,3 +12,22 @@
   margin-right: 1vw;
   margin-left: 1vw;
 }
+
+.flexRow--header__bottom--desktop{
+  width: 100%;
+}
+
+.flexRowContent--header__bottom--desktop .stretchChildrenWidth:nth-child(even) {
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--header__bottom--desktop .stretchChildrenWidth {
+   justify-content: flex-end;
+}
+
+.flexRow--header__bottom--container {
+   width: min-content !important; 
+}

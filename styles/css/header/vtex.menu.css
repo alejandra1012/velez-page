@@ -1,0 +1,14 @@
+.menuContainer--header__bottom--menu .styledLink {
+  font-size: 14px;
+}
+
+.menuContainer--header__bottom--menu .styledLinkContainer {
+  margin       : 0;
+  padding-right: 1.5rem;
+}
+
+.menuContainerNav--header__bottom--menu {
+  display        : flex;
+  align-items    : center;
+  justify-content: center
+}

@@ -16,6 +16,11 @@
   justify-content: center;
 }
 
-.forceCenterInnerContainer--menu__mobile{
+.forceCenterInnerContainer--menu__mobile {
   max-width: 40%;
+}
+
+.headerRowContentContainer--header__bottom--desktop {
+  padding: 0 1vw;
+  max-width: 100%;
 }
