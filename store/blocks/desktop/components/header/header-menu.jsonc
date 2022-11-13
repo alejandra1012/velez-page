@@ -1,0 +1,69 @@
+{
+  "menu#header__bottom--menu": {
+    "children": [
+      "menu-item#menu__department--female",
+      "menu-item#menu__department--male",
+      "menu-item#menu__department--outlet",
+      "menu-item#menu__department--credit",
+      "menu-item#menu__department--fly-up"
+    ],
+    "props": {
+      "blockClass": "header__bottom--menu"
+    } 
+  },
+  "menu-item#menu__department--female": {
+    "children": [],
+    "props": {
+      "id": "menu-item-female",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "MUJER"
+      }
+    }
+  },
+  "menu-item#menu__department--male": {
+    "children": [],
+    "props": {
+      "id": "menu-item-male",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "HOMBRE"
+      }
+    }
+  },
+  "menu-item#menu__department--outlet": {
+    "children": [],
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "OUTLET"
+      }
+    }
+  },
+  "menu-item#menu__department--credit": {
+    "children": [],
+    "props": {
+      "id": "menu-item-credit",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CRÉDITO"
+      }
+    }
+  },
+  "menu-item#menu__department--fly-up": {
+    "children": [],
+    "props": {
+      "id": "menu-item-fly-up",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "FLY UP"
+      }
+    }
+  }
+}
