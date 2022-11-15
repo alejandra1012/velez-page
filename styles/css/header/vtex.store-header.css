@@ -24,3 +24,7 @@
   padding: 0 1vw;
   max-width: 100%;
 }
+
+.headerStickyRow--header__bottom--desktop {
+     height: 34px;
+} 

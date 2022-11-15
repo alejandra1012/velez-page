@@ -1,14 +1,74 @@
 .menuContainer--header__bottom--menu .styledLink {
-  font-size: 14px;
+  font-size     : 14px;
+  letter-spacing: 1px;
 }
 
 .menuContainer--header__bottom--menu .styledLinkContainer {
-  margin       : 0;
-  padding-right: 1.5rem;
+  margin : 0;
+  padding: 8px;
+}
+
+.menuItem--submenu__department--items .styledLinkContainer {
+  padding       : 3px;
+  padding-bottom: 8px;
 }
 
 .menuContainerNav--header__bottom--menu {
-  display        : flex;
-  align-items    : center;
-  justify-content: center
+  display: flex;
+}
+
+.menuContainer--header__bottom--menu {
+  align-self: center;
+}
+
+.submenuWrapper--menu__submenu--department {
+  flex-direction: column;
+  padding       : 0;
+  margin-top    : 5px;
+}
+
+.menuItem--submenu__department--items .submenuContainer,
+.submenu--menu__submenu--department {
+  display: contents;
+}
+
+.submenu--menu__submenu--department .menuContainerNav {
+  min-width: 34%;
+  position : relative;
+}
+
+.menuContainerNav--submenu__department--items--credit {
+  width: 100%;
+}
+
+.menuContainer--submenu__department--items {
+  width       : 50%;
+  height      : 100%;
+  border-right: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.menuContainer--submenu__department--items--credit {
+  height      : 100%;
+  border-right: 2px solid #ccc;
+}
+
+.styledLinkContainer--submenu__department--items .submenu {
+  justify-content: flex-start;
+}
+
+.menuItem--submenu__department--items .submenuWrapper {
+  top       : 0;
+  left      : 53%;
+  border    : none;
+  padding   : 0;
+  background: transparent;
+}
+
+.menuItem--submenu__department--items .submenuWrapper .submenu {
+  display: contents;
+}
+
+.styledLinkContent--link_menu_departments {
+  font-weight: bold;
 }
