@@ -1,0 +1,9 @@
+{
+  "rich-text#submenu__banner": {
+    "props": {
+      "title": "header banner submenu",
+      "text": "COMPRA POR WHATSAPP3228096512>>",
+      "blockClass": "banner__submenu"
+    }
+  }
+}
