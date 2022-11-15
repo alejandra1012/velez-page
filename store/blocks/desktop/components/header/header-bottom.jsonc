@@ -1,6 +1,6 @@
 {
   "header-row#header__bottom--desktop": {
-    "title": "haeder bottom mobile",
+    "title": "haeder bottom desktop",
     "children": ["flex-layout.row#header__bottom--desktop"],
     "props": {
       "sticky": true,
@@ -12,9 +12,8 @@
       "menu#header__bottom--menu",
       "logo#header__bottom--logo",
       "flex-layout.row#header__bottom--container"
-    ], 
+    ],
     "props": {
-      "colSizing": "equals",
       "blockClass": "header__bottom--desktop"
     }
   },
@@ -38,16 +37,16 @@
       "blockClass": "header__bottom--container"
     }
   },
-  "search-bar#header__bottom--search": {
-    "props": {
-      "maxWidth": "20%"
-    }
-  },
   "login#header__bottom--login": {
     "props": {
       "showIconProfile": true,
-      "hideIconLabel": true
+      "hideIconLabel": true,
+      "blockClass": "header__bottom--login"
     }
   },
-  "minicart.v2#header__bottom--minicat": {}
+  "minicart.v2#header__bottom--minicat": {
+    "props": {
+      "blockClass": "header__bottom--minicart"
+    }
+  }
 }
