@@ -1,5 +1,11 @@
-.link{
+.link {
   text-decoration: none;
-  color: #fff;
-  width: auto;
+  color          : #fff;
+  width          : auto;
+}
+
+.link--link_menu_departments {
+  color    : #000;
+  font-size: 15px;
+  font-weight: bold;
 }

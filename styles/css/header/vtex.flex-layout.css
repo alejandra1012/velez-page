@@ -1,8 +1,8 @@
-.flexRowContent--banner__top .stretchChildrenWidth{
+.flexRowContent--banner__top .stretchChildrenWidth {
   text-align: center;
   font-size : 13px;
-  width: auto !important;
-  
+  width     : auto !important;
+
 }
 
 .flexRowContent--banner__top :nth-child(2n)::before {
@@ -10,24 +10,47 @@
   color       : white;
   font-size   : 15px;
   margin-right: 1vw;
-  margin-left: 1vw;
+  margin-left : 1vw;
 }
 
-.flexRow--header__bottom--desktop{
+.flexRow--header__bottom--desktop {
   width: 100%;
+}
+
+.flexRowContent--header__bottom--container .stretchChildrenWidth {
+  width: fit-content !important;
 }
 
 .flexRowContent--header__bottom--desktop .stretchChildrenWidth:nth-child(even) {
   text-align: center;
   align-self: center;
-  justify-content: center;
+}
+
+.flexRowContent--menu__submenu--department .stretchChildrenWidth:nth-child(even) {
+  align-self: flex-start;
+}
+
+.flexRow--menu__submenu--department {
+  min-height  : 55vh;
+  padding-left: 26px;
+  padding-top : 11px;
+}
+
+.flexCol--flex__menu--departments {
   align-items: center;
+  padding-top: 4px;
 }
 
-.flexRowContent--header__bottom--desktop .stretchChildrenWidth {
-   justify-content: flex-end;
+.flexColChild--flex__menu--departments {
+  width      : 57%;
+  align-items: center;
+  text-align : center;
 }
 
-.flexRow--header__bottom--container {
-   width: min-content !important; 
+.flexColChild--flex__menu--departments.link {
+  color: #000;
+}
+
+.flexColChild--flex__menu--departments--links {
+  height: auto !important;
 }
