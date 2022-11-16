@@ -54,3 +54,11 @@
 .flexColChild--flex__menu--departments--links {
   height: auto !important;
 }
+
+.flexRowContent--header__bottom--container :global(.vtex-button) {
+   width: 30px;
+}
+
+.flexRowContent--header__bottom--container :global(.vtex-button__label) {
+  padding: 0;
+}
