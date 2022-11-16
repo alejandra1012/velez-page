@@ -1,0 +1,41 @@
+{
+  "search-bar#header__bottom--search": {
+    "title": "menu search desktop",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Que buscas?",
+      "containerMode": "container",
+      "autocompleteFullWidth": true,
+      "blockClass": "header__bottom--search"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#search__menu--header"],
+    "props": {
+      "blockClass": "header__bottom--search"
+    }
+  },
+  "product-summary.shelf#search__menu--header": {
+    "children": [
+      "product-summary-image#product__search",
+      "product-summary-name#product__search"
+    ],
+    "props": {
+      "blockClass": "header__bottom--search"
+    }
+  },
+  "product-summary-name#product__search": {
+    "props": {
+       "tag": "h2",
+       "blockClass": "header__product--search"
+    }
+  },
+  "product-summary-image#product__search": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "4:1"
+      }
+    }
+  }
+}
