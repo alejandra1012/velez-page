@@ -53,6 +53,10 @@
   border-right: 2px solid #ccc;
 }
 
+.styledLinkContent--submenu__department--items {
+    white-space: normal;
+}
+
 .styledLinkContainer--submenu__department--items .submenu {
   justify-content: flex-start;
 }
@@ -72,3 +76,4 @@
 .styledLinkContent--link_menu_departments {
   font-weight: bold;
 }
+
