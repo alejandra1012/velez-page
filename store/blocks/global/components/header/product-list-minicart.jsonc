@@ -1,0 +1,5 @@
+{
+  "product-list#minicart": {
+    "blocks": ["product-list-content-desktop"]
+  }
+}
