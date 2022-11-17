@@ -1,4 +1,18 @@
-.openIconContainer--header__bottom--minicart {
+.openIconContainer--header__bottom--minicat {
   padding: 0;
+  width  : 25px;
+}
+
+.openIconContainer--header__bottom--minicat :global(.vtex-button__label) {
+  padding: 0;
+}
+
+.minicartQuantityBadge--header__bottom--minicat {
+  background: transparent;
+  color     : black;
+}
+
+.minicartProductListContainer {
+  padding: 17px;
 }
 

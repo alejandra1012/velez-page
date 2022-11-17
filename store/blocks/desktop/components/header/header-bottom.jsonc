@@ -43,10 +43,5 @@
       "hideIconLabel": true,
       "blockClass": "header__bottom--login"
     }
-  },
-  "minicart.v2#header__bottom--minicat": {
-    "props": {
-      "blockClass": "header__bottom--minicart"
-    }
   }
 }
