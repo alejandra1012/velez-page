@@ -1,0 +1,9 @@
+.trigger--footer__menu--our-philosophy {
+  display        : flex;
+  width          : 98%;
+  justify-content: space-between;
+  align-items    : center;
+  background     : transparent;
+  border         : none;
+  border-bottom  : 1px solid #000;
+}
