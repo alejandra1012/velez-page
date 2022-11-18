@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-container.mobile": {
+    "title": "footer mobile",
     "children": ["flex-layout.col#footer__menu--subconteiner"]
   },
   "flex-layout.col#footer__menu--subconteiner": {
