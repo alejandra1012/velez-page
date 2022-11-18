@@ -1,0 +1,15 @@
+.flexCol--foofooter-container__info {
+  text-align: center;
+}
+
+.flexCol--footer-container__menu {
+  height: fit-content;
+}
+
+.flexCol--footer-container__menu--links {
+  padding-top: 20px;
+}
+
+.flexCol--footer-container__menu :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0;
+}
