@@ -3,3 +3,8 @@
    font-weight: bold;
    font-size: 15px;
 }
+
+.link--footer-mobile__links {
+   color: #000 !important;
+   font-size: 13px;
+}

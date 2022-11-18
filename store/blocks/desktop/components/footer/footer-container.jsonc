@@ -22,7 +22,7 @@
     "props": {
       "width": "auto",
       "rowGap": "2",
-      "blockClass": "foofooter-container__info"
+      "blockClass": "footer-container__info"
     }
   },
   "image#footer__banner--sic": {

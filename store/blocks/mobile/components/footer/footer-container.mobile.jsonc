@@ -1,0 +1,335 @@
+{
+  "flex-layout.row#footer-container.mobile": {
+    "children": ["flex-layout.col#footer__menu--subconteiner"]
+  },
+  "flex-layout.col#footer__menu--subconteiner": {
+    "children": [
+      "disclosure-layout-group#footer__menu--mobile",
+      "flex-layout.col#footer-container-mobile__col-links",
+      "flex-layout.col#footer-moble__container--info"
+    ]
+  },
+  "disclosure-layout-group#footer__menu--mobile": {
+    "children": [
+      "disclosure-layout#footer__menu--our-philosophy",
+      "disclosure-layout#footer__menu--we-hepl-me",
+      "disclosure-layout#footer__our-store"
+    ],
+    "props": {
+      "maxVisible": "many"
+    }
+  },
+  "disclosure-layout#footer__menu--our-philosophy": {
+    "children": [
+      "disclosure-trigger#our-philosophy",
+      "disclosure-content#menu__our-philosophy"
+    ]
+  },
+  "disclosure-trigger#our-philosophy": {
+    "children": [
+      "rich-text#menu__title--our-philosophy",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__menu--our-philosophy"
+    }
+  },
+  "rich-text#menu__title--our-philosophy": {
+    "props": {
+      "text": "Nuestra Filosofía"
+    }
+  },
+  "disclosure-content#menu__our-philosophy": {
+    "children": ["menu#menu__mobile--philosophy"]
+  },
+  "menu#menu__mobile--philosophy": {
+    "props": {
+      "items": [
+        {
+          "id": "our-legacy",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "Nuestro legado"
+          }
+        },
+        {
+          "id": "our-commitment",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "Nuestro compromiso social y humano"
+          }
+        },
+        {
+          "id": "responsible-fashion",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "Moda responsable"
+          }
+        },
+        {
+          "id": "works-with-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "Trabaja con nosotros"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "footer__menu"
+    }
+  },
+  "disclosure-layout#footer__menu--we-hepl-me": {
+    "children": [
+      "disclosure-trigger#we-hepl-me",
+      "disclosure-content#menu__we-hepl-me"
+    ]
+  },
+  "disclosure-trigger#we-hepl-me": {
+    "children": [
+      "rich-text#menu__title--we-hepl-me",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__menu--our-philosophy"
+    }
+  },
+  "rich-text#menu__title--we-hepl-me": {
+    "props": {
+      "text": "Te Ayudamos"
+    }
+  },
+  "disclosure-content#menu__we-hepl-me": {
+    "children": ["menu#menu__mobile--we-help-me"]
+  },
+  "menu#menu__mobile--we-help-me": {
+    "props": {
+      "items": [
+        {
+          "id": "contact-PQRs",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Contacto / PQRs"
+          }
+        },
+        {
+          "id": "return-policy",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Política de devoluciones"
+          }
+        },
+        {
+          "id": "how-to-buy",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "¿Como comprar?"
+          }
+        },
+        {
+          "id": "frequently-questions",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Preguntas frecuentes"
+          }
+        },
+        {
+          "id": "terms-and-conditions",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Términos y condiciones"
+          }
+        },
+        {
+          "id": "our-policies",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Nuesta políticas"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "footer__menu"
+    }
+  },
+  "disclosure-layout#footer__our-store": {
+    "children": [
+      "disclosure-trigger#our-store",
+      "disclosure-content#menu__our-store"
+    ]
+  },
+  "disclosure-trigger#our-store": {
+    "children": [
+      "rich-text#menu__title--our-store",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__menu--our-philosophy"
+    }
+  },
+  "rich-text#menu__title--our-store": {
+    "props": {
+      "text": "Nuestras Tiendas"
+    }
+  },
+  "disclosure-content#menu__our-store": {
+    "children": ["menu#menu__mobile--our-store"]
+  },
+  "menu#menu__mobile--our-store": {
+    "props": {
+      "items": [
+        {
+          "id": "store-colombia",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Colombia"
+          }
+        },
+        {
+          "id": "store-costa-rica",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Costa Rica"
+          }
+        },
+        {
+          "id": "store-salvador",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "El Salvador"
+          }
+        },
+        {
+          "id": "store-guatemala",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Guatemala"
+          }
+        },
+        {
+          "id": "store-panama",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Panamá"
+          }
+        },
+        {
+          "id": "store-peru",
+          "type": "custom",
+          "itemProps": {
+            "type": "extrenal",
+            "text": "Perú"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "footer__menu"
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#mpa-plus--line",
+      "Hide": "icon#mpa-minus--line"
+    }
+  },
+  "icon#mpa-plus--line": {
+    "props": {
+      "id": "mpa-plus--line"
+    }
+  },
+  "icon#mpa-minus--line": {
+    "props": {
+      "id": "mpa-minus--line"
+    }
+  },
+  "flex-layout.col#footer-container-mobile__col-links": {
+    "children": [
+      "link#footer-mobile__links--loyalty-program",
+      "link#footer-mobile__links--credit-leather-lovers",
+      "link#footer-mobile__links--grows-with-us",
+      "link#footer-mobile__links--corporate-sales",
+      "link#footer-mobile__links--distributors",
+      "link#footer-mobile__links--online-shop"
+    ],
+    "props": {
+      "rowGap": 5,
+      "blockClass": "footer-mobile-container__menu--links"
+    }
+  },
+  "link#footer-mobile__links--loyalty-program": {
+    "props": {
+      "label": "PROGRAMA DE FIDELIZACIÓN",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "link#footer-mobile__links--credit-leather-lovers": {
+    "props": {
+      "label": "CRÉDITO LEATHER LOVERS",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "link#footer-mobile__links--grows-with-us": {
+    "props": {
+      "label": "CRECE CON NOSOTROS",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "link#footer-mobile__links--corporate-sales": {
+    "props": {
+      "label": "VENTAS CORPORATIVAS",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "link#footer-mobile__links--distributors": {
+    "props": {
+      "label": "DISTRIBUIDORES",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "link#footer-mobile__links--online-shop": {
+    "props": {
+      "label": "TIENDA VIRTUAL",
+      "blockClass": "footer-mobile__links"
+    }
+  },
+  "flex-layout.col#footer-moble__container--info": {
+    "children": [
+      "image#footer-mobile__banner--sic",
+      "rich-text#footer-mobile__bottom--info"
+    ],
+    "props": {
+      "width": "auto",
+      "rowGap": "2",
+      "blockClass": "footer-mobile-container__info"
+    }
+  },
+  "image#footer-mobile__banner--sic": {
+    "props": {
+      "src": "assets/image/industria y comercio.svg",
+      "alt": "icon-sic",
+      "maxWidth": 248
+    }
+  },
+  "rich-text#footer-mobile__bottom--info": {
+    "props": {
+      "text": "TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115 MEDELLÍN COLOMBIA| cvelezm@cuerosvelez.com +604 355 5100 | NIT 800191700-8",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-mini"
+    }
+  }
+}
