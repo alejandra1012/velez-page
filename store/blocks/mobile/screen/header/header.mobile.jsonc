@@ -2,7 +2,7 @@
   "header-layout.mobile": {
     "children": [
       "header-row#header__banner--top--mobile",
-      "header-row#haeder__menu--mobile"
+      "header-row#mobile__haeder-bottom"
     ]
   }
 }
