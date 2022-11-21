@@ -1,0 +1,58 @@
+{
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ThreeLineSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf#gallery--product",
+      "ThreeLineSummary": "product-summary.shelf#gallery--product"
+    }
+  },
+  // "gallery-layout-switcher": {
+  //   "children": ["gallery-layout-option#desktop"]
+  // },
+  // "gallery-layout-option#desktop": {
+  //   "children": ["icon-cart"],
+  //   "props": {
+  //     "name": "desktop"
+  //   }
+  // },
+
+  "product-summary.shelf#gallery--product": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-selling-price-range",
+      "product-selling-price#summary"
+    ],
+    "props": {
+      "blockClass": "desktop__search-gallery--product"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "width": 250,
+      "height": 380
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "markers": ["highlight"],
+      "alwaysShow": true,
+      "message": "Selling price: {sellingPriceValue}"
+    }
+  }
+}

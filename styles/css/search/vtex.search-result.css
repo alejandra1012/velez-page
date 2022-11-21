@@ -1,0 +1,15 @@
+.filtersWrapper--desktop__search-filter {
+  width: 18vw;
+}
+
+.searchResultContainer--desktop__container-search {
+  padding: 0 4vw;
+}
+
+.filterIcon--desktop__search-filter {
+  justify-content: flex-end;
+}
+
+.filterTitleSpan--desktop__search-filter{
+   overflow: visible;
+}
