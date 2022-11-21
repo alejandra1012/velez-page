@@ -1,0 +1,13 @@
+.childrenContainer--menu__mobile {
+  background: #fff;
+}
+
+.closeIconContainer--menu__mobile,
+.drawerContent--menu__mobile {
+  background: transparent;
+}
+
+.opened--menu__mobile{
+  background: transparent;
+  top: 62px
+}
