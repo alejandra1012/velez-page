@@ -1,0 +1,3 @@
+.flexRowContent--dektop__filter-and-gallery :nth-child(even) {
+   width: 100% !important;
+}

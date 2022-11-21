@@ -1,7 +1,38 @@
 {
   "store.search": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#department": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"]
+  },
+  "search-result-layout": {
     "blocks": [
-      
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ]
+  },
+  "search-not-found-layout": {
+    "children": []
+  },
+  "store.not-found#search": {
+    "children": ["rich-text#search-not-fout"]
+  },
+  "rich-text#search-not-fout": {
+    "props": {
+      "text": "**todo esto es un poco confuso**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
   }
 }
