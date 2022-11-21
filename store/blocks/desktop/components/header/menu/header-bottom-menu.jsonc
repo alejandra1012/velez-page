@@ -612,7 +612,7 @@
   "image#menu__department--female": {
     "props": {
       "alt": "image-female-menu",
-      "src": "assets/image/imge-female-menu.png"
+      "src": "/arquivos/imge-female-menu.png"
     }
   },
   "link#menu__department--female": {
@@ -1215,7 +1215,7 @@
   "image#menu__department--male": {
     "props": {
       "alt": "image-female-menu",
-      "src": "assets/image/imge-male-menu.png"
+      "src": "/arquivos/imge-male-menu.png"
     }
   },
   "link#menu__department--male": {
@@ -1431,7 +1431,7 @@
   "image#menu__department--outlet": {
     "props": {
       "alt": "image-female-menu",
-      "src": "assets/image/imge-outlet-menu.png"
+      "src": "/arquivos/imge-outlet-menu.png"
     }
   },
   "link#menu__department--outlet": {

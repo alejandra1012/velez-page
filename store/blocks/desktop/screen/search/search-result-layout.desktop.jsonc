@@ -1,0 +1,60 @@
+{
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop__breadcrumb-and-order",
+      "flex-layout.row#dektop__search-container"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid",
+      "blockClass": "desktop__container-search"
+    }
+  },
+  "flex-layout.row#desktop__breadcrumb-and-order": {
+    "children": [
+      "breadcrumb.search#desktop__breadcrumb",
+      "order-by.v2#desktop__search-order"
+    ],
+    "props": {
+      "marginTop": 9
+    }
+  },
+  "flex-layout.row#dektop__search-container": {
+    "children": ["flex-layout.row#dektop__filter-and-gallery"],
+    "props": {
+      "marginBottom": 9
+    }
+  },
+  "flex-layout.row#dektop__filter-and-gallery": {
+    "children": [
+      "filter-navigator.v3#desktop__search-filter",
+      "search-content#desktop__content"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "dektop__filter-and-gallery"
+    }
+  },
+  "breadcrumb.search#desktop__breadcrumb": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 20,
+      "caretIconSize": 12
+    }
+  },
+  "filter-navigator.v3#desktop__search-filter": {
+    "props": {
+      "openFiltersMode": "one",
+      "showClearByFilter": true,
+      "blockClass": "desktop__search-filter"
+    }
+  },
+  "order-by.v2#desktop__search-order": {
+    "props": {
+      "hiddenOptions": ["OrderByReleaseDateDESC", "OrderByTopSaleDESC", ""]
+    }
+  },
+  "search-content#desktop__content": {
+    "blocks": ["gallery", "not-found"]
+  }
+}

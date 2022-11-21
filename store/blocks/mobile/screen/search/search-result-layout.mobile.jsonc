@@ -1,0 +1,38 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile__breadcrumb-and-filter",
+      "search-content#mobile__content"
+    ],
+    "props": {
+      "updateOnFilterSelectionOnMobile": true,
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#mobile__breadcrumb-and-filter": {
+    "children": [
+      "breadcrumb.search#mobile__breadcrumb",
+      "filter-navigator.v3#mobile__filter"
+    ]
+  },
+  "breadcrumb.search#mobile__breadcrumb": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 20,
+      "caretIconSize": 10
+    }
+  },
+  "filter-navigator.v3#mobile__filter": {
+    "props": {
+      "appliedFiltersOverview": "show",
+      "totalProductsOnMobile": "show",
+      "navigationTypeOnMobile": "collapsible",
+      "updateOnFilterSelectionOnMobile": true,
+       "showQuantityBadgeOnMobile": true
+    }
+  },
+  "search-content#mobile__content": {
+    "blocks": ["gallery", "not-found"]
+  }
+}

@@ -1,0 +1,21 @@
+.containerNormal--desktop__search-gallery--product {
+  font-size  : 13px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.productBrand {
+  font-size  : 16px;
+  font-weight: 400;
+}
+
+.nameContainer {
+  padding: 3px 0;
+  white-space: nowrap;
+  justify-content: flex-start;
+}
+
+.nameWrapper{
+  text-overflow: ellipsis;
+}
+
