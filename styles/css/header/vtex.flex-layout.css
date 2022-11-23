@@ -56,9 +56,26 @@
 }
 
 .flexRowContent--header__bottom--container :global(.vtex-button) {
-   width: 30px;
+  width: 30px;
 }
 
 .flexRowContent--header__bottom--container :global(.vtex-button__label) {
   padding: 0;
+}
+
+.flexCol--menu__mobile-logo :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0;
+}
+
+.flexColChild--menu__mobile-logo {
+  width: 23vw;
+}
+
+.flexRowContent--mobile__options-container :global(.vtex-login-2-x-container) {
+  justify-content: flex-end;
+}
+
+.flexRowContent--mobile__options-container :global(.vtex-button__label) {
+  padding: 0;
+  margin-right: 6px;
 }
