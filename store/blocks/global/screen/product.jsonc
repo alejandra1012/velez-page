@@ -1,7 +1,19 @@
 {
   "store.product": {
     "children": [
-      
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__container"
     ]
+  },
+  "store.not-found#product": {
+    "blocks": ["rich-text#product__not-found"]
+  },
+  "rich-text#product__not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PRODUCT NOT FOUND**",
+      "font": "t-heading-1"
+    }
   }
 }
