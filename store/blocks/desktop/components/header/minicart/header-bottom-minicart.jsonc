@@ -4,13 +4,12 @@
     "props": {
       "variation": "popup",
       "openOnHover": true,
-      "MinicartIcon": "icon#header__icon--minicat",
+      "MinicartIcon": "icon-cart#header__icon--minicat",
       "blockClass": "header__bottom--minicat"
     }
   },
-  "icon#header__icon--minicat": {
+  "icon-cart#header__icon--minicat": {
     "props": {
-      "id": "icon-minicart",
       "size": 20,
       "viewBox": "0 0 20 20"
     }

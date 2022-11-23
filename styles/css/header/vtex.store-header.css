@@ -3,6 +3,15 @@
   height    : 30px;
 }
 
+.headerRowContainer--mobile__haeder-bottom :global(.vtex-store-drawer-0-x-menuIcon),
+.headerRowContainer--mobile__haeder-bottom :global(.vtex-login-2-x-profileIcon) {
+  width: 5vw;
+}
+
+.headerRowContainer--mobile__haeder-bottom :global(.vtex-flex-layout-0-x-flexRow) {
+  width: 100%;
+}
+
 .headerRowBackground--header__banner--top--mobile {
   display   : flex;
   background: #852314;
@@ -16,15 +25,12 @@
   justify-content: center;
 }
 
-.forceCenterInnerContainer--menu__mobile {
-  max-width: 40%;
-}
 
 .headerRowContentContainer--header__bottom--desktop {
-  padding: 0 1vw;
+  padding  : 0 1vw;
   max-width: 100%;
 }
 
 .headerStickyRow--header__bottom--desktop {
-     height: 34px;
-} 
+  height: 34px;
+}

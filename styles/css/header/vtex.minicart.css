@@ -16,3 +16,6 @@
   padding: 17px;
 }
 
+.minicartIconContainer--header__bottom--minicat :global( .vtex-store-icons-0-x-cartIcon) {
+  width: 5vw;
+}

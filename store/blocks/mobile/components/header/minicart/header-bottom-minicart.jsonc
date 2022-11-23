@@ -3,13 +3,12 @@
     "children": ["minicart-base-content#mobile"],
     "props": {
       "openOnHover": true,
-      "MinicartIcon": "icon#mobile__icon--minicat",
+      "MinicartIcon": "icon-cart#mobile__icon--minicat",
       "blockClass": "header__bottom--minicat"
     }
   },
-  "icon#mobile__icon--minicat": {
+  "icon-cart#mobile__icon--minicat": {
     "props": {
-      "id": "icon-minicart",
       "size": 20,
       "viewBox": "0 0 20 20"
     }
