@@ -1,18 +1,48 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#department": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#category": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#brand": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "search-result-layout": {
     "blocks": [
@@ -22,16 +52,16 @@
     ]
   },
   "search-not-found-layout": {
-    "children": []
+    "children": ["not-found"]
   },
   "store.not-found#search": {
-    "children": ["rich-text#search-not-fout"]
+    "blocks": ["rich-text#not-found"]
   },
-  "rich-text#search-not-fout": {
+  "rich-text#not-found": {
     "props": {
-      "text": "**todo esto es un poco confuso**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
+      "text": "**SEARCH NOT FOUND**",
       "font": "t-heading-1"
     }
   }
