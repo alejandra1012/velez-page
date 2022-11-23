@@ -1,23 +1,23 @@
 {
-  "header-row#haeder__menu--mobile": {
+  "header-row#mobile__haeder-bottom": {
     "title": "haeder menu mobile",
     "children": [
-      "drawer#menu__mobile",
+      "flex-layout.row#prrueba-drawer-one",
+      //"drawer#menu__mobile",
       "header-force-center#menu__mobile",
       "header-spacer",
-      "search-bar#menu__mobile",
+      //"search-bar#menu__mobile",
       "login#menu__mobile",
-      "minicart.v2#menu__mobile"
+      "minicart.v2#mobile__header--minicat"
     ],
     "props": {
       "fullWidth": true,
       "sticky": true
     }
   },
-  "drawer#menu__mobile": {},
   "header-force-center#menu__mobile": {
     "children": ["logo#menu__mobile"],
-    "props":{
+    "props": {
       "blockClass": "menu__mobile"
     }
   },
@@ -30,15 +30,16 @@
   },
   "search-bar#menu__mobile": {
     "props": {
-      "maxWidth": 30,
+      "inputType": "search",
+      "compactMode": true,
       "blockClass": "header__menu--search-bar"
     }
   },
   "login#menu__mobile": {
     "props": {
       "hideIconLabel": true,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "accountOptionsButtonBehavior": "link"
     }
-  },
-  "minicart.v2#menu__mobile": {}
+  }
 }

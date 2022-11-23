@@ -4,7 +4,7 @@
     "title": "image section five",
     "props": {
       "alt": "image--section--five",
-      "src": "assets/image/NAVIDAD-SECTION-5.png",
+      "src": "/arquivos/NAVIDAD-SECTION-5.png",
       "blockClass": "home__image--section--five"
     }
   }

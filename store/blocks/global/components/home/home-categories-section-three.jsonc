@@ -2,7 +2,6 @@
   "flex-layout.row#home__flex-layout--section--three": {
     "title": "categories section three",
     "props": {
-      "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",
       "blockClass": "flex-layout--section--three"
     },
@@ -14,13 +13,13 @@
   "image#flex-layout__section--three--famale": {
     "props": {
       "alt": "flex-layout__section--three--famale",
-      "src": "assets/image/NAVIDAD-SECTION-FEMALE-2.png"
+      "src": "/arquivos/NAVIDAD-SECTION-FEMALE-2.png"
     }
   },
   "image#flex-layout__section--three--male": {
     "props": {
       "alt": "flex-layout__section--three--male",
-      "src": "assets/image/NAVIDAD-SECTION-MALE-2.png"
+      "src": "/arquivos/NAVIDAD-SECTION-MALE-2.png"
     }
   }
 }
