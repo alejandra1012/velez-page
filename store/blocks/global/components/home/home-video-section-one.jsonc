@@ -14,7 +14,7 @@
       "width": "100%",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/video/vide-desktop-para-navidad.webm",
+      "src": "#",
       "blockClass": "desktop__video--section--one"
     }
   },
