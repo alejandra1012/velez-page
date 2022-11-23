@@ -1,0 +1,21 @@
+{
+  "store.custom#about-us": {
+    "blocks": ["flex-layout.row#container"]
+  },
+  "flex-layout.row#container": {
+    "children": ["image#about-us", "flex-layout.col#text"]
+  },
+  "image#about-us": {
+    "props": {
+      "src": "assets/image/logo_velez.svg"
+    }
+  },
+  "flex-layout.col#text": {
+    "children": ["rich-text#description"]
+  },
+  "rich-text#description": {
+    "props": {
+      "text": "hola soy una new custom page"
+    }
+  }
+}

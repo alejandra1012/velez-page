@@ -1,0 +1,128 @@
+{
+  "flex-layout.row#prrueba-drawer-one": {
+    "children": []
+  },
+  "drawer#menu__mobile": {
+    "blocks": ["drawer-header#my-drawer"],
+    "children": ["drawer#submenu__mobile"],
+    "props": {
+      "backdropMode": "default"
+    }
+  },
+  "drawer-trigger": {
+    "children": ["rich-text#open-drawer"]
+  },
+  "rich-text#open-drawer": {
+    "props": {
+      "text": "Open drawer"
+    }
+  },
+  "drawer#submenu__mobile": {
+    "blocks": ["drawer-header#my-drawer"],
+    "children": ["submenu#drawer"],
+    "props": {
+      "backdropMode": "default"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["icon-cart"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  "submenu#drawer": {
+    "children": ["menu-item#example-col"],
+    "props": {
+      // "items": [
+      //   {
+      //     "id": "item example2",
+      //     "type": "custom",
+      //     "itemProps": {
+      //       "type": "internal",
+      //       "text": "example two"
+      //     }
+      //   },
+      //   {
+      //     "id": "item example3",
+      //     "type": "custom",
+      //     "itemProps": {
+      //       "type": "internal",
+      //       "text": "example three"
+      //     }
+      //   }
+      // ],
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#example-col": {
+    "blocks": ["submenu#example"],
+    "children": [],
+    "props": {
+      "id": "item example",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "example one"
+      }
+    }
+  },
+  "submenu#example": {
+    "children": ["menu#example"]
+  },
+  "menu#example": {
+    "props": {
+      "items": [
+        {
+          "id": "item example 1",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "example ne"
+          }
+        },
+        {
+          "id": "item example 2",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "example oe"
+          }
+        },
+        {
+          "id": "item example 3",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "example on"
+          }
+        }
+      ],
+      "orientation": "vertical"
+    }
+  }
+}
