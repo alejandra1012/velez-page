@@ -1,0 +1,14 @@
+.label--link__product {
+  color: #000;
+}
+
+.buttonLink--link__product {
+  color: #000;
+}
+
+.link--button-link__product-two {
+  width: 100%;
+  background   : transparent;
+  border       : 1px solid #000;
+  border-radius: inherit;
+}
