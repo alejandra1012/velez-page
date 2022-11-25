@@ -1,26 +1,99 @@
 {
   "flex-layout.row#product__container": {
-    "children": ["product-images", "flex-layout.col#container___info"]
+    "children": [
+      "flex-layout.col#product__container-images",
+      "flex-layout.col#container___info"
+    ],
+    "props": {
+      "blockClass": "product__container"
+    }
+  },
+  "flex-layout.col#product__container-images": {
+    "children": ["product-images"],
+    "props": {
+      "width": "60%",
+      "blockClass": "product__container-images"
+    }
   },
   "product-images": {
     "props": {
       "showNavigationArrows": false,
       "showPaginationDots": false,
-      "maxHeight": 300
+      "maxHeight": 800
     }
   },
   "flex-layout.col#container___info": {
     "children": [
       "vtex.store-components:product-name",
-      "product-identifier.product",
+      "product-price-savings",
       "product-selling-price",
+      "flex-layout.row#product-intallments",
+      "product-separator",
+      "product-identifier.product",
       "sku-selector",
-      "product-quantity"
-    ]
+      "modal-trigger#product__details-size",
+      "product-quantity",
+      "product-separator",
+      "add-to-cart-button#product__buy",
+      "link#product__calculate-credit",
+      "flex-layout.col#disclosure__product-info",
+      "modal-trigger#product__availability-shops",
+      "link#contacting-us"
+    ],
+    "props": {
+      "rowGap": 1,
+      "horizontalAlign": "center",
+      "width": "40%",
+      "blockClass": "container___info"
+    }
+  },
+  "flex-layout.row#product-intallments": {
+    "children": ["product-installments", "link#product-credit"],
+    "props": {
+      "colSizing": "auto",
+      "marginTop": 3,
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "product-intallments"
+    }
+  },
+  "link#product-credit": {
+    "props": {
+      "label": "Solicita tu crédito aquí",
+      "blockClass": "link__product"
+    }
   },
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false
+    }
+  },
+  "add-to-cart-button#product__buy": {
+    "props": {
+      "text": "COMPRAR",
+      "blockClass": "button__product-one"
+    }
+  },
+  "link#product__calculate-credit": {
+    "props": {
+      "label": "Calcular crédito",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular",
+        "variant": "secondary"
+      },
+      "blockClass": ["link__product", "button-link__product-one"]
+    }
+  },
+  "link#contacting-us": {
+    "props": {
+      "label": "¿Necesitas Ayuda? CONTÁCTANOS",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "large",
+        "variant": "secondary"
+      },
+      "blockClass": ["link__product", "button-link__product-two"]
     }
   },
   "product-identifier.product": {
@@ -33,7 +106,8 @@
     "props": {
       "selectorType": "dropdown",
       "showUnit": false,
-      "size": "small"
+      "size": "regular",
+      "blockClass": "product__selector-sku"
     }
   }
 }
