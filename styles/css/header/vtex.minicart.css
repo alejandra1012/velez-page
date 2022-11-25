@@ -5,6 +5,7 @@
 
 .openIconContainer--header__bottom--minicat :global(.vtex-button__label) {
   padding: 0;
+  margin: 0;
 }
 
 .minicartQuantityBadge--header__bottom--minicat {
@@ -17,5 +18,11 @@
 }
 
 .minicartIconContainer--header__bottom--minicat :global( .vtex-store-icons-0-x-cartIcon) {
-  width: 5vw;
+  width: fit-content;
+}
+
+/* DESKTOP */
+
+.minicartContainer--header__bottom--minicat :global(.vtex-button__label ) {
+   margin: 0;
 }

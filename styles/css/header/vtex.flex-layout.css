@@ -1,9 +1,9 @@
-.flexRowContent--banner__top .stretchChildrenWidth {
-  text-align: center;
-  font-size : 13px;
-  width     : auto !important;
-
+.flexRowContent--mobile__options-container :global(.vtex-button__label) {
+  padding: 0;
+  margin : 0 10px;
 }
+
+/* DESKTOP */
 
 .flexRowContent--banner__top :nth-child(2n)::before {
   content     : '|';
@@ -13,69 +13,47 @@
   margin-left : 1vw;
 }
 
-.flexRow--header__bottom--desktop {
-  width: 100%;
+.flexRow--menu__submenu--department {
+   padding: 0 2vw;
+}
+
+.flexRowContent--header__bottom--desktop .stretchChildrenWidth {
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+  align-self     : center;
+}
+
+.flexRowContent--header__bottom--menu :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0 8px;
 }
 
 .flexRowContent--header__bottom--container .stretchChildrenWidth {
   width: fit-content !important;
 }
 
-.flexRowContent--header__bottom--desktop .stretchChildrenWidth:nth-child(even) {
-  text-align: center;
-  align-self: center;
-}
-
-.flexRowContent--menu__submenu--department .stretchChildrenWidth:nth-child(even) {
-  align-self: flex-start;
-}
-
-.flexRow--menu__submenu--department {
-  min-height  : 55vh;
-  padding-left: 26px;
-  padding-top : 11px;
+.flexRowContent--header__bottom--container :global(.vtex-button__label) {
+  padding: 0;
+  margin : 0 19px;
 }
 
 .flexCol--flex__menu--departments {
-  align-items: center;
-  padding-top: 4px;
+  width     : 65% !important;
+  text-align: center;
 }
 
-.flexColChild--flex__menu--departments {
-  width      : 57%;
-  align-items: center;
-  text-align : center;
+.flexRowContent--menu__submenu--department .stretchChildrenWidth {
+  min-height : 50vh !important;
+  text-align : start;
+  align-items: flex-start;
 }
 
-.flexColChild--flex__menu--departments.link {
-  color: #000;
+.flexCol--flex__menu--departments--links {
+   min-height: 54vh;
 }
 
-.flexColChild--flex__menu--departments--links {
-  height: auto !important;
-}
-
-.flexRowContent--header__bottom--container :global(.vtex-button) {
-  width: 30px;
-}
-
-.flexRowContent--header__bottom--container :global(.vtex-button__label) {
-  padding: 0;
-}
-
-.flexCol--menu__mobile-logo :global(.vtex-store-components-3-x-logoContainer) {
-  padding: 0;
-}
-
-.flexColChild--menu__mobile-logo {
-  width: 23vw;
-}
-
-.flexRowContent--mobile__options-container :global(.vtex-login-2-x-container) {
-  justify-content: flex-end;
-}
-
-.flexRowContent--mobile__options-container :global(.vtex-button__label) {
-  padding: 0;
-  margin-right: 6px;
+@media screen and (min-width: 40em) {
+   .flexRow--header__bottom--desktop :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+   }
 }
