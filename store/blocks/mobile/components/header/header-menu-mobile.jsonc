@@ -15,7 +15,7 @@
       "flex-layout.row#mobile__options-container"
     ],
     "props": {
-      "fullWidth": true,
+      
       "preserveLayoutOnMobile": true
     }
   },
@@ -36,13 +36,13 @@
   },
   "flex-layout.row#mobile__options-container": {
     "children": [
-      "search-bar#menu__mobile",
+      "icon-search",
       "login#menu__mobile",
       "minicart.v2#mobile__header--minicat"
     ],
     "props": {
       "horizontalAlign": "right",
-      "colSizing": "equal",
+      "colSizing": "auto",
       "preserveLayoutOnMobile": true,
       "blockClass": "mobile__options-container"
     }

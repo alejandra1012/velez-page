@@ -24,14 +24,17 @@
     }
   },
   "submenu#submenu__department--female": {
-    "children": [
-      "flex-layout.row#submenu__department--female",
-      "rich-text#submenu__banner"
-    ],
+    "children": ["flex-layout.col#submenu-container__department--female"],
     "props": {
       "width": "100%",
       "blockClass": "menu__submenu--department"
     }
+  },
+  "flex-layout.col#submenu-container__department--female": {
+    "children": [
+      "flex-layout.row#submenu__department--female",
+      "rich-text#submenu__banner"
+    ]
   },
   "flex-layout.row#submenu__department--female": {
     "children": [
@@ -40,6 +43,7 @@
       "flex-layout.col#links__especification-menu"
     ],
     "props": {
+      "horizontalAlign": "center",
       "paddingBottom": 5,
       "blockClass": "menu__submenu--department"
     }
@@ -669,14 +673,17 @@
     }
   },
   "submenu#submenu__department--male": {
-    "children": [
-      "flex-layout.row#submenu__department--male",
-      "rich-text#submenu__banner"
-    ],
+    "children": ["flex-layout.col#submenu-container__department--male"],
     "props": {
       "width": "100%",
       "blockClass": "menu__submenu--department"
     }
+  },
+  "flex-layout.col#submenu-container__department--male": {
+    "children": [
+      "flex-layout.row#submenu__department--male",
+      "rich-text#submenu__banner"
+    ]
   },
   "flex-layout.row#submenu__department--male": {
     "children": [
@@ -685,6 +692,7 @@
       "flex-layout.col#links__especification-menu"
     ],
     "props": {
+      "horizontalAlign": "center",
       "paddingBottom": 5,
       "blockClass": "menu__submenu--department"
     }
@@ -1236,14 +1244,17 @@
     }
   },
   "submenu#submenu__department--outlet": {
-    "children": [
-      "flex-layout.row#submenu__department--outlet",
-      "rich-text#submenu__banner"
-    ],
+    "children": ["flex-layout.col#submenu-container__department--outlet"],
     "props": {
       "width": "100%",
       "blockClass": "menu__submenu--department"
     }
+  },
+  "flex-layout.col#submenu-container__department--outlet": {
+    "children": [
+      "flex-layout.row#submenu__department--outlet",
+      "rich-text#submenu__banner"
+    ]
   },
   "flex-layout.row#submenu__department--outlet": {
     "children": [
@@ -1252,6 +1263,7 @@
       "flex-layout.col#links__especification-menu"
     ],
     "props": {
+      "horizontalAlign": "center",
       "paddingBottom": 5,
       "blockClass": "menu__submenu--department"
     }
@@ -1452,18 +1464,22 @@
     }
   },
   "submenu#submenu__department--credit": {
-    "children": [
-      "flex-layout.row#submenu__department--credit",
-      "rich-text#submenu__banner"
-    ],
+    "children": ["flex-layout.col#submenu-container__department--credit"],
     "props": {
       "width": "100%",
       "blockClass": "menu__submenu--department"
     }
   },
+  "flex-layout.col#submenu-container__department--credit": {
+    "children": [
+      "flex-layout.row#submenu__department--credit",
+      "rich-text#submenu__banner"
+    ]
+  },
   "flex-layout.row#submenu__department--credit": {
     "children": ["menu#submenu__department--credit"],
     "props": {
+      "horizontalAlign": "center",
       "paddingBottom": 5,
       "blockClass": "menu__submenu--department"
     }
