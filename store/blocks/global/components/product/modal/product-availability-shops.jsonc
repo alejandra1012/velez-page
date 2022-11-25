@@ -1,0 +1,72 @@
+{
+  "modal-trigger#product__availability-shops": {
+    "children": [
+      "flex-layout.row#availability-shops__title",
+      "modal-layout#availability-shops__info"
+    ],
+    "props": {
+      "blockClass": "product__availability-shops"
+    }
+  },
+  "flex-layout.row#availability-shops__title": {
+    "children": ["rich-text#availability-shops__title"]
+  },
+  "rich-text#availability-shops__title": {
+    "props": {
+      "text": "VER DISPONIBILIDAD EN TIENDAS",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "small"
+    }
+  },
+  "modal-layout#availability-shops__info": {
+    "children": [
+      "modal-header#availability-shops__info",
+      "modal-content#availability-shops__info"
+    ]
+  },
+  "modal-header#availability-shops__info": {
+    "children": ["flex-layout.row#availability-shops__info-title"],
+    "props": {
+      "iconCloseSize": 25,
+      "blockClass": "availability-shops__info"
+    }
+  },
+  "flex-layout.row#availability-shops__info-title": {
+    "children": ["rich-text#availability-shops__info-title"]
+  },
+  "rich-text#availability-shops__info-title": {
+    "props": {
+      "text": "**DISPONIBILIDAD EN TIENDAS**"
+    }
+  },
+  "modal-content#availability-shops__info": {
+    "children": ["flex-layout.row#availability-shops__info-container"]
+  },
+  "flex-layout.row#availability-shops__info-container": {
+    "children": [
+      "flex-layout.col#info-container__product-options",
+      "flex-layout.col#info-container__availability-shops"
+    ]
+  },
+  "flex-layout.col#info-container__product-options": {
+    "children": [
+      "sku-selector",
+      "modal-trigger#product__details-size",
+      "rich-text#product-options__info"
+    ]
+  },
+  "rich-text#product-options__info": {
+    "props": {
+      "text": "Podrás ver la disponibilidad en tiendas físicas de la talla \n que elijas!"
+    }
+  },
+  "flex-layout.col#info-container__availability-shops": {
+    "children": ["rich-text#info-container__availability-shops"]
+  },
+  "rich-text#info-container__availability-shops": {
+    "props": {
+      "text": "# Solo sé que nada sé"
+    }
+  }
+}
