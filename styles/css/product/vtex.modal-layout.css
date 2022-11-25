@@ -1,0 +1,18 @@
+.closeButtonContainer--availability-shops__info {
+  position: absolute;
+  right   : 0;
+}
+
+.headerContainer--availability-shops__info {
+  justify-content: center;
+}
+
+.triggerContainer :global(.vtex-rich-text-0-x-container--details-size__title) {
+     text-decoration: underline;
+}
+
+.triggerContainer--product__availability-shops {
+  width: 100%;
+  border: 1px solid #000;
+  
+}
