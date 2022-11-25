@@ -9,13 +9,23 @@
   },
   "flex-layout.row#header__bottom--desktop": {
     "children": [
-      "menu#header__bottom--menu",
-      "logo#header__bottom--logo",
+      "flex-layout.row#header__bottom--menu",
+      "flex-layout.col#header__bottom--logo",
       "flex-layout.row#header__bottom--container"
     ],
     "props": {
+      "horizontalAlign": "center",
       "blockClass": "header__bottom--desktop"
     }
+  },
+  "flex-layout.row#header__bottom--menu": {
+    "children": ["menu#header__bottom--menu"],
+    "props": {
+      "blockClass": "header__bottom--menu"
+    }
+  },
+  "flex-layout.col#header__bottom--logo": {
+    "children": ["logo#header__bottom--logo"]
   },
   "logo#header__bottom--logo": {
     "props": {
