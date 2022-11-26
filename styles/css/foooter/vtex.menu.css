@@ -1,3 +1,11 @@
-.menuContainerNav--footer__menu {
-   background: #ccc8;
+/* MOBILE */
+
+.menuContainer--footer__menu {
+  background: #fff;
+  padding: 8px 0;
+}
+
+.styledLinkContent--footer__menu {
+  white-space: normal;
+
 }

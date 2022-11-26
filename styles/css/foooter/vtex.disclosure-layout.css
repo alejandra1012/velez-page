@@ -1,4 +1,6 @@
-.trigger--footer__menu--our-philosophy {
+/* MOBILE */
+
+.trigger--footer__menu {
   display        : flex;
   width          : 98%;
   justify-content: space-between;
@@ -6,4 +8,6 @@
   background     : transparent;
   border         : none;
   border-bottom  : 1px solid #000;
+  outline: none;
 }
+
