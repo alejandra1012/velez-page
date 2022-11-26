@@ -9,12 +9,26 @@
   },
   "flex-layout.col#footer-subcontainer.desktop": {
     "children": [
+      "flex-layout.row#footer-container__contact",
       "flex-layout.row#footer-container__menu",
       "flex-layout.col#footer-container__info"
     ],
     "props": {
-      "paddingLeft": 5,
-      "paddingRight": 5
+      "paddingLeft": 7,
+      "paddingRight": 7
+    }
+  },
+  "flex-layout.row#footer-container__contact": {
+    "children": ["rich-text#footer__top-contact"],
+    "props": {
+      "blockClass": "footer-container__contact"
+    }
+  },
+  "rich-text#footer__top-contact": {
+    "props": {
+      "text": "**Línea de servicio al cliente \n 01 8000 114 000**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#footer-container__info": {
@@ -29,7 +43,7 @@
     "props": {
       "src": "assets/image/industria y comercio.svg",
       "alt": "icon-sic",
-      "maxWidth": 230
+      "maxWidth": 250
     }
   },
   "rich-text#footer__bottom--info": {
@@ -37,7 +51,7 @@
       "text": "TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115 MEDELLÍN COLOMBIA| cvelezm@cuerosvelez.com +604 355 5100 | NIT 800191700-8",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-mini"
+      "font": "t-code"
     }
   },
   "flex-layout.row#footer-container__menu": {
@@ -48,7 +62,7 @@
       "flex-layout.col#footer-container__col-links"
     ],
     "props": {
-      "marginBottom": 9
+      "blockClass": "footer-container__menu"
     }
   },
   "flex-layout.col#footer-container__col-philosophy": {
@@ -243,6 +257,7 @@
       "link#footer__links--online-shop"
     ],
     "props": {
+      "rowGap": 4,
       "blockClass": "footer-container__menu--links"
     }
   },
