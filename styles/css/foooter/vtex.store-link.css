@@ -1,10 +1,18 @@
+/* DESKTOP */
+
 .link--footer__links{
    color: #000 !important;
    font-weight: bold;
    font-size: 15px;
 }
 
+.label--footer__links {
+   font-size: 13px;
+   font-weight: 600;
+}
+
+/* MOBILE*/
+
 .link--footer-mobile__links {
    color: #000 !important;
-   font-size: 13px;
 }
