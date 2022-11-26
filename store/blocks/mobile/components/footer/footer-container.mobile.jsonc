@@ -5,10 +5,24 @@
   },
   "flex-layout.col#footer__menu--subconteiner": {
     "children": [
+      "flex-layout.row#mobile__footer-container--contact",
       "disclosure-layout-group#footer__menu--mobile",
       "flex-layout.col#footer-container-mobile__col-links",
       "flex-layout.col#footer-moble__container--info"
     ]
+  },
+  "flex-layout.row#mobile__footer-container--contact": {
+    "children": ["rich-text#footer__top-contact"],
+    "props": {
+      "blockClass": "mobile__footer-container--contact"
+    }
+  },
+  "rich-text#mobile__footer--top-contact": {
+    "props": {
+      "text": "**Línea de servicio al cliente \n 01 8000 114 000**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
   "disclosure-layout-group#footer__menu--mobile": {
     "children": [
@@ -32,12 +46,13 @@
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "footer__menu--our-philosophy"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#menu__title--our-philosophy": {
     "props": {
-      "text": "Nuestra Filosofía"
+      "text": "**NUESTRA FILOSOFÍA**",
+      "font": "t-small"
     }
   },
   "disclosure-content#menu__our-philosophy": {
@@ -95,12 +110,13 @@
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "footer__menu--our-philosophy"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#menu__title--we-hepl-me": {
     "props": {
-      "text": "Te Ayudamos"
+      "text": "**TE AYUDAMOS**",
+      "font": "t-small"
     }
   },
   "disclosure-content#menu__we-hepl-me": {
@@ -174,12 +190,13 @@
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "footer__menu--our-philosophy"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#menu__title--our-store": {
     "props": {
-      "text": "Nuestras Tiendas"
+      "text": "**NUESTRAS TIENDAS**",
+      "font": "t-small"
     }
   },
   "disclosure-content#menu__our-store": {
@@ -249,12 +266,14 @@
   },
   "icon#mpa-plus--line": {
     "props": {
-      "id": "mpa-plus--line"
+      "id": "mpa-plus--line",
+      "size": 12
     }
   },
   "icon#mpa-minus--line": {
     "props": {
-      "id": "mpa-minus--line"
+      "id": "mpa-minus--line",
+      "size": 12
     }
   },
   "flex-layout.col#footer-container-mobile__col-links": {
@@ -327,10 +346,10 @@
   },
   "rich-text#footer-mobile__bottom--info": {
     "props": {
-      "text": "TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115 MEDELLÍN COLOMBIA| cvelezm@cuerosvelez.com +604 355 5100 | NIT 800191700-8",
+      "text": "**TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115** \n MEDELLÍN COLOMBIA \n | cvelezm@cuerosvelez.com +604 355 5100 | NIT 800191700-8",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-mini"
+      "font": "t-code"
     }
   }
 }
