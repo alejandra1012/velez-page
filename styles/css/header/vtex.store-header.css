@@ -1,13 +1,19 @@
 .headerRowBackground--header__banner--top--mobile {
-  background: #852314;
+  background: #3b493f;
+}
+
+.headerRowContentContainer--header__banner--top--mobile {
+  height: 3rem;
 }
 
 .headerRowContainer--mobile__haeder-bottom {
   justify-content: center;
+  height: 4.5rem;
+  background: #fff;
 }
 
 .headerRowContainer--mobile__haeder-bottom :global(.vtex-flex-layout-0-x-flexRow) {
-   width: 95%;
+  width: 95%;
 }
 
 .headerRowContainer--mobile__haeder-bottom :global(.vtex-flex-layout-0-x-flexRowContent) {
@@ -17,8 +23,12 @@
 /* DESKTOP */
 
 .headerRowBackground--banner__top {
-  background: #852314;
+  background: #3b493f;
   height    : 30px;
+}
+
+.headerRowBackground--header__bottom--desktop {
+  background: #fff;
 }
 
 .headerRowContainer--banner__top {
@@ -26,5 +36,5 @@
 }
 
 .headerRowContainer--header__bottom--desktop :global(.vtex-flex-layout-0-x-flexRow) {
-   width: 100%;
+  width: 100%;
 }

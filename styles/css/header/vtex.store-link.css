@@ -1,12 +1,24 @@
+/* GLOBAL */
+
 .link {
   text-decoration: none;
   color          : #fff;
   width          : auto;
   text-align: center;
+  align-self: center;
+  font-size: 13px;
 }
+
+.label--banner__top {
+  letter-spacing: 0;
+}
+
+/* DESKTOP */
 
 .link--link_menu_departments {
   color    : #000;
   font-size: 15px;
   font-weight: bold;
 }
+
+

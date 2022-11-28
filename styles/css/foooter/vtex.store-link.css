@@ -6,6 +6,10 @@
    font-size: 15px;
 }
 
+.link--footer__links:hover {
+  border-bottom: 1px solid #000;
+}
+
 .label--footer__links {
    font-size: 13px;
    font-weight: 600;

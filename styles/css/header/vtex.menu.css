@@ -1,3 +1,8 @@
+.submenuWrapper--menu__submenu--department {
+  background    : #fff;
+  padding-bottom: 0;
+}
+
 .menuItem--submenu__department--items .submenuContainer,
 .submenu--menu__submenu--department {
   display: contents;
@@ -26,11 +31,18 @@
 
 .menuContainer--submenu__department--items {
   width       : 50%;
-  min-height      : 54vh;
+  min-height  : 54vh;
   border-right: 2px solid #ccc;
-  overflow: hidden;
+  overflow    : hidden;
 }
 
 .styledLinkContent--submenu__department--items {
   white-space: normal;
+}
+
+.menuContainerNav--submenu__department--items--credit {
+  width       : 98%;
+  border-right: 1px solid #ccc;
+  min-height  : 50vh;
+  margin-right: 2vw;
 }

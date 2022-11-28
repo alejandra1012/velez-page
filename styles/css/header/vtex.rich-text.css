@@ -4,3 +4,23 @@
   font-size      : 14px;
   font-weight    : bold;
 }
+
+.paragraph--banner__submenu {
+  display       : flex;
+  align-items   : flex-end;
+  font-size     : 13px;
+  font-weight   : 600;
+  letter-spacing: 2.3px;
+}
+
+.paragraph--department--credit__info {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2.3px;
+  margin: 0;
+}
+
+.image--department--credit__info {
+  width: 25px;
+  height: 25px;
+}
