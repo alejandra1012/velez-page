@@ -33,12 +33,14 @@
   },
   "link#banner__top--mobile--one": {
     "props": {
-      "label": "Exclusivo online. TODO OUTLET desde 40% dcto | COMPRAR >>  "
+      "label": "Exclusivo online. 30% DCTO en producto de línea. Ref Selecc. | COMPRAR >>",
+      "blockClass": "banner__top"
     }
   },
   "link#banner__top--mobile--two": {
     "props": {
-      "label": "Exclusivo online. 15% DCTO en Producto de linea. Ref Selecc | COMPRAR >>"
+      "label": "Envío gratis por compras superiores a $250.000",
+      "blockClass": "banner__top--mobile"
     }
   }
 }
