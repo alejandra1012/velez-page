@@ -1,8 +1,18 @@
+/* MOBILE */
+
 .logoContainer {
   padding: 0;
 }
 
+.logoImage--mobile__menu-logo {
+  width: 25vw;
+}
+
 /* DESKTOP */
+
+.logoImage--header__bottom--logo {
+  width: 7vw;
+}
 
 .autoCompleteOuterContainer--header__bottom--search :global(.vtex-input-prefix__group) {
   border       : none;
@@ -16,6 +26,7 @@
   padding-left  : 9px;
   align-self    : flex-end;
   width         : 15vw;
+  background    : transparent;
 }
 
 .autoCompleteOuterContainer--header__bottom--search :global(.vtex-input__suffix) {
@@ -23,5 +34,24 @@
 }
 
 .searchBarIcon--header__bottom--search--search {
-  padding: 0;
+  padding   : 0;
+  background: #fff;
+}
+
+.searchBarIcon--clear {
+  background: #fff;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-biggy-autocomplete) {
+  top : 2vh;
+  left: -23vw;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-itemList) {
+  text-align: start;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-tileListItem) {
+  width : 13vw;
+  height: 30vh;
 }
