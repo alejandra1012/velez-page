@@ -15,7 +15,6 @@
       "flex-layout.row#mobile__options-container"
     ],
     "props": {
-      
       "preserveLayoutOnMobile": true
     }
   },
@@ -36,7 +35,7 @@
   },
   "flex-layout.row#mobile__options-container": {
     "children": [
-      "icon-search",
+      "icon-search#mobile__menu",
       "login#menu__mobile",
       "minicart.v2#mobile__header--minicat"
     ],
@@ -51,21 +50,21 @@
     "props": {
       "url": "assets/image/logo_velez.svg",
       "mobileWidth": "140px",
-      "mobileHeight": "30px"
+      "mobileHeight": "30px",
+      "blockClass": "mobile__menu-logo"
     }
   },
-  "search-bar#menu__mobile": {
+  "icon-search#mobile__menu": {
     "props": {
-      "inputType": "search",
-      "compactMode": true,
-      "blockClass": "header__menu--search-bar"
+      "blockClass": "mobile__menu-icons"
     }
   },
   "login#menu__mobile": {
     "props": {
       "hideIconLabel": true,
       "showIconProfile": true,
-      "accountOptionsButtonBehavior": "link"
+      "accountOptionsButtonBehavior": "link",
+      "blockClass": "mobile__menu-icons"
     }
   }
 }
