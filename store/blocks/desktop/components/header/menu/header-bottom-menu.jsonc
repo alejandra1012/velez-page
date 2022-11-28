@@ -1477,11 +1477,56 @@
     ]
   },
   "flex-layout.row#submenu__department--credit": {
-    "children": ["menu#submenu__department--credit"],
+    "children": [
+      "menu#submenu__department--credit",
+      "flex-layout.col#department--credit__info"
+    ],
     "props": {
       "horizontalAlign": "center",
       "paddingBottom": 5,
       "blockClass": "menu__submenu--department"
+    }
+  },
+  "flex-layout.col#department--credit__info": {
+    "children": [
+      "rich-text#department--credit__info-one",
+      "rich-text#department--credit__info-two",
+      "rich-text#department--credit__info-three",
+      "rich-text#department--credit__info-four",
+      "rich-text#department--credit__info-five"
+    ],
+    "props": {
+      "rowGap": 3
+    }
+  },
+  "rich-text#department--credit__info-one": {
+    "props": {
+      "text": "![](/arquivos/star-line-velez.png) Sin cuota inicial.",
+      "blockClass": "department--credit__info"
+    }
+  },
+  "rich-text#department--credit__info-two": {
+    "props": {
+      "text": "![](/arquivos/star-circle-velez.png) 1.000 puntos de bienvenida.",
+      "blockClass": "department--credit__info"
+    }
+  },
+  "rich-text#department--credit__info-three": {
+    "props": {
+      "text": "![](/arquivos/mail-icon-velez.png) Descuentos y acceso exclusivo a los eventos de las marcas.",
+      "blockClass": "department--credit__info"
+    }
+  },
+  "rich-text#department--credit__info-four": {
+    "props": {
+      "text": "![](/arquivos/sale-velez.png) Preferencia a participar en las promociones y sorteos que se realicen.",
+      "blockClass": "department--credit__info"
+    }
+  },
+  "rich-text#department--credit__info-five": {
+    "props": {
+      "text": "![](/arquivos/heart-icon-velez.png) Puedes elegir el plazo para diferir tus compras hasta 24 meses.",
+      "blockClass": "department--credit__info"
     }
   },
   "menu#submenu__department--credit": {

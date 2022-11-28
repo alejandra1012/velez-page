@@ -9,8 +9,9 @@
   },
   "icon-cart#mobile__icon--minicat": {
     "props": {
-      "size": 20,
-      "viewBox": "0 0 20 20"
+      "size": 25,
+      "viewBox": "0 0 20 20",
+      "blockClass": "mobile__menu-icons"
     }
   },
   "minicart-base-content#mobile": {
