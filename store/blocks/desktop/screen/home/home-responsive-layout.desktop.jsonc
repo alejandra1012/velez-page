@@ -2,13 +2,6 @@
   "responsive-layout.desktop#home__layout--desktop": {
     "title": "home desktop",
     "children": [
-      "flex-layout.row#home__video--section--one",
-      "image#home__image--section--two",
-      "flex-layout.row#home__flex-layout--section--three",
-      "rich-text#home__rich-text--section--four",
-      "image#home__image--section--five",
-      "rich-text#home__rich-text--section--seven",
-      "list-context.product-list#home__list-context--section--seven"
     ]
   }
 }
