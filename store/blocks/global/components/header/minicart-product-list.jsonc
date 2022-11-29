@@ -1,5 +1,6 @@
 {
   "product-list#minicart": {
+    "title": "product list minicart",
     "blocks": ["product-list-content-desktop"]
   }
 }

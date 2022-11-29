@@ -1,29 +1,31 @@
 {
-  "header-row#header__banner--top": {
-    "title": "header banner top",
-    "children": ["flex-layout.row#banner__top"],
+  "header-row#header__banner-top": {
+    "title": "banner top",
+    "children": ["flex-layout.row#banner-top__container-links"],
     "props": {
       "sticky": true,
-      "blockClass": "banner__top"
+      "blockClass": "header__banner-top"
     }
   },
-  "flex-layout.row#banner__top": {
-    "children": ["link#banner__top--one", "link#banner__top--two"],
+  "flex-layout.row#banner-top__container-links": {
+    "children": ["link#banner-top__link-one", "link#banner-top__link-two"],
     "props": {
       "fullwidth": true,
-      "blockClass": "banner__top"
+      "blockClass": "header__banner-top"
     }
   },
-  "link#banner__top--one": {
+  "link#banner-top__link-one": {
+    "title": "link one",
     "props": {
       "label": "Exclusivo online. 20% DCTO en producto de línea. Ref Selecc.",
-      "blockClass": "banner__top"
+      "blockClass": "header__banner-top"
     }
   },
-  "link#banner__top--two": {
+  "link#banner-top__link-two": {
+    "title": "link two",
     "props": {
       "label": "Exclusivo online. Lleva 2 unidades con el 50% DCTO en TODO Outlet.",
-      "blockClass": "banner__top"
+      "blockClass": "header__banner-top"
     }
   }
 }

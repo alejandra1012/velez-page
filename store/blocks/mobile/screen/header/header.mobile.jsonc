@@ -1,5 +1,6 @@
 {
   "header-layout.mobile": {
+    "title": "header mobile",
     "children": [
       "header-row#header__banner--top--mobile",
       "header-row#mobile__haeder-bottom"

@@ -1,6 +1,7 @@
 {
   "header-layout.desktop": {
-    "children": ["header-row#header__banner--top","header-row#header__bottom--desktop"]
+    "title": "header desktop",
+    "children": ["header-row#header__banner-top","header-row#desktop__header-bottom"]
   }
 }
  

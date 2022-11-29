@@ -1,52 +1,61 @@
 {
-  "flex-layout.row#footer-container.desktop": {
+  "flex-layout.row#desktop__footer-container": {
     "title": "footer desktop",
-    "children": ["flex-layout.col#footer-subcontainer.desktop"],
+    "children": ["flex-layout.col#desktop__footer--subcontainer"],
     "props": {
       "marginBottom": 5,
       "paddingBottom": 8
     }
   },
-  "flex-layout.col#footer-subcontainer.desktop": {
+  "flex-layout.col#desktop__footer--subcontainer": {
+    "title": "footer container",
     "children": [
-      "flex-layout.row#footer-container__contact",
-      "flex-layout.row#footer-container__menu",
-      "flex-layout.col#footer-container__info"
+      "flex-layout.row#subcontainer__contact",
+      "flex-layout.row#subcontainer__menu",
+      "flex-layout.col#subcontainer__info-container"
     ],
     "props": {
       "paddingLeft": 7,
       "paddingRight": 7
     }
   },
-  "flex-layout.row#footer-container__contact": {
-    "children": ["rich-text#footer__top-contact"],
+  "flex-layout.row#subcontainer__contact": {
+    "title": "contact",
+    "children": ["rich-text#contact__top-contact"],
     "props": {
-      "blockClass": "footer-container__contact"
+      "blockClass": "subcontainer__contact"
     }
   },
-  "rich-text#footer__top-contact": {
+  "rich-text#contact__top-contact": {
+    "title": "text contact",
     "props": {
       "text": "**Línea de servicio al cliente \n 01 8000 114 000**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.col#footer-container__info": {
-    "children": ["image#footer__banner--sic", "rich-text#footer__bottom--info"],
+  "flex-layout.col#subcontainer__info-container": {
+    "title": "info and sic",
+    "children": [
+      "image#info-container__banner-sic",
+      "rich-text#info-container__bottom--info"
+    ],
     "props": {
       "width": "auto",
       "rowGap": "2",
-      "blockClass": "footer-container__info"
+      "blockClass": "subcontainer__info-container"
     }
   },
-  "image#footer__banner--sic": {
+  "image#info-container__banner-sic": {
+    "title": "image sic",
     "props": {
       "src": "assets/image/industria y comercio.svg",
       "alt": "icon-sic",
       "maxWidth": 250
     }
   },
-  "rich-text#footer__bottom--info": {
+  "rich-text#info-container__bottom--info": {
+    "title": "info bottom",
     "props": {
       "text": "TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115 MEDELLÍN COLOMBIA| cvelezm@cuerosvelez.com +604 355 5100 | NIT 800191700-8",
       "textAlignment": "CENTER",
@@ -54,29 +63,33 @@
       "font": "t-code"
     }
   },
-  "flex-layout.row#footer-container__menu": {
+  "flex-layout.row#subcontainer__menu": {
+    "title": "menu",
     "children": [
-      "flex-layout.col#footer-container__col-philosophy",
-      "flex-layout.col#footer-container__col-we-help-me",
-      "flex-layout.col#footer-container__col-our-store",
-      "flex-layout.col#footer-container__col-links"
+      "flex-layout.col#menu__col-philosophy",
+      "flex-layout.col#menu__col-we-help-me",
+      "flex-layout.col#menu__col-our-store",
+      "flex-layout.col#menu__col-links"
     ],
     "props": {
-      "blockClass": "footer-container__menu"
+      "blockClass": "subcontainer__menu"
     }
   },
-  "flex-layout.col#footer-container__col-philosophy": {
+  "flex-layout.col#menu__col-philosophy": {
+    "title": "menu philosophy",
     "children": ["rich-text#col-philosophy", "menu#col-philosophy"],
     "props": {
-      "blockClass": "footer-container__menu"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#col-philosophy": {
+    "title": "title",
     "props": {
       "text": "**Nuestra Filosofía**"
     }
   },
   "menu#col-philosophy": {
+    "title": "philosophy",
     "props": {
       "items": [
         {
@@ -115,18 +128,21 @@
       "orientation": "vertical"
     }
   },
-  "flex-layout.col#footer-container__col-we-help-me": {
+  "flex-layout.col#menu__col-we-help-me": {
+    "title": "menu we help me",
     "children": ["rich-text#we-help-me", "menu#we-help-me"],
     "props": {
-      "blockClass": "footer-container__menu"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#we-help-me": {
+    "title": "title",
     "props": {
       "text": "**Te ayudamos**"
     }
   },
   "menu#we-help-me": {
+    "title": "we help me",
     "props": {
       "items": [
         {
@@ -181,18 +197,21 @@
       "orientation": "vertical"
     }
   },
-  "flex-layout.col#footer-container__col-our-store": {
+  "flex-layout.col#menu__col-our-store": {
+    "title": "mene our store",
     "children": ["rich-text#our-store", "menu#our-store"],
     "props": {
-      "blockClass": "footer-container__menu"
+      "blockClass": "footer__menu"
     }
   },
   "rich-text#our-store": {
+    "title": "title",
     "props": {
       "text": "**Nuestras tiendas**"
     }
   },
   "menu#our-store": {
+    "title": "our store",
     "props": {
       "items": [
         {
@@ -247,51 +266,58 @@
       "orientation": "vertical"
     }
   },
-  "flex-layout.col#footer-container__col-links": {
+  "flex-layout.col#menu__col-links": {
+    "title": "menu links",
     "children": [
-      "link#footer__links--loyalty-program",
-      "link#footer__links--credit-leather-lovers",
-      "link#footer__links--grows-with-us",
-      "link#footer__links--corporate-sales",
-      "link#footer__links--distributors",
-      "link#footer__links--online-shop"
+      "link#col-links__link-loyalty-program",
+      "link#col-links__link-credit-leather-lovers",
+      "link#col-links__link-grows-with-us",
+      "link#col-links__link-corporate-sales",
+      "link#col-links__link-distributors",
+      "link#col-links__link-online-shop"
     ],
     "props": {
       "rowGap": 4,
-      "blockClass": "footer-container__menu--links"
+      "blockClass": "footer__menu--links"
     }
   },
-  "link#footer__links--loyalty-program": {
+  "link#col-links__link-loyalty-program": {
+    "title": "link loyalty program",
     "props": {
       "label": "PROGRAMA DE FIDELIZACIÓN",
       "blockClass": "footer__links"
     }
   },
-  "link#footer__links--credit-leather-lovers": {
+  "link#col-links__link-credit-leather-lovers": {
+    "title": "link leather lover",
     "props": {
       "label": "CRÉDITO LEATHER LOVERS",
       "blockClass": "footer__links"
     }
   },
-  "link#footer__links--grows-with-us": {
+  "link#col-links__link-grows-with-us": {
+    "title": "link grows with us",
     "props": {
       "label": "CRECE CON NOSOTROS",
       "blockClass": "footer__links"
     }
   },
-  "link#footer__links--corporate-sales": {
+  "link#col-links__link-corporate-sales": {
+    "title": "link corporate sales",
     "props": {
       "label": "VENTAS CORPORATIVAS",
       "blockClass": "footer__links"
     }
   },
-  "link#footer__links--distributors": {
+  "link#col-links__link-distributors": {
+    "title": "link distributors",
     "props": {
       "label": "DISTRIBUIDORES",
       "blockClass": "footer__links"
     }
   },
-  "link#footer__links--online-shop": {
+  "link#col-links__link-online-shop": {
+    "title": "link online shop",
     "props": {
       "label": "TIENDA VIRTUAL",
       "blockClass": "footer__links"

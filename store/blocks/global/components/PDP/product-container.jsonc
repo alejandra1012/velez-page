@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product__container": {
+    "title": "PDP",
     "children": [
       "flex-layout.col#product__container-images",
       "flex-layout.col#container___info"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.col#product__container-images": {
+    "title": "container images",
     "children": ["product-images"],
     "props": {
       "width": "60%",
@@ -16,6 +18,7 @@
     }
   },
   "product-images": {
+    "title": "images",
     "props": {
       "showNavigationArrows": false,
       "showPaginationDots": false,
@@ -23,6 +26,7 @@
     }
   },
   "flex-layout.col#container___info": {
+    "title": "conatiner product details",
     "children": [
       "vtex.store-components:product-name",
       "product-price-savings",
@@ -58,23 +62,27 @@
     }
   },
   "link#product-credit": {
+    "title": "button credit",
     "props": {
       "label": "Solicita tu crédito aquí",
       "blockClass": "link__product"
     }
   },
   "sku-selector": {
+    "title": "sku selector",
     "props": {
       "hideImpossibleCombinations": false
     }
   },
   "add-to-cart-button#product__buy": {
+    "title": "button buy",
     "props": {
       "text": "COMPRAR",
       "blockClass": "button__product-one"
     }
   },
   "link#product__calculate-credit": {
+    "title": "button calculate-credit",
     "props": {
       "label": "Calcular crédito",
       "displayMode": "button",
@@ -86,6 +94,7 @@
     }
   },
   "link#contacting-us": {
+    "title": "button contact us",
     "props": {
       "label": "¿Necesitas Ayuda? CONTÁCTANOS",
       "displayMode": "button",
@@ -97,12 +106,14 @@
     }
   },
   "product-identifier.product": {
+    "title": "product reference id",
     "props": {
       "label": "default",
       "idField": "skuReferenceId"
     }
   },
   "product-quantity": {
+    "title": "quantity",
     "props": {
       "selectorType": "dropdown",
       "showUnit": false,

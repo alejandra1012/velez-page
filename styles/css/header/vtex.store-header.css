@@ -22,19 +22,19 @@
 
 /* DESKTOP */
 
-.headerRowBackground--banner__top {
+.headerRowBackground--header__banner-top {
   background: #3b493f;
   height    : 30px;
 }
 
-.headerRowBackground--header__bottom--desktop {
+.headerRowBackground--desktop__header-bottom {
   background: #fff;
 }
 
-.headerRowContainer--banner__top {
+.headerRowContainer--header__banner-top {
   justify-content: center;
 }
 
-.headerRowContainer--header__bottom--desktop :global(.vtex-flex-layout-0-x-flexRow) {
+.headerRowContainer--desktop__header-bottom :global(.vtex-flex-layout-0-x-flexRow) {
   width: 100%;
 }

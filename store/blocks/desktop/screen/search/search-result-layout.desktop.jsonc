@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop": {
+    "title": "search result desktop",
     "children": [
       "flex-layout.row#desktop__breadcrumb-and-order",
       "flex-layout.row#dektop__search-container"

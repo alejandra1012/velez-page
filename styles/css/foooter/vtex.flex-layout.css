@@ -1,52 +1,53 @@
-/* DESKTOP */ 
+/* DESKTOP */
 
-.flexCol--footer-container__info {
+.flexCol--subcontainer__info-container {
   text-align: center;
+  margin-top: 50px
 }
 
-.flexCol--footer-container__menu {
+.flexCol--footer__menu {
   height: fit-content;
 }
 
-.flexCol--footer-container__menu--links {
+.flexCol----links {
   padding-top: 20px;
   height     : fit-content;
 }
 
-.flexCol--footer-container__menu :global(.vtex-menu-2-x-styledLinkContainer) {
+.flexCol--footer__menu :global(.vtex-menu-2-x-styledLinkContainer) {
   margin-left: 0;
 }
 
 
-.flexColChild--footer-container__menu :global(.vtex-menu-2-x-styledLinkContent) {
+.flexColChild--footer__menu :global(.vtex-menu-2-x-styledLinkContent) {
   width      : fit-content;
   font-size  : 13px;
   color      : #7F7F7F;
   font-weight: 400;
 }
 
-.flexColChild--footer-container__menu :global(.vtex-menu-2-x-styledLinkContent):hover {
+.flexColChild--footer__menu :global(.vtex-menu-2-x-styledLinkContent):hover {
   border-bottom: 1px solid #000;
 }
 
-.flexRow--footer-container__menu {
+.flexRow--footer__menu {
   height       : max-content;
   margin-bottom: 80px;
 }
 
-.flexRowContent--footer-container__contact :global(.vtex-rich-text-0-x-paragraph) {
+.flexRowContent--subcontainer__contact :global(.vtex-rich-text-0-x-paragraph) {
   font-size     : 16px;
   letter-spacing: 0;
-  
+
 }
 
 /* MOBILE */
 
 .flexRowContent--mobile__footer-container--contact :global(.vtex-rich-text-0-x-paragraph) {
-     letter-spacing: 0;
-     font-size: 16px;
-     margin-top: 60px;
-} 
+  letter-spacing: 0;
+  font-size     : 16px;
+  margin-top    : 60px;
+}
 
 .flexCol--footer-mobile-container__menu--links {
   border-bottom : 1px solid #000;

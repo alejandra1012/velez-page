@@ -1,33 +1,37 @@
 {
-  "header-row#header__bottom--desktop": {
-    "title": "haeder bottom desktop",
-    "children": ["flex-layout.row#header__bottom--desktop"],
+  "header-row#desktop__header-bottom": {
+    "title": "haeder bottom",
+    "children": ["flex-layout.row#header-bottom__header-container"],
     "props": {
       "sticky": true,
-      "blockClass": "header__bottom--desktop"
+      "blockClass": "desktop__header-bottom"
     }
   },
-  "flex-layout.row#header__bottom--desktop": {
+  "flex-layout.row#header-bottom__header-container": {
+    "title": "header-container",
     "children": [
-      "flex-layout.row#header__bottom--menu",
-      "flex-layout.col#header__bottom--logo",
-      "flex-layout.row#header__bottom--container"
+      "flex-layout.row#header-container__container-menu",
+      "flex-layout.col#header-container__container-logo",
+      "flex-layout.row#header-container__search-login-minicart"
     ],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "header__bottom--desktop"
+      "blockClass": "desktop__header-bottom"
     }
   },
-  "flex-layout.row#header__bottom--menu": {
-    "children": ["menu#header__bottom--menu"],
+  "flex-layout.row#header-container__container-menu": {
+    "title": "container-menu",
+    "children": ["menu#container-menu__menu"],
     "props": {
-      "blockClass": "header__bottom--menu"
+      "blockClass": "header-bottom__menu"
     }
   },
-  "flex-layout.col#header__bottom--logo": {
-    "children": ["logo#header__bottom--logo"]
+  "flex-layout.col#header-container__container-logo": {
+    "title": "container-logo",
+    "children": ["logo#container-logo__logo"]
   },
-  "logo#header__bottom--logo": {
+  "logo#container-logo__logo": {
+    "title": "logo",
     "props": {
       "href": "/",
       "url": "assets/image/logo_velez.svg",
@@ -36,18 +40,20 @@
       "blockClass": "header__bottom--logo"
     }
   },
-  "flex-layout.row#header__bottom--container": {
+  "flex-layout.row#header-container__search-login-minicart": {
+    "title": "container__search-login-minicart",
     "children": [
-      "search-bar#header__bottom--search",
-      "login#header__bottom--login",
-      "minicart.v2#header__bottom--minicat"
+      "search-bar#container__search__search",
+      "login#container-login__login",
+      "minicart.v2#container-minicart__minicart"
     ],
     "props": {
       "horizontalAlign": "right",
-      "blockClass": "header__bottom--container"
+      "blockClass": "header-container__search-login-minicart"
     }
   },
-  "login#header__bottom--login": {
+  "login#container-login__login": {
+    "title": "login",
     "props": {
       "showIconProfile": true,
       "hideIconLabel": true,
