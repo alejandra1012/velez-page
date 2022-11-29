@@ -12,7 +12,7 @@
     ]
   },
   "flex-layout.row#mobile__footer-container--contact": {
-    "children": ["rich-text#footer__top-contact"],
+    "children": ["rich-text#mobile__footer--top-contact"],
     "props": {
       "blockClass": "mobile__footer-container--contact"
     }

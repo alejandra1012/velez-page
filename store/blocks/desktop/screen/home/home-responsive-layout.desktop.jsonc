@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#home__layout--desktop": {
+    "title": "home desktop",
     "children": [
       "flex-layout.row#home__video--section--one",
       "image#home__image--section--two",

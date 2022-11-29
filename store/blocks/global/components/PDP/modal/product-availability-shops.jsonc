@@ -1,5 +1,6 @@
 {
   "modal-trigger#product__availability-shops": {
+    "title": "modal availability shops",
     "children": [
       "flex-layout.row#availability-shops__title",
       "modal-layout#availability-shops__info"
@@ -12,6 +13,7 @@
     "children": ["rich-text#availability-shops__title"]
   },
   "rich-text#availability-shops__title": {
+    "title": "button availability shops",
     "props": {
       "text": "VER DISPONIBILIDAD EN TIENDAS",
       "textAlignment": "CENTER",
@@ -20,6 +22,7 @@
     }
   },
   "modal-layout#availability-shops__info": {
+    "title": "container availability shops",
     "children": [
       "modal-header#availability-shops__info",
       "modal-content#availability-shops__info"
@@ -36,6 +39,7 @@
     "children": ["rich-text#availability-shops__info-title"]
   },
   "rich-text#availability-shops__info-title": {
+    "title": "title modal",
     "props": {
       "text": "**DISPONIBILIDAD EN TIENDAS**"
     }
@@ -44,12 +48,14 @@
     "children": ["flex-layout.row#availability-shops__info-container"]
   },
   "flex-layout.row#availability-shops__info-container": {
+    "title": "container modal",
     "children": [
       "flex-layout.col#info-container__product-options",
       "flex-layout.col#info-container__availability-shops"
     ]
   },
   "flex-layout.col#info-container__product-options": {
+    "title": "product options",
     "children": [
       "sku-selector",
       "modal-trigger#product__details-size",
@@ -57,6 +63,7 @@
     ]
   },
   "rich-text#product-options__info": {
+    "title": "text info",
     "props": {
       "text": "Podrás ver la disponibilidad en tiendas físicas de la talla \n que elijas!"
     }
@@ -65,6 +72,7 @@
     "children": ["rich-text#info-container__availability-shops"]
   },
   "rich-text#info-container__availability-shops": {
+    "title": "container availability shop", 
     "props": {
       "text": "# Solo sé que nada sé"
     }

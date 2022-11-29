@@ -1,5 +1,6 @@
 {
   "rich-text#submenu__banner": {
+    "title": "banner submenu",
     "props": {
       "title": "header banner submenu",
       "text": "COMPRA POR WHATSAPP ![](/arquivos/Icono-whatsapp_velez.png) 3228096512>>",

@@ -1,17 +1,18 @@
 {
   "product-list-content-desktop": {
-    "children": ["flex-layout.row#list-content.desktop"]
+    "title": "product list",
+    "children": ["flex-layout.row#desktop__list--content"]
   },
-  "flex-layout.row#list-content.desktop": {
+  "flex-layout.row#desktop__list--content": {
     "children": [
-      "flex-layout.col#image.desktop",
-      "flex-layout.row#main-container.desktop"
+      "flex-layout.col#list--content__image",
+      "flex-layout.row#list--content__main-container"
     ],
     "props": {
       "marginTop": 3
     }
   },
-  "flex-layout.col#image.desktop": {
+  "flex-layout.col#list--content__image": {
     "children": ["product-list-image"],
     "props": {
       "width": "30%"
@@ -22,10 +23,10 @@
       "width": 70
     }
   },
-  "flex-layout.row#main-container.desktop": {
+  "flex-layout.row#list--content__main-container": {
     "children": [
-      "flex-layout.col#sub-container.desktop",
-      "flex-layout.col#remove.desktop"
+      "flex-layout.col#main-container__sub-container",
+      "flex-layout.col#main-container__remove"
     ],
     "props": {
       "colGap": 5,
@@ -34,36 +35,36 @@
       "blockClass": "main-container.desktop"
     }
   },
-  "flex-layout.col#sub-container.desktop": {
+  "flex-layout.col#main-container__sub-container": {
     "children": [
-      "flex-layout.row#product-name.desktop",
-      "flex-layout.row#quantity.desktop",
-      "flex-layout.row#price.desktop"
+      "flex-layout.row#sub-container__product-name",
+      "flex-layout.row#sub-container__quantity",
+      "flex-layout.row#sub-container__price"
     ],
     "props": {
       "rowGap": "2",
       "blockClass": "sub-container.desktop"
     }
   },
-  "flex-layout.row#product-name.desktop": {
+  "flex-layout.row#sub-container__product-name": {
     "children": ["vtex.product-list:product-name"],
     "props": {
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.row#quantity.desktop": {
+  "flex-layout.row#sub-container__quantity": {
     "children": ["product-quantity-label"],
     "props": {
       "horizontalAlign": "left"
     }
   },
-  "flex-layout.row#price.desktop": {
+  "flex-layout.row#sub-container__price": {
     "children": ["price"],
     "props": {
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.col#remove.desktop": {
+  "flex-layout.col#main-container__remove": {
     "children": ["remove-button"]
   }
 }

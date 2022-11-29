@@ -1,6 +1,6 @@
 {
-  "search-bar#header__bottom--search": {
-    "title": "menu search desktop",
+  "search-bar#container__search__search": {
+    "title": "search",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "attemptPageTypeSearch": true,
@@ -12,6 +12,7 @@
     }
   },
   "autocomplete-result-list.v2": {
+    "title": "autocomplete result list",
     "blocks": ["product-summary.shelf#search__menu--header"],
     "props": {
       "autocompleteWidth": 40,
@@ -22,6 +23,7 @@
     }
   },
   "product-summary.shelf#search__menu--header": {
+    "title": "search menu header",
     "children": [
       "product-summary-image#product__search",
       "product-summary-name#product__search"

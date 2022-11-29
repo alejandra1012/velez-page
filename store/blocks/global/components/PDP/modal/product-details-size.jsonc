@@ -1,20 +1,24 @@
 {
   "modal-trigger#product__details-size": {
+    "title": "button modal details size",
     "children": [
       "rich-text#details-size__title",
       "modal-layout#details-size__info"
     ]
   },
   "rich-text#details-size__title": {
+    "title": "title",
     "props": {
       "text": "GUÍA DE TALLAS",
       "blockClass": "details-size__title"
     }
   },
   "modal-layout#details-size__info": {
+    "title": "modal content",
     "children": ["image#details-size__info"]
   },
   "image#details-size__info": {
+    "title": "image size info",
     "props": {
       "src": "/arquivos/guiadetallavelez.jpg",
       "maxWidth": "71vw"

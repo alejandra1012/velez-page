@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "search result",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {

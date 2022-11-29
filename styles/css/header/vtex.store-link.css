@@ -21,4 +21,7 @@
   font-weight: bold;
 }
 
+.label--header__banner-top {
+  letter-spacing: 0;
+}
 

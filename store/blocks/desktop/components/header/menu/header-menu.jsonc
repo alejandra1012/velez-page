@@ -1,6 +1,6 @@
 {
-  "menu#header__bottom--menu": {
-    "title": "header menu",
+  "menu#container-menu__menu": {
+    "title": "menu",
     "children": [
       "menu-item#menu__department--female",
       "menu-item#menu__department--male",
@@ -9,7 +9,7 @@
       "menu-item#menu__department--fly-up"
     ],
     "props": {
-      "blockClass": "header__bottom--menu"
+      "blockClass": "header-bottom__menu"
     }
   },
   "menu-item#menu__department--female": {
@@ -37,6 +37,7 @@
     ]
   },
   "flex-layout.row#submenu__department--female": {
+    "title": "submenu department female",
     "children": [
       "menu#submenu__department--female",
       "flex-layout.col#image__department--female",
@@ -49,6 +50,7 @@
     }
   },
   "menu#submenu__department--female": {
+    "title": "submenu itmes",
     "children": [
       "menu-item#female__category-shoes",
       "menu-item#female__category-bags",
@@ -86,6 +88,7 @@
     "props": {}
   },
   "menu#submenu__category--shoes": {
+    "title": "submenu category shoes",
     "props": {
       "items": [
         {
@@ -173,6 +176,7 @@
     "props": {}
   },
   "menu#submenu__category--bags": {
+    "title": "submenu category bags",
     "props": {
       "items": [
         {
@@ -235,6 +239,7 @@
     "children": ["menu#submenu__category--accessories"]
   },
   "menu#submenu__category--accessories": {
+    "title": "submenu category accessories",
     "props": {
       "items": [
         {
@@ -297,6 +302,7 @@
     "children": ["menu#submenu__category--leather-jackets"]
   },
   "menu#submenu__category--leather-jackets": {
+    "title": "submenu category leather jackets",
     "props": {
       "items": [
         {
@@ -335,6 +341,7 @@
     "children": ["menu#submenu__category--clothes"]
   },
   "menu#submenu__category--clothes": {
+    "title": "submenu category clothes",
     "props": {
       "items": [
         {
@@ -437,6 +444,7 @@
     "children": ["menu#submenu__category--belts"]
   },
   "menu#submenu__category--belts": {
+    "title": "submenu category belts",
     "props": {
       "items": [
         {
@@ -483,6 +491,7 @@
     "children": ["menu#submenu__category--travel"]
   },
   "menu#submenu__category--travel": {
+    "title": "submenu category travel",
     "props": {
       "items": [
         {
@@ -529,6 +538,7 @@
     "children": ["menu#submenu__category--basic-and-icons"]
   },
   "menu#submenu__category--basic-and-icons": {
+    "title": "submenu category basic and icons",
     "props": {
       "items": [
         {
@@ -604,6 +614,7 @@
     }
   },
   "flex-layout.col#image__department--female": {
+    "title": "image__department--female",
     "children": [
       "image#menu__department--female",
       "link#menu__department--female"
@@ -620,12 +631,14 @@
     }
   },
   "link#menu__department--female": {
+    "title": "title image",
     "props": {
       "label": "VER MUJER",
       "blockClass": "link_menu_departments"
     }
   },
   "flex-layout.col#links__especification-menu": {
+    "title": "links especification menu",
     "children": [
       "link#menu__especification--who-we-are",
       "link#menu__especification--responsible-fashion",
@@ -638,24 +651,28 @@
     }
   },
   "link#menu__especification--who-we-are": {
+    "title": "especification who we are",
     "props": {
       "label": "- QUÉNES SOMOS",
       "blockClass": "link_menu_departments"
     }
   },
   "link#menu__especification--responsible-fashion": {
+    "title": "especification responsible fashion",
     "props": {
       "label": "- MODA RESPONSABLE",
       "blockClass": "link_menu_departments"
     }
   },
   "link#menu__especification--credit-leather-lovers": {
+    "title": "especification credit leather lovers",
     "props": {
       "label": "- CRÉDITO LEATHER LOVERS",
       "blockClass": "link_menu_departments"
     }
   },
   "link#menu__especification--loyalty-program": {
+    "title": "especification loyalty program",
     "props": {
       "label": "- PROGRAMA DE FIDELIZACIÓN",
       "blockClass": "link_menu_departments"
@@ -686,6 +703,7 @@
     ]
   },
   "flex-layout.row#submenu__department--male": {
+    "title": "submenu department male",
     "children": [
       "menu#submenu__department--male",
       "flex-layout.col#image__department--male",
@@ -698,6 +716,7 @@
     }
   },
   "menu#submenu__department--male": {
+    "title": "submenu itmes",
     "children": [
       "menu-item#male__category-shoes",
       "menu-item#male__category-bags",
@@ -731,6 +750,7 @@
     }
   },
   "submenu#submenu__male--category--shoes": {
+    "title": "submenu category shoes",
     "children": ["menu#submenu__male--category--shoes"]
   },
   "menu#submenu__male--category--shoes": {
@@ -804,6 +824,7 @@
     "children": ["menu#submenu__male--category--bags"]
   },
   "menu#submenu__male--category--bags": {
+    "title": "submenu category bags",
     "props": {
       "items": [
         {
@@ -858,6 +879,7 @@
     "children": ["menu#submenu__male--category--accessories"]
   },
   "menu#submenu__male--category--accessories": {
+    "title": "submenu category accessories",
     "props": {
       "items": [
         {
@@ -920,6 +942,7 @@
     "children": ["menu#submenu__male--category--jackets"]
   },
   "menu#submenu__male--category--jackets": {
+    "title": "submenu category jackets",
     "props": {
       "items": [
         {
@@ -958,6 +981,7 @@
     "children": ["menu#submenu__male--category--clothes"]
   },
   "menu#submenu__male--category--clothes": {
+    "title": "submenu category clothes",
     "props": {
       "items": [
         {
@@ -1044,6 +1068,7 @@
     "children": ["menu#submenu__male--category--belts"]
   },
   "menu#submenu__male--category--belts": {
+    "title": "submenu category belts",
     "props": {
       "items": [
         {
@@ -1090,6 +1115,7 @@
     "children": ["menu#submenu__male--category--travel"]
   },
   "menu#submenu__male--category--travel": {
+    "title": "submenu category travel",
     "props": {
       "items": [
         {
@@ -1144,6 +1170,7 @@
     "children": ["menu#submenu__male--category--basic-and-icons"]
   },
   "menu#submenu__male--category--basic-and-icons": {
+    "title": "submenu category basic and icons",
     "props": {
       "items": [
         {
@@ -1214,6 +1241,7 @@
     }
   },
   "flex-layout.col#image__department--male": {
+    "title": "image__department--male",
     "children": ["image#menu__department--male", "link#menu__department--male"],
     "props": {
       "verticalAlign": "top",
@@ -1227,6 +1255,7 @@
     }
   },
   "link#menu__department--male": {
+    "title": "title image",
     "props": {
       "label": "VER HOMBRE",
       "blockClass": "link_menu_departments"
@@ -1257,6 +1286,7 @@
     ]
   },
   "flex-layout.row#submenu__department--outlet": {
+    "title": "submenu department outlet",
     "children": [
       "menu#submenu__department--outlet",
       "flex-layout.col#image__department--outlet",
@@ -1269,6 +1299,7 @@
     }
   },
   "menu#submenu__department--outlet": {
+    "title": "submenu itmes",
     "children": [
       "menu-item#outlet__category-male",
       "menu-item#outlet__category-female",
@@ -1295,6 +1326,7 @@
     "children": ["menu#submenu__outlet--category--male"]
   },
   "menu#submenu__outlet--category--male": {
+    "title": "submenu category male",
     "props": {
       "items": [
         {
@@ -1365,6 +1397,7 @@
     "children": ["menu#submenu__outlet--category--female"]
   },
   "menu#submenu__outlet--category--female": {
+    "title": "submenu category female",
     "props": {
       "items": [
         {
@@ -1431,6 +1464,7 @@
     }
   },
   "flex-layout.col#image__department--outlet": {
+    "title": "image__department--outlet",
     "children": [
       "image#menu__department--outlet",
       "link#menu__department--outlet"
@@ -1447,6 +1481,7 @@
     }
   },
   "link#menu__department--outlet": {
+    "title": "title image",
     "props": {
       "label": "HASTA 60% DCTO",
       "blockClass": "link_menu_departments"
@@ -1477,6 +1512,7 @@
     ]
   },
   "flex-layout.row#submenu__department--credit": {
+    "title": "submenu department credit",
     "children": [
       "menu#submenu__department--credit",
       "flex-layout.col#department--credit__info"
@@ -1488,6 +1524,7 @@
     }
   },
   "flex-layout.col#department--credit__info": {
+    "title": "info rich-text",
     "children": [
       "rich-text#department--credit__info-one",
       "rich-text#department--credit__info-two",
@@ -1500,36 +1537,42 @@
     }
   },
   "rich-text#department--credit__info-one": {
+    "title": "info one",
     "props": {
       "text": "![](/arquivos/star-line-velez.png) Sin cuota inicial.",
       "blockClass": "department--credit__info"
     }
   },
   "rich-text#department--credit__info-two": {
+    "title": "info two",
     "props": {
       "text": "![](/arquivos/star-circle-velez.png) 1.000 puntos de bienvenida.",
       "blockClass": "department--credit__info"
     }
   },
   "rich-text#department--credit__info-three": {
+    "title": "info three",
     "props": {
       "text": "![](/arquivos/mail-icon-velez.png) Descuentos y acceso exclusivo a los eventos de las marcas.",
       "blockClass": "department--credit__info"
     }
   },
   "rich-text#department--credit__info-four": {
+    "title": "info four",
     "props": {
       "text": "![](/arquivos/sale-velez.png) Preferencia a participar en las promociones y sorteos que se realicen.",
       "blockClass": "department--credit__info"
     }
   },
   "rich-text#department--credit__info-five": {
+    "title": "info five",
     "props": {
       "text": "![](/arquivos/heart-icon-velez.png) Puedes elegir el plazo para diferir tus compras hasta 24 meses.",
       "blockClass": "department--credit__info"
     }
   },
   "menu#submenu__department--credit": {
+    "title": "submenu itmes",
     "props": {
       "items": [
         {
