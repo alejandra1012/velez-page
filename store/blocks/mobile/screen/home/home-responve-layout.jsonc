@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile__banner-one",
+      "flex-layout.row#mobile__banner-two"
+    ]
+  }
+}

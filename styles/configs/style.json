@@ -396,7 +396,7 @@
       "action--small": {
         "fontFamily": "Lato,Lato-light,Lato-bold,Sans-Serif",
         "fontWeight": "500",
-        "fontSize": "0.75rem",
+        "fontSize": "0.625rem",
         "textTransform": "uppercase",
         "letterSpacing": "2px"
       },

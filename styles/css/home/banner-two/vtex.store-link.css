@@ -1,0 +1,12 @@
+/* MOBILE */
+
+.label--banner-info__button {
+  font-size     : 12px;
+  text-transform: lowercase;
+  color: #578067;
+}
+
+.buttonLink--banner-info__button {
+  background: #fff;
+  border: none;
+}

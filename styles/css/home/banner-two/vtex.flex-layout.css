@@ -1,0 +1,93 @@
+/* MOBILE */
+
+/* BANNER TWO*/
+
+.flexRowContent--mobile__banner-two {
+  background: #902c1d;
+  padding   : 30px 0;
+}
+
+.flexRow--mobile__banner-two :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
+  border: none;
+}
+
+.flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
+  height: 300px;
+  width : 96vw !important;
+}
+
+.flexCol--mobile__banner-info {
+  background-image : url("/arquivos/background-infocard-velez-mobile.png");
+  background-size  : 100% 100%;
+  background-repeat: no-repeat;
+  justify-content  : center !important;
+  width            : 96vw !important;
+  align-items      : center;
+  height           : 260px;
+  padding          : 0 6%;
+  padding-top      : 10%;
+}
+
+.flexRowContent--mobile__banner-two :last-child {
+  justify-content: flex-start;
+}
+
+@media (min-width: 401px) and (max-width: 639px) {
+
+  /* BANNER TWO */
+
+  .flexColChild--mobile__banner-info :global(.vtex-rich-text-0-x-container) {
+    font-size: 14px !important;
+  }
+
+  .flexColChild--mobile__banner-info :global(.vtex-store-link-0-x-label) {
+    font-size: 12px;
+  }
+
+  .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
+    width : 90vw !important;
+    height: 453px;
+  }
+
+  .flexCol--mobile__banner-info {
+    width : 90vw !important;
+    height: 324px;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 1024px) {
+
+  /* BANNER TWO */
+
+  .flexCol--banner-container {
+    flex-direction: row;
+    padding-right : 3vw;
+    height        : 364px;
+  }
+
+  .flexColChild--mobile__banner-info :global(.vtex-rich-text-0-x-container) {
+    font-size: 16px !important;
+  }
+
+  .flexColChild--mobile__banner-info :global(.vtex-store-link-0-x-label) {
+    font-size: 14px;
+  }
+
+  .flexColChild--banner-container {
+    width: 50% !important;
+  }
+
+  .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
+    width : 100% !important;
+    height: 100%;
+  }
+
+  .flexCol--mobile__banner-info {
+    width : 100% !important;
+    height: 100%;
+  }
+}

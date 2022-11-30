@@ -1,0 +1,64 @@
+{
+  "flex-layout.row#mobile__banner-two": {
+    "title": "banner personal shop",
+    "children": ["flex-layout.col#mobile__banner-tow--container"],
+    "props": {
+      "blockClass": "mobile__banner-two"
+    }
+  },
+  "flex-layout.col#mobile__banner-tow--container": {
+    "title": "container",
+    "children": [
+      "flex-layout.col#mobile__banner-video",
+      "flex-layout.col#mobile__banner-info"
+    ],
+    "props": {
+      "blockClass": "banner-container"
+    }
+  },
+  "flex-layout.col#mobile__banner-video": {
+    "title": "video",
+    "children": ["video#mobile__banner-video"],
+    "props": {
+      "blockClass": "banner-tow__video"
+    }
+  },
+  "video#mobile__banner-video": {
+    "props": {
+      "width": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/video/personal-shopper-video-mobile.mp4"
+    }
+  },
+  "flex-layout.col#mobile__banner-info": {
+    "title": "container text and button",
+    "children": ["rich-text#banner-info__title", "link#banner-info__button"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "mobile__banner-info"
+    }
+  },
+  "rich-text#banner-info__title": {
+    "title": "text info",
+    "props": {
+      "text": "Vive una **experiencia de personalizada**. \n  Reserva una cita gratuita online ó presencial con nuestros **especialistas en moda**.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-mini",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "link#banner-info__button": {
+    "title": "button",
+    "props": {
+      "label": "vive la experiencia >>",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secoundary",
+        "size": "small"
+      },
+      "blockClass": "banner-info__button"
+    }
+  }
+}
