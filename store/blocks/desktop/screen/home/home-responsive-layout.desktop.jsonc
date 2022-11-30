@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#home__layout--desktop": {
+  "responsive-layout.desktop": {
     "title": "home desktop",
     "children": [
     ]
