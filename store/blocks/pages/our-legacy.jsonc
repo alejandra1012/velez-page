@@ -1,0 +1,6 @@
+{
+  "store.custom#our-legacy": {
+    "title": "our legacy page",
+    "blocks": ["flex-layout.row#global__our-legacy--container"]
+  }
+}

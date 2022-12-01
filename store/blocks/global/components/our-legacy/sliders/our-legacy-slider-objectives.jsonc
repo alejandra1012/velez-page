@@ -1,0 +1,126 @@
+{
+  "flex-layout.row#our-legacy__objectives": {
+    "children": ["slider-layout#our-legacy__objectives"],
+    "props": {
+      "blockClass": "our-legacy__objectives"
+    }
+  },
+  "slider-layout#our-legacy__objectives": {
+    "props": {
+      "infinite": true,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 400000
+      },
+      "itemsPerPage": {
+        "desktop": 2,
+        "mobile": 2
+      },
+      "blockClass": "our-legacy__objectives"
+    },
+    "children": [
+      "flex-layout.col#objective-one",
+      "flex-layout.col#objective-two",
+      "flex-layout.col#objective-three",
+      "flex-layout.col#objective-four"
+    ]
+  },
+  "flex-layout.col#objective-one": {
+    "children": [
+      "image#our-legacy__objective-one",
+      "rich-text#objective-one__title"
+    ],
+    "props": {
+      "paddingRight": 5
+    }
+  },
+  "image#our-legacy__objective-one": {
+    "props": {
+      "src": "/arquivos/our-legacy-three.png",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-one__title": {
+    "props": {
+      "text": "Industria, innovación e **infraestructura**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-two": {
+    "children": [
+      "image#our-legacy__objective-two",
+      "rich-text#objective-two__title"
+    ],
+    "props": {
+      "paddingRight": 5
+    }
+  },
+  "image#our-legacy__objective-two": {
+    "props": {
+      "src": "/arquivos/our-legacy-one.jpg",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-two__title": {
+    "props": {
+      "text": "Fin de la **pobreza**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-three": {
+    "children": [
+      "image#our-legacy__objective-three",
+      "rich-text#objective-three__title"
+    ],
+    "props": {
+      "paddingRight": 5
+    }
+  },
+  "image#our-legacy__objective-three": {
+    "props": {
+      "src": "/arquivos/our-lagacy-two.png",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-three__title": {
+    "props": {
+      "text": "Trabajo decente y **crecimiento económico**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-four": {
+    "children": [
+      "image#our-legacy__objective-four",
+      "rich-text#objective-four__title"
+    ],
+    "props": {
+      "paddingRight": 5
+    }
+  },
+  "image#our-legacy__objective-four": {
+    "props": {
+      "src": "/arquivos/our-legacy-four.jpg",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-four__title": {
+    "props": {
+      "text": "Reducción de la **desigualdad**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  }
+}
