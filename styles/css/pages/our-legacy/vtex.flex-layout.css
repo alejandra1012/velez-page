@@ -1,0 +1,29 @@
+.flexRow--our-legacy :global(.vtex-store-components-3-x-container) {
+   padding      : 0;
+   margin-bottom: 30px;
+}
+
+.flexRow--our-legacy :global(.vtex-slider-layout-0-x-caretIcon) {
+   color: #716f72;
+}
+
+.flexRow--our-legacy__subcontainers {
+   display        : flex;
+   justify-content: center;
+}
+
+.flexCol--our-legacy__subcontainers {
+   align-items: center;
+}
+
+.flexColChild--our-legacy__subcontainers {
+   width: 65%;
+}
+
+.flexColChild--our-legacy__subcontainers :global(.vtex-rich-text-0-x-headingLevel4) {
+   line-height: 0;
+}
+
+.flexRowContent--our-legacy__subcontainers {
+   width: 65%;
+}

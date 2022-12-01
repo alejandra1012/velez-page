@@ -1,0 +1,12 @@
+.slide--our-legacy__objectives :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 13px;
+}
+
+
+.sliderLayoutContainer--our-legacy__objectives {
+  width: 60% !important;
+}
+
+.slideChildrenContainer--our-legacy__artisans--slider {
+  margin-right: 20px;
+}
