@@ -1,0 +1,17 @@
+.container--our-artisans__text {
+  margin: 30px 0;
+}
+
+.headingLevel5--our-artisans__text {
+  font-size     : 20px;
+  font-weight   : normal;
+  margin        : 0;
+  line-height   : 30px;
+  letter-spacing: 0;
+}
+
+.paragraph--our-artisans__text {
+  line-height   : 1.5em;
+  margin-bottom : 50px;
+  letter-spacing: 0;
+}
