@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#global__our-legacy--slider-artisans": {
+    "title": "cotainer slider artisans",
+    "children": ["list-context.image-list#global__our-legacy--slider-artisans"],
+    "props": {
+      "blockClass": "our-artisans__section"
+    }
+  },
+  "list-context.image-list#global__our-legacy--slider-artisans": {
+    "title": "images list",
+    "children": ["slider-layout#global__our-legacy--slider-artisans"],
+    "props": {
+      "preload": true,
+      "height": 240,
+      "images": [
+        {
+          "image": "/arquivos/artesano-three-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-four-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-five-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-six-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-four-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-five-velez.jpg",
+          "description": "artisans image slider artisans"
+        },
+        {
+          "image": "/arquivos/artesano-six-velez.jpg",
+          "description": "artisans image slider artisans"
+        }
+      ]
+    }
+  },
+  "slider-layout#global__our-legacy--slider-artisans": {
+    "title": "slider artisans",
+    "props": {
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "autoplay": {
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 3
+      },
+      "blockClass": "our-legacy__artisans--slider-global"
+    }
+  }
+}

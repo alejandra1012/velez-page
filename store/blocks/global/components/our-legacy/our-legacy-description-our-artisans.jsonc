@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#global__our-artisans--description": {
+    "title": "container artisans description",
+    "children": ["rich-text#global__our-artisans--description"],
+    "props": {
+      "blockClass": "our-artisans__section"
+    }
+  },
+  "rich-text#global__our-artisans--description": {
+    "title": "artisans description",
+    "props": {
+      "text": "##### NUESTROS **ARTESANOS** \n Son nuestra esencia, cada uno de ellos transforma con sus manos el cuero en historias con alma. Hoy, más de 2000 artesanos hacen parte de nuestra empresa, a ellos infinita gratitud y admiración por hacer de su oficio, un arte para nosotros.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "our-artisans__text"
+    }
+  }
+}
