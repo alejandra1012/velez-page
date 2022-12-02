@@ -1,0 +1,27 @@
+{
+  "responsive-layout.desktop#custom-page__our-legacy": {
+    "title": "our legacy page desktop design",
+    "children": ["flex-layout.row#desktop__our-legacy--container"]
+  },
+  "flex-layout.row#desktop__our-legacy--container": {
+    "children": ["flex-layout.col#desktop__our-legacy--container"],
+    "props": {
+      "blockClass": "our-legacy"
+    }
+  },
+  "flex-layout.col#desktop__our-legacy--container": {
+    "title": "our legacy container",
+    "children": [
+      "flex-layout.row#desktop__our-legacy--banner-one",
+      "flex-layout.row#global__our-artisans--description",
+      "flex-layout.row#desktop__our-legacy--images-artisans",
+      "flex-layout.row#global__our-legacy--slider-artisans",
+      "flex-layout.row#desktop__our-legacy--banner-two",
+      "flex-layout.row#global__our-legacy--title-objectives"
+    ],
+    "props": {
+      "rowGap": 7,
+      "blockClass": "desktop__our-legacy--container"
+    }
+  }
+}

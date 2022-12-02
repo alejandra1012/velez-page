@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#desktop__our-legacy--banner-one": {
+    "title": "conatiner banner one",
+    "children": ["image#desktop__our-legacy--banner-one"]
+  },
+  "image#desktop__our-legacy--banner-one": {
+    "title": "image banner one",
+    "props": {
+      "src": "/arquivos/banner-nuestro-legado-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  }
+}

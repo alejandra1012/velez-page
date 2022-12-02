@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#desktop__our-legacy--banner-two": {
+    "title": "container banner two",
+    "children": ["image#desktop__our-legacy--banner-two"]
+  },
+  "image#desktop__our-legacy--banner-two": {
+    "title": "image banner two",
+    "props": {
+      "src": "/arquivos/legado-alma-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  }
+}
