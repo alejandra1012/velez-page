@@ -1,0 +1,10 @@
+{
+  "store.custom#our-legacy": {
+    "title": "our legacy page",
+    "blocks": [
+      "responsive-layout.desktop#custom-page__our-legacy",
+      "responsive-layout.phone#custom-page__our-legacy",
+      "responsive-layout.tablet#custom-page__our-legacy"
+    ]
+  }
+}

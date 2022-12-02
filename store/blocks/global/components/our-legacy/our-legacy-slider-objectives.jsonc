@@ -1,0 +1,160 @@
+{
+  "flex-layout.row#global__our-legacy--title-objectives": {
+    "title": "container objectives",
+    "children": ["flex-layout.col#global__our-legacy--title-objectives"],
+    "props": {
+      "blockClass": ["our-artisans__section", "our-artisans__objectives"]
+    }
+  },
+  "flex-layout.col#global__our-legacy--title-objectives": {
+    "title": "container title and slider",
+    "children": [
+      "rich-text#global__title-objectives",
+      "slider-layout#global__our-legacy--objectives"
+    ],
+    "props": {
+      "blockClass": "our-legacy__subcontainers"
+    }
+  },
+  "rich-text#global__title-objectives": {
+    "title": "title",
+    "props": {
+      "text": "##### OBJETIVOS DE \n ##### **DESARROLLO SOSTENIBLE**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "our-artisans__text"
+    }
+  },
+  "slider-layout#global__our-legacy--objectives": {
+    "title": "slider objectives",
+    "props": {
+      "infinite": true,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 400000
+      },
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "blockClass": "our-legacy__objectives"
+    },
+    "children": [
+      "flex-layout.col#objective-one",
+      "flex-layout.col#objective-two",
+      "flex-layout.col#objective-three",
+      "flex-layout.col#objective-four"
+    ]
+  },
+  "flex-layout.col#objective-one": {
+    "title": "conatiner item",
+    "children": [
+      "image#our-legacy__objective-one",
+      "rich-text#objective-one__title"
+    ],
+    "props": {
+      "blockClass": "slider__objective-item"
+    }
+  },
+  "image#our-legacy__objective-one": {
+    "title": "image one",
+    "props": {
+      "src": "/arquivos/our-legacy-three.png",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-one__title": {
+    "title": "title image",
+    "props": {
+      "text": "Industria, innovación e **infraestructura**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-two": {
+    "title": "conatiner item",
+    "children": [
+      "image#our-legacy__objective-two",
+      "rich-text#objective-two__title"
+    ],
+    "props": {
+      "blockClass": "slider__objective-item"
+    }
+  },
+  "image#our-legacy__objective-two": {
+    "title": "image two",
+    "props": {
+      "src": "/arquivos/our-legacy-one.jpg",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-two__title": {
+    "title": "title image",
+    "props": {
+      "text": "Fin de la **pobreza**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-three": {
+    "title": "conatiner item",
+    "children": [
+      "image#our-legacy__objective-three",
+      "rich-text#objective-three__title"
+    ],
+    "props": {
+      "blockClass": "slider__objective-item"
+    }
+  },
+  "image#our-legacy__objective-three": {
+    "title": "image three",
+    "props": {
+      "src": "/arquivos/our-lagacy-two.png",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-three__title": {
+    "title": "title image",
+    "props": {
+      "text": "Trabajo decente y **crecimiento económico**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.col#objective-four": {
+    "title": "conatiner item",
+    "children": [
+      "image#our-legacy__objective-four",
+      "rich-text#objective-four__title"
+    ],
+    "props": {
+      "blockClass": "slider__objective-item"
+    }
+  },
+  "image#our-legacy__objective-four": {
+    "title": "image four",
+    "props": {
+      "src": "/arquivos/our-legacy-four.jpg",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#objective-four__title": {
+    "title": "title image",
+    "props": {
+      "text": "Reducción de la **desigualdad**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small"
+    }
+  }
+}

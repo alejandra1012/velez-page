@@ -1,0 +1,49 @@
+/* GLOBAL */
+.flexRow--our-legacy {
+  margin-bottom: 30px;
+}
+
+.flexRow--our-legacy :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+
+/* MOBILE */
+
+.flexRow--our-artisans__section {
+  padding: 0 5%;
+}
+
+/* DESKTOP AND TABLET */
+
+@media (min-width: 640px) {
+  .flexRow--our-artisans__objectives {
+    padding: 0 1vw;
+  }
+
+  .flexRow--our-artisans__section {
+    padding: 0 15vw;
+  }
+
+  .flexRow--our-artisans__objectives :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    padding-left : 70px !important;
+    padding-right: 50px !important;
+  }
+
+  .flexRowContent--our-artisans__section :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    padding: 0 50px !important;
+  }
+
+  .flexRowContent--our-artisans__section :global(.vtex-slider-layout-0-x-sliderLeftArrow--our-legacy__artisans--slider-global),
+  .flexRowContent--our-artisans__section :global(.vtex-slider-layout-0-x-sliderRightArrow--our-legacy__artisans--slider-global) {
+    display: inline-block;
+  }
+
+  .flexCol--slider__objective-item {
+    padding-right: 20px;
+  }
+
+  .flexRowContent--our-artisans__section :global(.vtex-rich-text-0-x-heading--our-artisans__text) {
+    font-size: 25px;
+  }
+}

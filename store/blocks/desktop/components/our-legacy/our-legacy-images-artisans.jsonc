@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#desktop__our-legacy--images-artisans": {
+    "title": "container images artisas",
+    "children": [
+      "image#desktop__our-legacy--image-one",
+      "image#desktop__our-legacy--image-two"
+    ],
+    "props": {
+      "blockClass": "our-artisans__section"
+    }
+  },
+  "image#desktop__our-legacy--image-one": {
+    "title": "image one",
+    "props": {
+      "src": "/arquivos/artesano-one-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  },
+  "image#desktop__our-legacy--image-two": {
+    "title": "image two",
+    "props": {
+      "src": "/arquivos/artesano-two-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  }
+}

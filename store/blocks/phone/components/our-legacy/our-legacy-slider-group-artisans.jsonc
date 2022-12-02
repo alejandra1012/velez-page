@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#phone__our-legacy--artisans": {
+    "title": "container artisasn",
+    "children": ["flex-layout.col#phone__our-legacy--artisans"],
+    "props": {
+      "blockClass": ["our-artisans__section", "our-artisans__slider-group"]
+    }
+  },
+  "flex-layout.col#phone__our-legacy--artisans": {
+    "title": "container slider group",
+    "children": ["slider-layout-group#phone__our-legacy--artisans"]
+  },
+  "slider-layout-group#phone__our-legacy--artisans": {
+    "title": "slider group",
+    "children": [
+      "list-context.image-list#phone__our-legacy--slider-one",
+      "list-context.image-list#global__our-legacy--slider-artisans"
+    ]
+  },
+  "list-context.image-list#phone__our-legacy--slider-one": {
+    "title": "images list",
+    "children": ["slider-layout#phone__our-legacy--slider-one"],
+    "props": {
+      "preload": true,
+      "height": 800,
+      "images": [
+        {
+          "image": "/arquivos/artesano-one-velez.jpg",
+          "description": "artisans image slider one"
+        },
+        {
+          "image": "/arquivos/artesano-two-velez.jpg",
+          "description": "artisans image slider two"
+        }
+      ]
+    }
+  },
+  "slider-layout#phone__our-legacy--slider-one": {
+    "title": "slider one",
+    "props": {
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "autoplay": {
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "our-legacy__artisans--slider"
+    }
+  }
+}

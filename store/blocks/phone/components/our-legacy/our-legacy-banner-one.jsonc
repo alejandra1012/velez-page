@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#phone__our-legacy--banner-one": {
+    "title": "conatiner banner one",
+    "children": ["image#phone__our-legacy--banner-one"],
+    "props": {
+      "blockClass": "our-legacy__banner"
+    }
+  },
+  "image#phone__our-legacy--banner-one": {
+    "title": "image banner one",
+    "props": {
+      "src": "/arquivos/banner-nuestro-legado-mobile-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  }
+}
