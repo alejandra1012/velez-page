@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#phone__our-legacy--banner-two": {
+    "title": "container banner two",
+    "children": ["image#phone__our-legacy--banner-two"],
+    "props": {
+      "blockClass": "our-legacy__banner"
+    }
+  },
+  "image#phone__our-legacy--banner-two": {
+    "title": "image banner two",
+    "props": {
+      "src": "/arquivos/legado-alma-mobile-velez.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
+    }
+  }
+}

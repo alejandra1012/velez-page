@@ -1,0 +1,6 @@
+{
+  "responsive-layout.tablet#custom-page__our-legacy": {
+    "title": "our legacy page tablet design",
+    "children": ["flex-layout.row#desktop__our-legacy--container"]
+  }
+}
