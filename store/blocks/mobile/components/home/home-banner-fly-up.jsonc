@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#mobile__banner--fly-up": {
+    "title": "banner fly up",
+    "children": ["flex-layout.col#mobile__banner-container--fly-up"]
+  },
+  "flex-layout.col#mobile__banner-container--fly-up": {
+    "title": "container",
+    "children": ["image#mobile__fly-up", "link#mobile__fly-up--button"],
+    "props": {
+      "blockClass": "mobile__banner-container--fly-up"
+    }
+  },
+  "image#mobile__fly-up": {
+    "title": "image fly up",
+    "props": {
+      "src": "/arquivos/banner-fly-up-mobile.png",
+      "width": "100%",
+      "maxHeight": 2048
+    }
+  },
+  "link#mobile__fly-up--button": {
+    "title": "button",
+    "props": {
+      "label": "ver nuevas referencias >>",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secoundary",
+        "size": "small"
+      },
+      "blockClass": "mobile__fly-up--button"
+    }
+  }
+}

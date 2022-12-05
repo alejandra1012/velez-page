@@ -1,0 +1,17 @@
+.flexCol--mobile__banner-container--fly-up {
+  position: relative;
+}
+
+@media (min-width: 480px) and (max-width: 899px) {
+  .flexColChild--mobile__banner-container--fly-up :global(.vtex-store-link-0-x-buttonLink--mobile__fly-up--button) {
+     bottom: 80px;
+     max-width: 50%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1025px) {
+  .flexColChild--mobile__banner-container--fly-up :global(.vtex-store-link-0-x-buttonLink--mobile__fly-up--button) {
+    bottom: 150px;
+    max-width: 30%;
+ }
+}
