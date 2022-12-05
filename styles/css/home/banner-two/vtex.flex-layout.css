@@ -3,8 +3,9 @@
 /* BANNER TWO*/
 
 .flexRowContent--mobile__banner-two {
-  background: #902c1d;
-  padding   : 30px 0;
+  background    : #902c1d;
+  padding-top   : 30px;
+  padding-bottom: 13px;
 }
 
 .flexRow--mobile__banner-two :global(.vtex-store-components-3-x-container) {
@@ -61,9 +62,9 @@
   }
 
   .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
-    width: 100% !important;
-    max-width : 100% !important;
-    height: 100%;
+    width    : 100% !important;
+    max-width: 100% !important;
+    height   : 100%;
   }
 
   .flexCol--mobile__banner-info {
