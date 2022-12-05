@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#global__home--newsletter": {
+    "title": "newsletter",
+    "children": ["flex-layout.col#global__newsletter--container"],
+    "props": {
+      "paddingTop": 5
+    }
+  },
+  "flex-layout.col#global__newsletter--container": {
+    "title": "container",
+    "children": [
+      "rich-text#global__newsletter__container-info",
+      "flex-layout.col#global__newsletter--container-form"
+    ]
+  },
+  "rich-text#global__newsletter__container-info": {
+    "title": "info",
+    "props": {
+      "text": "###### **Entérate de novedades** \n Suscríbete y recibe contenido exclusivo de nuestra marca y sé el primero en recibir novedades y promociones exclusivas de la marca",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-small",
+      "blockClass": "global__newsletter__container-info"
+    }
+  },
+  "flex-layout.col#global__newsletter--container-form": {
+    "title": "container form",
+    "children": ["newsletter-form#global__home__form"],
+    "props": {
+      "blockClass": "global__newsletter--container-form"
+    }
+  },
+  "newsletter-form#global__home__form": {
+    "title": "newsletter form",
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "newsletter-input-email": {
+    "title": "email",
+    "props": {
+      "placeholderText": "Escribe tu correo electrónico",
+      "blockClass": "global__home--newsletter-email"
+    }
+  },
+  "newsletter-submit": {
+    "title": "submit",
+    "props": {
+      "submitButtonLabel": "SUSCRIBIRME >>",
+      "blockClass": "global__home--newsletter-button"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "title": "checkbox",
+    "props": {
+      "checkboxLabel": "Autorizo el tratamiento de datos personales de acuerdo con la política de Tratamiento de datos personales {firstLink}",
+      "firstLabelLink": {
+        "text": "disponible aquí.",
+        "url": "#",
+        "blockClass": "global__home--newsletter-checkbox"
+      }
+    }
+  }
+}

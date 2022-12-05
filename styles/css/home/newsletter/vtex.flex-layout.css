@@ -1,0 +1,56 @@
+.flexCol--global__newsletter--container-form {
+  text-align: center;
+}
+
+.flexCol--global__newsletter--container-form :global(.vtex-button) {
+  border-radius: 0;
+  background   : #000;
+  color        : #fff;
+  border       : none;
+  width        : 70%;
+  margin-top   : 10px;
+}
+
+.flexCol--global__newsletter--container-form :global(.vtex-input-prefix__group) {
+  width        : 70%;
+  border-radius: 0;
+  outline      : none;
+  margin       : 0 auto;
+}
+
+.flexCol--global__newsletter--container-form :global(.vtex-checkbox__line-container) {
+  width : 90%;
+  margin: 20px auto;
+}
+
+.flexCol--global__newsletter--container-form :global(.vtex-checkbox__label) {
+  text-align    : left;
+  font-size     : 13px;
+  letter-spacing: 0;
+}
+
+.flexCol--global__newsletter--container-form :global(.vtex-store-newsletter-1-x-labelLink) {
+  color: #000;
+}
+
+@media (min-width: 640px) and (max-width: 1025px) {
+  .flexCol--global__newsletter--container-form :global(.vtex-input-prefix__group) {
+    width: 70%;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-rich-text-0-x-wrapper--global__newsletter__container-info) {
+    width: 70%;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-checkbox__line-container) {
+    width : 80%;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-button) {
+    width: 30%;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-rich-text-0-x-headingLevel6--global__newsletter__container-info) {
+    margin: 0;
+  }
+}
