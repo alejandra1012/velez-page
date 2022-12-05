@@ -1,0 +1,14 @@
+.sliderArrows--global__home--slider-navidad  {
+  background   : #fff !important;
+  border-radius: 50%;
+  width        : 60px;
+  height       : 60px;
+}
+
+.sliderRightArrow--global__home--slider-navidad {
+  margin-right: 23px !important;
+}
+
+.sliderLeftArrow--global__home--slider-navidad {
+  margin-left: 23px !important;
+}

@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#mobile__banner--loyalty": {
+    "title": "banner loyalty",
+    "children": ["flex-layout.col#mobile__banner-container--loyalty"]
+  },
+  "flex-layout.col#mobile__banner-container--loyalty": {
+    "title": "container",
+    "children": ["image#mobile__loyalty", "link#mobile__loyalty--button"],
+    "props": {
+      "blockClass": "mobile__banner-container--loyalty"
+    }
+  },
+  "image#mobile__loyalty": {
+    "title": "image loyalty",
+    "props": {
+      "src": "/arquivos/banner-quiero-mobile.png",
+      "width": "100%",
+      "maxHeight": 2048
+    }
+  },
+  "link#mobile__loyalty--button": {
+    "title": "button",
+    "props": {
+      "label": "Conoce más >>",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secoundary",
+        "size": "small"
+      },
+      "blockClass": "mobile__loyalty--button"
+    }
+  }
+}

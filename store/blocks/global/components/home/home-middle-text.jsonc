@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#global__home--middle-text": {
+    "title": "middle text",
+    "children": ["rich-text#home--middle-text"],
+    "props": {
+      "border": ["top", "bottom"],
+      "borderWidth": 1,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "blockClass": "global__home--middle-text"
+    }
+  },
+  "rich-text#home--middle-text": {
+    "title": "text",
+    "props": {
+      "text": "Coincidimos en que el momento de **estar juntos**,donde sentimos todas las formas de amor al doble, **necesitan quedarse para siempre**.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

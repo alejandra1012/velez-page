@@ -1,0 +1,13 @@
+.link--mobile__fly-up--button {
+  position      : absolute;
+  bottom        : 40px;
+  left          : 0;
+  right         : 0;
+  margin        : 0 auto;
+  max-width     : 90%;
+  font-size     : 12px;
+  text-transform: lowercase;
+  background    : #fff;
+  color         : #000;
+  border        : none;
+}

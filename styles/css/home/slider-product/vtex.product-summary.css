@@ -1,0 +1,15 @@
+.clearLink {
+  align-items: center;
+}
+
+.brandName {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.element {
+  max-width      : 100%;
+  text-align : left;
+  font-weight: bold;
+}
+
