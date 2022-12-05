@@ -1,0 +1,15 @@
+.flexCol--global__home--subcontainer-slider-navidad {
+  text-align: center;
+  border    : none;
+}
+
+.flexRow--global__home--container-slider-navidad :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--global__home--container-slider-navidad {
+   background: url(assets/image/background-slider-navidad.png);
+   background-repeat: no-repeat;
+   background-size: 100% 70%;
+   padding-top: 10px;
+}

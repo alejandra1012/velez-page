@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#global__home--container-slider-navidad": {
+    "title": "container slider navidad",
+    "children": ["flex-layout.col#global__home--subcontainer-slider-navidad"],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "global__home--container-slider-navidad"
+    }
+  },
+  "flex-layout.col#global__home--subcontainer-slider-navidad": {
+    "title": "subcontainer slider navidad",
+    "children": [
+      "flex-layout.row#slider-navidad__conatiner-image",
+      "list-context.image-list#global__home--list-navidad"
+    ],
+    "props": {
+      "blockClass": "global__home--subcontainer-slider-navidad"
+    }
+  },
+  "flex-layout.row#slider-navidad__conatiner-image": {
+    "title": "container image",
+    "children": ["image#slider-navidad__gift-navidad"],
+    "props": {
+      "blockClass": "slider-navidad__conatiner-image"
+    }
+  },
+  "image#slider-navidad__gift-navidad": {
+    "title": "image title",
+    "props": {
+      "src": "/arquivos/title-slider-navidad-velez-nuevo.png",
+      "maxWidth": "100%"
+    }
+  },
+  "list-context.image-list#global__home--list-navidad": {
+    "title": "list image",
+    "children": ["slider-layout#global__home--slider-navidad"],
+    "props": {
+      "preload": true,
+      "height": "700px",
+      "images": [
+        {
+          "image": "/arquivos/image-1-banner-regalos-mobile.png",
+          "mobileImage": "/arquivos/image-1-banner-regalos-mobile.png",
+          "description": "image navida one"
+        },
+        {
+          "image": "/arquivos/image-2-banner-regalos-mobile.png",
+          "mobileImage": "/arquivos/image-2-banner-regalos-mobile.png",
+          "description": "image navida two"
+        },
+        {
+          "image": "/arquivos/image-3-banner-regalos-mobile.png",
+          "mobileImage": "/arquivos/image-3-banner-regalos-mobile.png",
+          "description": "image navida three"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#global__home--slider-navidad": {
+    "title": "slider navidad",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "centerMode": "center",
+      "blockClass": "global__home--slider-navidad"
+    }
+  }
+}
