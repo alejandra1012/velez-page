@@ -16,8 +16,9 @@
 }
 
 .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
-  height: 300px;
-  width : 96vw !important;
+  height   : 300px;
+  width    : 90vw !important;
+  max-width: 388px !important;
 }
 
 .flexCol--mobile__banner-info {
@@ -25,9 +26,10 @@
   background-size  : 100% 100%;
   background-repeat: no-repeat;
   justify-content  : center !important;
-  width            : 96vw !important;
+  width            : 90vw;
+  max-width        : 388px !important;
   align-items      : center;
-  height           : 260px;
+  height           : 311px;
   padding          : 0 6%;
   padding-top      : 10%;
 }
@@ -36,30 +38,7 @@
   justify-content: flex-start;
 }
 
-@media (min-width: 401px) and (max-width: 639px) {
-
-  /* BANNER TWO */
-
-  .flexColChild--mobile__banner-info :global(.vtex-rich-text-0-x-container) {
-    font-size: 14px !important;
-  }
-
-  .flexColChild--mobile__banner-info :global(.vtex-store-link-0-x-label) {
-    font-size: 12px;
-  }
-
-  .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
-    width : 90vw !important;
-    height: 453px;
-  }
-
-  .flexCol--mobile__banner-info {
-    width : 90vw !important;
-    height: 324px;
-  }
-}
-
-@media (min-width: 670px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 1025px) {
 
   /* BANNER TWO */
 
@@ -82,7 +61,8 @@
   }
 
   .flexColChild--banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
-    width : 100% !important;
+    width: 100% !important;
+    max-width : 100% !important;
     height: 100%;
   }
 

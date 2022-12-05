@@ -20,7 +20,9 @@
   "image#banner-container__image": {
     "title": "banner image",
     "props": {
-      "src": "/arquivos/banner-navidad-one-velez.png"
+      "src": "/arquivos/banner-principal-navidad-uno-mobile.png",
+      "width": 384,
+      "height": 736
     }
   },
   "flex-layout.col#banner-container__text-button": {

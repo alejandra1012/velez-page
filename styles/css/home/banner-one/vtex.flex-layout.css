@@ -13,7 +13,8 @@
 .flexCol--banner__container {
   position  : relative;
   align-self: center;
-  height    : 600px;
+  height    : 736px;
+  text-align: center;
 }
 
 .flexCol--banner__container .flexColChild--banner__container:first-child {
@@ -34,8 +35,10 @@
 }
 
 .flexColChild--container__text-button :global(.vtex-rich-text-0-x-heading) {
-  text-align: center;
-  font-size : 16px;
+  text-align   : center;
+  font-size    : 16px;
+  padding-left : 16vw;
+  padding-right: 12vw;
 }
 
 .flexColChild--container__text-button :global(.vtex-store-link-0-x-buttonLink) {
@@ -50,49 +53,24 @@
 
 .flexCol--container__text-button {
   align-items: center;
-  width      : 90%;
+  max-width  : 384px;
   margin     : 0 auto;
+  margin-bottom: 20px !important;
 }
 
-@media (min-width: 401px) and (max-width: 639px) {
+@media (min-width: 640px) and (max-width: 1025px) {
 
   /* BANNER ONE */
-
-  .flexCol--banner__container .flexColChild--banner__container:first-child {
-    width: 70%;
-  }
-
-  .flexCol--container__text-button {
-    width: 65%;
-  }
-
-  .flexCol--banner__container {
-    height: 700px;
-  }
-}
-
-@media (min-width: 670px) and (max-width: 1024px) {
-
-  /* BANNER ONE */
-
-  .flexCol--banner__container .flexColChild--banner__container:first-child {
-    width: 60%;
-  }
-
-  .flexCol--container__text-button {
-    width         : 58%;
-    padding-bottom: 40px;
-  }
-
-  .flexCol--banner__container {
-    height: 1200px;
+  .flexColChild--container__text-button :global(.vtex-rich-text-0-x-heading) {
+    padding-left : 3vw;
+    padding-right: 1vw;
   }
 
   .flexColChild--container__text-button :global(.vtex-rich-text-0-x-heading) {
-    font-size: 27px;
+    font-size: 16px;
   }
 
   .flexColChild--container__text-button :global(.vtex-store-link-0-x-buttonLink) {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
