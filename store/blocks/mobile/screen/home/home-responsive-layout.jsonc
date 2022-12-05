@@ -2,7 +2,13 @@
   "responsive-layout.mobile": {
     "children": [
       "flex-layout.row#mobile__banner-one",
-      "flex-layout.row#mobile__banner-two"
+      "flex-layout.row#mobile__banner-two",
+      "flex-layout.row#global__home--container-slider-navidad",
+      "flex-layout.row#global__home--middle-text",
+      "flex-layout.row#mobile__banner--fly-up",
+      "flex-layout.row#mobile__banner--loyalty",
+      "flex-layout.row#global__home--container-slider-product",
+      "flex-layout.row#global__home--newsletter"
     ]
   }
 }
