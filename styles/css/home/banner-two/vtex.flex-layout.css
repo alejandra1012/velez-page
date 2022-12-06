@@ -1,6 +1,44 @@
-/* MOBILE */
-
 /* BANNER TWO*/
+
+/* DESKTOP */
+
+.flexColChild--desktop__banner-tow__video :global(.vtex-store-video-1-x-videoContainer) {
+  border: none;
+  height: 100%;
+}
+
+.flexRowContent--desktop__banner-two {
+  background    : #902c1d;
+  padding-bottom: 30px;
+}
+
+.flexRowContent--desktop__banner-two :nth-child(even) {
+  justify-content: flex-start;
+}
+
+.flexCol--desktop__banner-info {
+  background-image : url("/arquivos/banner-personal-shopper.png");
+  background-size  : 100% 100%;
+  background-repeat: no-repeat;
+  justify-content  : center !important;
+  width            : 100%;
+  max-width        : 867px !important;
+  align-items      : center;
+  padding          : 0 6%;
+  padding-top      : 40%;
+}
+
+@media (min-width: 1500) {
+  .flexColChild--desktop__banner-info :global(.vtex-store-link-0-x-label) {
+    font-size: 15px !important;
+  }
+
+  .flexColChild--desktop__banner-info :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 20px;
+  }
+}
+
+/* MOBILE */
 
 .flexRowContent--mobile__banner-two {
   background    : #902c1d;
