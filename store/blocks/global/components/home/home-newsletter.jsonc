@@ -11,7 +11,10 @@
     "children": [
       "rich-text#global__newsletter__container-info",
       "flex-layout.col#global__newsletter--container-form"
-    ]
+    ],
+    "props": {
+      "blockClass": "global__newsletter--container"
+    }
   },
   "rich-text#global__newsletter__container-info": {
     "title": "info",

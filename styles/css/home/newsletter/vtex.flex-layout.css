@@ -43,7 +43,7 @@
   }
 
   .flexCol--global__newsletter--container-form :global(.vtex-checkbox__line-container) {
-    width : 80%;
+    width: 80%;
   }
 
   .flexCol--global__newsletter--container-form :global(.vtex-button) {
@@ -52,5 +52,42 @@
 
   .flexCol--global__newsletter--container-form :global(.vtex-rich-text-0-x-headingLevel6--global__newsletter__container-info) {
     margin: 0;
+  }
+}
+
+@media (min-width: 1026px) {
+  .flexCol--global__newsletter--container {
+    flex-direction: row !important;
+  }
+
+  .flexColChild--global__newsletter--container {
+    width: 50%;
+  }
+
+  .flexColChild--global__newsletter--container :global(.vtex-rich-text-0-x-wrapper--global__newsletter__container-info) {
+    padding: 0 15px;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+    display: inline-block;
+    width  : 60%;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-input-prefix__group) {
+    margin-right: 0;
+    width       : 100%;
+    border      : 1px solid #000;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+    display   : inline-block;
+    text-align: start;
+  }
+
+  .flexCol--global__newsletter--container-form :global(.vtex-button) {
+    margin       : 0;
+    margin-bottom: 3px;
+    width        : auto;
+    border       : 1px solid #000;
   }
 }
