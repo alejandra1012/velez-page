@@ -1,17 +1,47 @@
+/* DESKTOP */
+
+.flexCol--desktop__banner-container--fly-up {
+  position: relative;
+}
+
+.flexCol--desktop__banner-container--fly-up :nth-child(even) {
+  height  : fit-content !important;
+  position: absolute;
+  right   : 3%;
+  bottom  : 30%;
+}
+
+@media (min-width: 1200px) {
+  .flexCol--desktop__banner-container--fly-up :nth-child(even) {
+    right   : 5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .flexColChild--desktop__banner-container--fly-up :global(.vtex-store-link-0-x-link) {
+    font-size: 15px;
+  }
+  .flexCol--desktop__banner-container--fly-up :nth-child(even) {
+    right   : 10%;
+  }
+}
+
+/* MOBILE */
+
 .flexCol--mobile__banner-container--fly-up {
   position: relative;
 }
 
 @media (min-width: 480px) and (max-width: 899px) {
   .flexColChild--mobile__banner-container--fly-up :global(.vtex-store-link-0-x-buttonLink--mobile__fly-up--button) {
-     bottom: 80px;
-     max-width: 50%;
+    bottom   : 80px;
+    max-width: 50%;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1025px) {
   .flexColChild--mobile__banner-container--fly-up :global(.vtex-store-link-0-x-buttonLink--mobile__fly-up--button) {
-    bottom: 150px;
+    bottom   : 150px;
     max-width: 30%;
- }
+  }
 }

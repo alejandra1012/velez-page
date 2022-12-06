@@ -11,3 +11,11 @@
   color         : #000;
   border        : none;
 }
+
+.link--desktop__fly-up--button {
+  font-size     : 12px;
+  text-transform: lowercase;
+  background    : #fff;
+  color         : #000;
+  border        : none;
+}

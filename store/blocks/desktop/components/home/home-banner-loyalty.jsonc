@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#desktop__banner--loyalty": {
+    "title": "banner loyalty",
+    "children": ["flex-layout.col#desktop__banner-container--loyalty"]
+  },
+  "flex-layout.col#desktop__banner-container--loyalty": {
+    "title": "container",
+    "children": ["image#desktop__loyalty", "link#desktop__loyalty--button"],
+    "props": {
+      "blockClass": "desktop__banner-container--loyalty"
+    }
+  },
+  "image#desktop__loyalty": {
+    "title": "image loyalty",
+    "props": {
+      "src": "/arquivos/banner-section-four.png",
+      "width": "100%",
+      "maxHeight": 2048
+    }
+  },
+  "link#desktop__loyalty--button": {
+    "title": "button",
+    "props": {
+      "label": "Conoce más >>",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secoundary",
+        "size": "small"
+      },
+      "blockClass": "desktop__loyalty--button"
+    }
+  }
+}

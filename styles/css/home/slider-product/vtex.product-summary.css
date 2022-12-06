@@ -4,12 +4,22 @@
 
 .brandName {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight   : bold;
+  font-size: 12px;
 }
 
 .element {
-  max-width      : 100%;
+  max-width  : 100%;
   text-align : left;
   font-weight: bold;
+  font-size: 12px;
 }
 
+@media (min-width: 1025px) {
+
+  .brandName,
+  .element {
+    font-weight: 500;
+    font-size  : 13px;
+  }
+}
