@@ -1,14 +1,54 @@
-.sliderArrows--global__home--slider-navidad  {
-  background   : #fff !important;
+.sliderArrows--global__home--slider-navidad {
+  background   : #fff9 !important;
   border-radius: 50%;
-  width        : 60px;
-  height       : 60px;
+  width        : 40px;
+  height       : 40px;
 }
 
 .sliderRightArrow--global__home--slider-navidad {
-  margin-right: 23px !important;
+  margin-right: 7px !important;
+  color       : #333;
 }
 
 .sliderLeftArrow--global__home--slider-navidad {
-  margin-left: 23px !important;
+  margin-left: 7px !important;
+  color      : #333;
+}
+
+.slideChildrenContainer--global__home--slider-navidad {
+  padding: 0 15vw;
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .sliderArrows--global__home--slider-navidad {
+    width : 55px;
+    height: 55px;
+  }
+
+  .sliderRightArrow--global__home--slider-navidad {
+    margin-right: 40px !important;
+  }
+
+  .sliderLeftArrow--global__home--slider-navidad {
+    margin-left: 40px !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slideChildrenContainer--global__home--slider-navidad {
+    padding: 0;
+  }
+
+  .sliderArrows--global__home--slider-navidad {
+    width : 60px;
+    height: 60px;
+  }
+
+  .sliderRightArrow--global__home--slider-navidad {
+    margin-right: 40px !important;
+  }
+
+  .sliderLeftArrow--global__home--slider-navidad {
+    margin-left: 40px !important;
+  }
 }
