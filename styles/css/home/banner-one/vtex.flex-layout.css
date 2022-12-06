@@ -1,6 +1,71 @@
-/* MOBILE */
-
 /* BANNER ONE */
+
+/* DESKTOP */
+
+.flexRow--desktop__banner-one {
+  background    : #902c1d;
+  padding-bottom: 30px;
+}
+
+.flexRow--desktop__banner-one :global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
+}
+
+.flexRow--desktop__banner-one :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexCol--desktop__banner-container {
+  position: relative;
+}
+
+.flexCol--desktop__banner-container--text-button {
+  max-width : 30%;
+  height    : auto;
+  position  : absolute;
+  bottom    : 5vw;
+  left      : 0;
+  right     : 0;
+  margin    : 0 auto;
+  text-align: center;
+}
+
+.flexColChild--desktop__banner-container--text-button {
+  height: auto !important;
+}
+
+.flexRow--desktop__banner-one :global(.vtex-store-link-0-x-link) {
+  border       : none;
+  background   : #fff;
+  border-radius: 0;
+}
+
+.flexRow--desktop__banner-one :global(.vtex-store-link-0-x-label) {
+  font-size: 10px;
+  color    : #902c1d;
+}
+
+@media (min-width: 1500px) {
+  .flexRow--desktop__conatiner-home :global(.vtex-store-components-3-x-container) {
+    margin : 0;
+    padding: 0;
+  }
+
+  .flexRowContent--desktop__conatiner-home,
+  .flexColChild--desktop__banner-container {
+    width: 100vw;
+  }
+  
+  .flexRow--desktop__banner-one :global(.vtex-store-link-0-x-label) {
+    font-size: 15px;
+  }
+
+  .flexRow--desktop__banner-one :global(.vtex-rich-text-0-x-wrapper) {
+    font-size: 20px;
+  }
+}
+
+/* MOBILE */
 
 .flexRowContent--mobile__banner-one {
   padding: 20px 0;
@@ -52,9 +117,9 @@
 }
 
 .flexCol--container__text-button {
-  align-items: center;
-  max-width  : 384px;
-  margin     : 0 auto;
+  align-items  : center;
+  max-width    : 384px;
+  margin       : 0 auto;
   margin-bottom: 20px !important;
 }
 

@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#desktop__banner-one": {
+    "title": "banner one",
+    "children": ["flex-layout.col#desktop__banner-container"],
+    "props": {
+      "blockClass": "desktop__banner-one"
+    }
+  },
+  "flex-layout.col#desktop__banner-container": {
+    "title": "banner container",
+    "children": [
+      "image#desktop__banner-container--image",
+      "flex-layout.col#desktop__banner-container--text-button"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "desktop__banner-container"
+    }
+  },
+  "image#desktop__banner-container--image": {
+    "title": "banner image",
+    "props": {
+      "src": "/arquivos/banner-principal-navidad-uno-new.png",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "flex-layout.col#desktop__banner-container--text-button": {
+    "title": "container text and button",
+    "children": [
+      "rich-text#desktop__banner_text",
+      "link#desktop__banner--button"
+    ],
+    "props": {
+      "blockClass": "desktop__banner-container--text-button"
+    }
+  },
+  "rich-text#desktop__banner_text": {
+    "title": "text",
+    "props": {
+      "text": "Para nosotros la navidad es el mejor momento del año porque los buenos momentos **nunca expiran.**",
+      "font": "t-mini",
+      "textColor": "c-on-emphasis",
+      "blockClass": "desktop__banner_text"
+    }
+  },
+  "link#desktop__banner--button": {
+    "title": "button",
+    "props": {
+      "displayMode": "button",
+      "label": "ver nuevas referencias >>",
+      "buttonProps": {
+        "variant": "secoundary",
+        "size": "small"
+      },
+      "blockClass": "desktop__banner--button"
+    }
+  }
+}
