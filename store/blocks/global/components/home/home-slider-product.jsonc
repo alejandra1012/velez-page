@@ -34,10 +34,6 @@
       "infinite": true,
       "showPaginationDots": "never",
       "fullWidth": false,
-      "centerMode": {
-        "desktop": "center",
-        "mobile": "disabled"
-      },
       "blockClass": "global__home--slider-product"
     }
   },
