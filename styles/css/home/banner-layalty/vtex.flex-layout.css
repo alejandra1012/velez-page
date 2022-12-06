@@ -1,3 +1,18 @@
+/* DESKTOP */
+
+.flexCol--desktop__banner-container--loyalty {
+  position: relative;
+  padding: 30px 0;
+}
+
+@media (min-width: 1500px) {
+  .flexCol--desktop__banner-container--loyalty :global(.vtex-store-link-0-x-label) {
+    font-size: 15px;
+  }
+}
+
+/* MOBILE*/
+
 .flexCol--mobile__banner-container--loyalty {
   position: relative;
 }

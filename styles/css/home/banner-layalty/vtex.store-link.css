@@ -11,3 +11,14 @@
   color         : #fff;
   border        : none;
 }
+
+.link--desktop__loyalty--button {
+  position      : absolute;
+  bottom        : 35%;
+  right         : 14%;
+  font-size     : 12px;
+  text-transform: lowercase;
+  background    : #402414;
+  color         : #fff;
+  border        : none;
+}
