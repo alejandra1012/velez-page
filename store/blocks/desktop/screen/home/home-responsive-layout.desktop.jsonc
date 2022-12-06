@@ -1,7 +1,24 @@
 {
   "responsive-layout.desktop": {
     "title": "home desktop",
+    "children": ["flex-layout.row#desktop__conatiner-home"]
+  },
+  "flex-layout.row#desktop__conatiner-home": {
+    "children": ["flex-layout.col#desktop__conatiner-home"],
+    "props": {
+      "blockClass": "desktop__conatiner-home"
+    }
+  },
+  "flex-layout.col#desktop__conatiner-home": {
     "children": [
+      "flex-layout.row#desktop__banner-one",
+      "flex-layout.row#desktop__banner-two",
+      "flex-layout.row#global__home--container-slider-navidad",
+      "flex-layout.row#global__home--middle-text",
+      "flex-layout.row#desktop__banner--fly-up",
+      "flex-layout.row#desktop__banner--loyalty",
+      "flex-layout.row#global__home--container-slider-product",
+      "flex-layout.row#global__home--newsletter"
     ]
   }
 }
