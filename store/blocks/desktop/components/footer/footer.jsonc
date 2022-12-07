@@ -96,7 +96,8 @@
           "id": "our-legacy",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href": "/our-legacy",
             "text": "Nuestro legado"
           }
         },
