@@ -45,7 +45,7 @@
     "children": [
       "search-bar#container__search__search",
       "login#container-login__login",
-      "minicart.v2#container-minicart__minicart"
+      "minicart.v2#global__container-minicart"
     ],
     "props": {
       "horizontalAlign": "right",

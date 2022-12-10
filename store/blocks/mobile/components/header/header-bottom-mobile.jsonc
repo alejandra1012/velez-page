@@ -37,7 +37,7 @@
     "children": [
       "icon-search#mobile__menu",
       "login#menu__mobile",
-      "minicart.v2#mobile__header--minicat"
+      "minicart.v2#global__container-minicart"
     ],
     "props": {
       "horizontalAlign": "right",

@@ -1,10 +1,9 @@
 {
-  "minicart.v2#container-minicart__minicart": {
+  "minicart.v2#global__container-minicart": {
     "title": "minicart",
     "children": ["minicart-base-content"],
     "props": {
-      "variation": "popup",
-      "openOnHover": true,
+      "itemCountMode": "total",
       "MinicartIcon": "icon-cart#header__icon--minicat",
       "blockClass": "header__bottom--minicat"
     }
@@ -18,34 +17,62 @@
   "minicart-base-content": {
     "title": "minicart base content",
     "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
+    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"],
+    "props": {
+      "blockClass": "global__minicart-base-content"
+    }
   },
   "minicart-product-list": {
-    "blocks": ["product-list#minicart"]
+    "blocks": ["product-list#minicart"],
+    "props": {
+      "blockClass": "global__product-list--minicart"
+    }
   },
   "flex-layout.row#minicart__footer": {
     "children": ["flex-layout.col#minicart__footer"],
     "props": {
       "preventVerticalStretch": true,
-      "paddingBottom": 9
+      "paddingBottom": 5
     }
   },
   "flex-layout.col#minicart__footer": {
-    "children": ["minicart-summary", "minicart-checkout-button"],
+    "children": [
+      "minicart-summary",
+      "link#minicat__button--show-more",
+      "minicart-checkout-button"
+    ],
     "props": {
       "rowGap": 2
     }
   },
+  "link#minicat__button--show-more": {
+    "props": {
+      "href": "#",
+      "label": "VER MÁS PRODUCTO",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "large"
+      },
+      "blockClass": "minicat__button--show-more"
+    }
+  },
   "minicart-summary": {
-    "blocks": ["checkout-summary.compact#minicart"]
+    "blocks": ["checkout-summary#minicart"],
+    "props": {
+      "blockClass": "global__minicart-summary"
+    }
   },
   "minicart-checkout-button": {
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }
   },
-  "checkout-summary.compact#minicart": {
-    "children": ["summary-totalizers#minicart"]
+  "checkout-summary#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "title": " ",
+      "totalizersToShow": ["Shipping"]
+    }
   },
   "summary-totalizers#minicart": {
     "props": {
