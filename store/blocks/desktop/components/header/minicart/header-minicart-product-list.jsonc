@@ -9,7 +9,8 @@
       "flex-layout.row#list--content__main-container"
     ],
     "props": {
-      "marginTop": 3
+      "marginTop": 3,
+      "blockClass": "product-list__content--border"
     }
   },
   "flex-layout.col#list--content__image": {
@@ -32,7 +33,7 @@
       "colGap": 5,
       "colSizing": "auto",
       "preserveLayoutOnMobile": "true",
-      "blockClass": "main-container.desktop"
+      "blockClass": "product-list__main-container"
     }
   },
   "flex-layout.col#main-container__sub-container": {
@@ -42,8 +43,8 @@
       "flex-layout.row#sub-container__price"
     ],
     "props": {
-      "rowGap": "2",
-      "blockClass": "sub-container.desktop"
+      "rowGap": "3",
+      "blockClass": "product-list__sub-container"
     }
   },
   "flex-layout.row#sub-container__product-name": {
@@ -65,6 +66,14 @@
     }
   },
   "flex-layout.col#main-container__remove": {
-    "children": ["remove-button"]
+    "children": ["remove-button"],
+    "props": {
+      "blockClass": "main-container__remove"
+    }
+  },
+  "remove-button": {
+    "props": {
+      "displayMode": "icon-button"
+    }
   }
 }

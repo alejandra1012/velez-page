@@ -1,0 +1,21 @@
+.summaryContent :nth-child(-n+2) {
+  display: none;
+}
+
+.summaryContent :last-child {
+  justify-content: flex-end;
+  align-items    : center;
+  gap            : 11px;
+  font-size      : 12px;
+  text-transform : uppercase;
+  color          : #888;
+  font-weight    : bold;
+}
+
+.summaryContent :last-child :nth-child(n) {
+  display: initial;
+}
+
+.summaryContent :last-child :last-child {
+  display: contents;
+}

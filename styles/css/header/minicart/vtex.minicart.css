@@ -1,0 +1,101 @@
+/* DESKTOP */
+
+.drawer--header__bottom--minicat {
+  display: block;
+  width  : 400px !important;
+  height : fit-content;
+}
+
+.overlay--header__bottom--minicat--visible {
+  opacity: 0.8 !important;
+}
+
+.minicartSideBarContentWrapper--header__bottom--minicat {
+  height: 490px !important;
+}
+
+.openIconContainer--header__bottom--minicat {
+  padding: 0;
+  width  : 25px;
+}
+
+.minicartContainer--header__bottom--minicat :global(.vtex-button__label) {
+  margin: 0;
+}
+
+.openIconContainer--header__bottom--minicat :global(.vtex-button__label) {
+  padding: 0;
+  margin : 0;
+}
+
+.minicartQuantityBadge--header__bottom--minicat {
+  background: transparent;
+  color     : black;
+}
+
+
+.minicartIconContainer--header__bottom--minicat :global(.vtex-store-icons-0-x-cartIcon) {
+  width: fit-content;
+}
+
+.closeIconContainer {
+  display: none;
+}
+
+.minicartTitle {
+  visibility: hidden;
+  font-size : 0;
+}
+
+.minicartTitle::after {
+  content    : "Envíos gratis por compras desde 250.000 pesos";
+  display    : block;
+  font-size  : 13px;
+  font-weight: 500;
+  padding    : 20px !important;
+  text-align : center;
+  color      : #000;
+  visibility : initial;
+}
+
+.minicartProductListContainer--global__product-list--minicart :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+  display: none;
+}
+
+
+.minicartProductListContainer {
+  padding: 0 17px;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background   : #000;
+  border       : none;
+  border-radius: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  visibility: hidden;
+  font-size : 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+  content   : "FINALIZAR COMPRA";
+  display   : block;
+  font-size : 12px;
+  color     : #fff;
+  text-align: center;
+  visibility: initial;
+}
+
+/* MOBILE */
+
+@media (max-width: 640px) {
+  .drawer--header__bottom--minicat {
+    width  : 80% !important;
+  }
+
+  .minicartIconContainer--header__bottom--minicat :global(.vtex-store-icons-0-x-cartIcon) {
+    width : 5vw;
+    height: 20px;
+  }
+}

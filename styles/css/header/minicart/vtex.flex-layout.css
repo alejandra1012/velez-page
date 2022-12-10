@@ -1,0 +1,16 @@
+.flexRow--product-list__content--border {
+  border-top: 1px solid #000;
+  padding-bottom: 15px;
+}
+
+.flexRowContent--product-list__content--border {
+  height: 120px;
+}
+
+.flexRowContent--product-list__main-container {
+  height: 100%;
+}
+
+.flexColChild--main-container__remove {
+  padding-top: 35px;
+}
