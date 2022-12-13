@@ -1,0 +1,31 @@
+{
+  "overlay-trigger#mobile__header--search-trigger": {
+    "title": "search container",
+    "children": [
+      "icon-search#mobile__menu",
+      "overlay-layout#mobile__header--search-trigger"
+    ],
+    "props": {
+      "blockClass": "mobile__header--search-trigger"
+    }
+  },
+  "overlay-layout#mobile__header--search-trigger": {
+    "title": "search trigger",
+    "children": ["search-bar#mobile__minicart--search"],
+    "props": {
+      "placement": "bottom",
+      "blockClass": "mobile__header--search-trigger"
+    }
+  },
+  "search-bar#mobile__minicart--search": {
+    "title": "search",
+    "props": {
+      "attemptPageTypeSearch": true,
+      "displayMode": "search-button",
+      "containerMode": "container",
+      "maxWidth": "100%",
+      "placeholder": "¿Qué buscas?",
+      "blockClass": "mobile__minicart--search"
+    }
+  }
+}
