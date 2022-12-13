@@ -1,128 +1,1506 @@
 {
-  "flex-layout.row#prrueba-drawer-one": {
-    "children": []
-  },
-  "drawer#menu__mobile": {
-    "blocks": ["drawer-header#my-drawer"],
-    "children": ["drawer#submenu__mobile"],
-    "props": {
-      "backdropMode": "default"
-    }
-  },
-  "drawer-trigger": {
-    "children": ["rich-text#open-drawer"]
-  },
-  "rich-text#open-drawer": {
-    "props": {
-      "text": "Open drawer"
-    }
-  },
-  "drawer#submenu__mobile": {
-    "blocks": ["drawer-header#my-drawer"],
-    "children": ["submenu#drawer"],
-    "props": {
-      "backdropMode": "default"
-    }
-  },
-  "drawer-header#my-drawer": {
-    "children": ["flex-layout.row#drawer-header"]
-  },
-  "flex-layout.row#drawer-header": {
+  /* "overlay-trigger#mobile__header-button-menu": {
     "children": [
-      "flex-layout.col#mega-menu-go-back-btn",
-      "flex-layout.col#drawer-close-button"
+      "flex-layout.col#mobile__header-button-menu",
+      "overlay-layout#header-button-menu"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#mobile__header-button-menu": {
+    "children": [
+      "flex-layout.row#line-top",
+      "flex-layout.row#line-middle",
+      "flex-layout.row#line-bottom"
     ],
     "props": {
-      "blockClass": "drawer-header",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "flex-layout.col#drawer-close-button": {
-    "children": ["drawer-close-button"],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "right"
-    }
-  },
-  "flex-layout.col#mega-menu-go-back-btn": {
-    "children": ["icon-cart"],
-    "props": {
-      "verticalAlign": "middle",
       "horizontalAlign": "left",
-      "paddingLeft": 4
+      "verticalAlign": "middle",
+      "blockClass": "mobile__menu-button"
     }
   },
-  "submenu#drawer": {
-    "children": ["menu-item#example-col"],
+  "flex-layout.row#line-top": {
     "props": {
-      // "items": [
-      //   {
-      //     "id": "item example2",
-      //     "type": "custom",
-      //     "itemProps": {
-      //       "type": "internal",
-      //       "text": "example two"
-      //     }
-      //   },
-      //   {
-      //     "id": "item example3",
-      //     "type": "custom",
-      //     "itemProps": {
-      //       "type": "internal",
-      //       "text": "example three"
-      //     }
-      //   }
-      // ],
-      "orientation": "vertical"
+      "border": "bottom",
+      "borderWidth": 1,
+      "blockClass": "mobile__menu-line-button"
     }
   },
-  "menu-item#example-col": {
-    "blocks": ["submenu#example"],
-    "children": [],
+  "flex-layout.row#line-middle": {
     "props": {
-      "id": "item example",
+      "border": "bottom",
+      "borderWidth": 1,
+      "blockClass": "mobile__menu-line-button"
+    }
+  },
+  "flex-layout.row#line-bottom": {
+    "props": {
+      "border": "bottom",
+      "borderWidth": 1,
+      "blockClass": "mobile__menu-line-button"
+    }
+  },
+  "overlay-layout#header-button-menu": {
+    "children": ["menu#mobile__container-menu--menu"],
+    "props": {
+      "placement": "bottom"
+    }
+  } */
+  "drawer#mobile__header--menu": {
+    "title": "menu drawer",
+    "children": ["menu#mobile__container-menu--menu"]
+  }, 
+  "menu#mobile__container-menu--menu": {
+    "title": "menu container",
+    "children": [
+      "menu-item#mobile__menu-department--female",
+      "menu-item#mobile__menu-department--male",
+      "menu-item#mobile__menu-department--outlet",
+      "menu-item#mobile__menu-department--credit",
+      "menu-item#mobile__menu-department--fly-up"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__menu-department--female": {
+    "blocks": ["submenu.accordion#mobile__submenu-department--female"],
+    "props": {
+      "id": "menu-item-female",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "text": "example one"
-      }
+        "text": "MUJER"
+      },
+      "blockClass": "mobile__menu-item"
     }
   },
-  "submenu#example": {
-    "children": ["menu#example"]
+  "submenu.accordion#mobile__submenu-department--female": {
+    "children": ["menu#mobile__submenu-department--female"],
+    "props": {
+      "width": "100%"
+    }
   },
-  "menu#example": {
+  "menu#mobile__submenu-department--female": {
+    "title": "submenu.accordion itmes",
+    "children": [
+      "menu-item#mobile__female-category--shoes",
+      "menu-item#mobile__female-category--bags",
+      "menu-item#mobile__female-categoty--accessories",
+      "menu-item#mobile__female-category--leather-jackets",
+      "menu-item#mobile__female-category--clothes",
+      "menu-item#mobile__female-category--belts",
+      "menu-item#mobile__female-category--travel",
+      "menu-item#mobile__female-category--basic-and-icons",
+      "menu-item#mobile__female-category--see-all",
+      "menu-item#mobile__female-category--leather-care",
+      "menu-item#mobile__female-category--well-being",
+      "menu-item#mobile__female-category--gift-guide",
+      "menu-item#mobile__female-category--gift-voucher"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--shoes": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--shoes"],
+    "props": {
+      "id": "female__category-shoes",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ZAPATOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--shoes": {
+    "children": ["menu#mobile__submenu-category--shoes"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--shoes": {
+    "title": "submenu.accordion category shoes",
     "props": {
       "items": [
         {
-          "id": "item example 1",
+          "id": "category-shoes__tennis",
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "text": "example ne"
+            "text": "tenis"
           }
         },
         {
-          "id": "item example 2",
+          "id": "category-shoes__boots",
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "text": "example oe"
+            "text": "botas y botines"
           }
         },
         {
-          "id": "item example 3",
+          "id": "category-shoes__moccasins",
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "text": "example on"
+            "text": "mocasines"
+          }
+        },
+        {
+          "id": "category-shoes__sandals",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "sandalias"
+          }
+        },
+        {
+          "id": "category-shoes__lace-up",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "con cordones"
+          }
+        },
+        {
+          "id": "category-shoes__heels",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "tacones"
+          }
+        },
+        {
+          "id": "category-shoes__baletas",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "baletas"
+          }
+        },
+        {
+          "id": "category-shoes__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
           }
         }
       ],
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--bags": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--bags"],
+    "props": {
+      "id": "female__category-bags",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "BOLSOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--bags": {
+    "children": ["menu#mobile__submenu-category--bags"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--bags": {
+    "title": "submenu.accordion category bags",
+    "props": {
+      "items": [
+        {
+          "id": "category-bags__shopping",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "shopping"
+          }
+        },
+        {
+          "id": "category-bags__hands-free",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "manos libres"
+          }
+        },
+        {
+          "id": "category-bags__backpacks",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "morrales"
+          }
+        },
+        {
+          "id": "category-bags__bowling",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "bowling"
+          }
+        },
+        {
+          "id": "category-bags__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-categoty--accessories": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--accessories"],
+    "props": {
+      "id": "female__category-accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ACCESORIOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--accessories": {
+    "children": ["menu#mobile__submenu-category--accessories"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--accessories": {
+    "title": "submenu.accordion category accessories",
+    "props": {
+      "items": [
+        {
+          "id": "category-accessories__wallets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "billeteras"
+          }
+        },
+        {
+          "id": "category-accessories__cosmetics-and-purses",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "cosmetiqueria y \n monederos"
+          }
+        },
+        {
+          "id": "category-accessories__necklaces-and-handles",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "collares y manillas"
+          }
+        },
+        {
+          "id": "category-accessories__perfumes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "perfumes"
+          }
+        },
+        {
+          "id": "category-accessories__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--leather-jackets": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--leather-jackets"],
+    "props": {
+      "id": "female__category-leather-jackets",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CHAQUETAS DE CUERO"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--leather-jackets": {
+    "children": ["menu#mobile__submenu-category--leather-jackets"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--leather-jackets": {
+    "title": "submenu.accordion category leather jackets",
+    "props": {
+      "items": [
+        {
+          "id": "category-leather-jackets__jackets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "chaquetas"
+          }
+        },
+        {
+          "id": "category-leather-jackets__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--clothes": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--clothes"],
+    "props": {
+      "id": "female__category-clothes",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ROPA"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--clothes": {
+    "children": ["menu#mobile__submenu-category--clothes"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--clothes": {
+    "title": "submenu.accordion category clothes",
+    "props": {
+      "items": [
+        {
+          "id": "category-clothes__leather",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "prendas de cuero"
+          }
+        },
+        {
+          "id": "category-clothes__jackets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "chaquetas"
+          }
+        },
+        {
+          "id": "category-clothes__divers",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "buzos"
+          }
+        },
+        {
+          "id": "category-clothes__shirts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "camisas"
+          }
+        },
+        {
+          "id": "category-clothes__jeans-and-pants",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "jeans y pantalones"
+          }
+        },
+        {
+          "id": "category-clothes__skirts-and-dresses",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "faldas y vestidos"
+          }
+        },
+        {
+          "id": "category-clothes__t-shits",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "camisetas"
+          }
+        },
+        {
+          "id": "category-clothes__scarves",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "bufandas"
+          }
+        },
+        {
+          "id": "category-clothes__shorts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "shorts"
+          }
+        },
+        {
+          "id": "category-clothes__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--belts": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--belts"],
+    "props": {
+      "id": "female__category-belts",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CINTURONES"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--belts": {
+    "children": ["menu#mobile__submenu-category--belts"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--belts": {
+    "title": "submenu.accordion category belts",
+    "props": {
+      "items": [
+        {
+          "id": "category-belts__single",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "unifaz"
+          }
+        },
+        {
+          "id": "category-belts__double",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "doble faz"
+          }
+        },
+        {
+          "id": "category-belts__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--travel": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--travel"],
+    "props": {
+      "id": "female__category-travel",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "TRAVEL"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--travel": {
+    "children": ["menu#mobile__submenu-category--travel"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--travel": {
+    "title": "submenu.accordion category travel",
+    "props": {
+      "items": [
+        {
+          "id": "category-travel__suitcases",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "maletas"
+          }
+        },
+        {
+          "id": "category-travel__travel-accessories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "accsesorios para vaje"
+          }
+        },
+        {
+          "id": "category-travel__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--basic-and-icons": {
+    "blocks": ["submenu.accordion#mobile__submenu-category--basic-and-icons"],
+    "props": {
+      "id": "female__category-basic-and-icons",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "BASICO E ICONOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-category--basic-and-icons": {
+    "children": ["menu#mobile__submenu-category--basic-and-icons"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-category--basic-and-icons": {
+    "title": "submenu.accordion category basic and icons",
+    "props": {
+      "items": [
+        {
+          "id": "category-basic-and-icons__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__female-category--see-all": {
+    "blocks": [],
+    "props": {
+      "id": "female__category-see-all",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "VER TODO"
+      }
+    }
+  },
+  "menu-item#mobile__female-category--leather-care": {
+    "blocks": [],
+    "props": {
+      "id": "female__category-leather-care",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CUIDADOS DEL CUERO"
+      }
+    }
+  },
+  "menu-item#mobile__female-category--well-being": {
+    "blocks": [],
+    "props": {
+      "id": "female__category-well-being",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "BIENESTAR"
+      }
+    }
+  },
+  "menu-item#mobile__female-category--gift-guide": {
+    "blocks": [],
+    "props": {
+      "id": "female__category-gift-guide",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "- GUIA DE REGALOS"
+      }
+    }
+  },
+  "menu-item#mobile__female-category--gift-voucher": {
+    "blocks": [],
+    "props": {
+      "id": "female__category-gift-voucher",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "- BONO DE REGALOS"
+      }
+    }
+  },
+  "menu-item#mobile__menu-department--male": {
+    "blocks": ["submenu.accordion#mobile__submenu-department--male"],
+    "props": {
+      "id": "menu-item-male",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "HOMBRE"
+      },
+      "blockClass": "mobile__menu-item"
+    }
+  },
+  "submenu.accordion#mobile__submenu-department--male": {
+    "children": ["menu#mobile__submenu-department--male"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-department--male": {
+    "title": "submenu.accordion itmes",
+    "children": [
+      "menu-item#mobile__male-category--shoes",
+      "menu-item#mobile__male-category--bags",
+      "menu-item#mobile__male-categoty--accessories",
+      "menu-item#mobile__male-category--leather-jackets",
+      "menu-item#mobile__male-category--clothes",
+      "menu-item#mobile__male-category--belts",
+      "menu-item#mobile__male-category--travel",
+      "menu-item#mobile__male-category--basic-and-icons",
+      "menu-item#mobile__male-category--see-all",
+      "menu-item#mobile__male-category--leather-care",
+      "menu-item#mobile__male-category--well-being",
+      "menu-item#mobile__male-category--gift-guide",
+      "menu-item#mobile__male-category--gift-voucher"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--shoes": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-shoes"],
+    "props": {
+      "id": "male__category-shoes",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ZAPATOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-shoes": {
+    "title": "submenu.accordion category shoes",
+    "children": ["menu#mobile__submenu-male--category-shoes"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-shoes": {
+    "props": {
+      "items": [
+        {
+          "id": "male__category-shoes-tennis",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "tenis"
+          }
+        },
+        {
+          "id": "male__category-shoes-moccasins",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "mocasines"
+          }
+        },
+        {
+          "id": "male__category-shoes-lace-up",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "con cordones"
+          }
+        },
+        {
+          "id": "male__category-shoes-sandals",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "sandalias"
+          }
+        },
+        {
+          "id": "male__category-shoes-boots",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "botas"
+          }
+        },
+        {
+          "id": "male__category-shoes-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--bags": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-bags"],
+    "props": {
+      "id": "male__category-bags",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "BOLSOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-bags": {
+    "children": ["menu#mobile__submenu-male--category-bags"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-bags": {
+    "title": "submenu.accordion category bags",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-bags-backpacks",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "morrales"
+          }
+        },
+        {
+          "id": "male__category-bags-hands-free",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "manos libres"
+          }
+        },
+        {
+          "id": "male__category-bags-fanny-pack",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "riñoneras"
+          }
+        },
+        {
+          "id": "male__category-bags-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-categoty--accessories": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-accessories"],
+    "props": {
+      "id": "male__category-accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ACCESORIOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-accessories": {
+    "children": ["menu#mobile__submenu-male--category-accessories"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-accessories": {
+    "title": "submenu.accordion category accessories",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-accessories-wallets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "billeteras"
+          }
+        },
+        {
+          "id": "male__category-accessories-travel-planner",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "organizador de viaje"
+          }
+        },
+        {
+          "id": "male__category-accessories-handles",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "llaveros y manillas"
+          }
+        },
+        {
+          "id": "male__category-accessories-perfumes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "perfumes"
+          }
+        },
+        {
+          "id": "male__category-accessories-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--leather-jackets": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-jackets"],
+    "props": {
+      "id": "male__category-leather-jackets",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CHAQUETAS DE CUERO"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-jackets": {
+    "children": ["menu#mobile__submenu-male--category-jackets"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-jackets": {
+    "title": "submenu.accordion category jackets",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-jackets-jackets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "chaquetas"
+          }
+        },
+        {
+          "id": "male__category-jackets-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--clothes": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-clothes"],
+    "props": {
+      "id": "male__category-clothes",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "ROPA"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-clothes": {
+    "children": ["menu#mobile__submenu-male--category-clothes"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-clothes": {
+    "title": "submenu.accordion category clothes",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-clothes-leather",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "prendas de cuero"
+          }
+        },
+        {
+          "id": "male__category-clothes-t-shirts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "camisetas y polos"
+          }
+        },
+        {
+          "id": "male__category-clothes-jackets",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "chaquetas"
+          }
+        },
+        {
+          "id": "male__category-clothes-shirts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "camisas"
+          }
+        },
+        {
+          "id": "male__category-clothes-jeans-and-pants",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "jeans y pantalones"
+          }
+        },
+        {
+          "id": "male__category-clothes-shorts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "bermudas"
+          }
+        },
+        {
+          "id": "male__category-clothes-divers",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "buzos"
+          }
+        },
+        {
+          "id": "male__category-clothes-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--belts": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-belts"],
+    "props": {
+      "id": "male__category-belts",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CINTURONES"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-belts": {
+    "children": ["menu#mobile__submenu-male--category-belts"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-belts": {
+    "title": "submenu.accordion category belts",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-belts-single",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "unifaz"
+          }
+        },
+        {
+          "id": "male__category-belts-double",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "doble faz"
+          }
+        },
+        {
+          "id": "male__category-belts-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--travel": {
+    "blocks": ["submenu.accordion#mobile__submenu-male--category-travel"],
+    "props": {
+      "id": "male__category-travel",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "TRAVEL"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-travel": {
+    "children": ["menu#mobile__submenu-male--category-travel"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-male--category-travel": {
+    "title": "submenu.accordion category travel",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-travel-travel-planner",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "organizador de viaje"
+          }
+        },
+        {
+          "id": "male__category-travel-suitecase",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "maletas"
+          }
+        },
+        {
+          "id": "male__category-travel-accessories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "accsesorios para viaje"
+          }
+        },
+        {
+          "id": "male__category-travel-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--basic-and-icons": {
+    "blocks": [
+      "submenu.accordion#mobile__submenu-male--category-basic-and-icons"
+    ],
+    "props": {
+      "id": "male__category-basic-and-icons",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "BASICO E ICONOS"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-male--category-basic-and-icons": {
+    "children": ["menu#mobile__submenu-male--category-basic-and-icons"],
+    "props": {
+      "width": "100%",
+      "blockClass": "mobile__submenu"
+    }
+  },
+  "menu#mobile__submenu-male--category-basic-and-icons": {
+    "title": "submenu.accordion category basic and icons",
+    "props": {
+      "items": [
+        {
+          "id": "male__category-basic-and-icons-see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__male-category--see-all": {
+    "props": {
+      "id": "male__category-see-all",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "VER TODO"
+      }
+    }
+  },
+  "menu-item#mobile__male-category--leather-care": {
+    "props": {
+      "id": "male__category-leather-care",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "CUIDADOS DEL CUERO"
+      }
+    }
+  },
+  "menu-item#mobile__male-category--well-being": {
+    "props": {
+      "id": "male__category-well-being",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "BIENESTAR"
+      }
+    }
+  },
+  "menu-item#mobile__male-category--gift-guide": {
+    "props": {
+      "id": "male__category-gift-guide",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "- GUIA DE REGALOS"
+      }
+    }
+  },
+  "menu-item#mobile__male-category--gift-voucher": {
+    "props": {
+      "id": "male__category-see-all",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "- BONO DE REGALOS"
+      }
+    }
+  },
+  "menu-item#mobile__menu-department--outlet": {
+    "blocks": ["submenu.accordion#mobile__submenu-department--outlet"],
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "OUTLET"
+      },
+      "blockClass": "mobile__menu-item"
+    }
+  },
+  "submenu.accordion#mobile__submenu-department--outlet": {
+    "children": ["menu#mobile__submenu-department--outlet"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-department--outlet": {
+    "title": "submenu.accordion itmes",
+    "children": [
+      "menu-item#mobile__outlet-category--male",
+      "menu-item#mobile__outlet-category--female",
+      "menu-item#mobile__outlet-category--see-all"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__outlet-category--male": {
+    "blocks": ["submenu.accordion#mobile__submenu-outlet--category-male"],
+    "props": {
+      "id": "outlet__category-male",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "HOMBRE"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-outlet--category-male": {
+    "children": ["menu#mobile__submenu-outlet--category-male"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-outlet--category-male": {
+    "title": "submenu.accordion category male",
+    "props": {
+      "items": [
+        {
+          "id": "category-male__bags",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "bolsos"
+          }
+        },
+        {
+          "id": "category-male__shoes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "zapatos"
+          }
+        },
+        {
+          "id": "category-male__clothes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ropa"
+          }
+        },
+        {
+          "id": "category-male__belts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "cinturones"
+          }
+        },
+        {
+          "id": "category-male__accessories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "acesorios"
+          }
+        },
+        {
+          "id": "category-male__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__outlet-category--female": {
+    "blocks": ["submenu.accordion#mobile__submenu-outlet--category-female"],
+    "props": {
+      "id": "outlet__category-female",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "MUJER"
+      },
+      "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
+    }
+  },
+  "submenu.accordion#mobile__submenu-outlet--category-female": {
+    "children": ["menu#mobile__submenu-outlet--category-female"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-outlet--category-female": {
+    "title": "submenu.accordion category female",
+    "props": {
+      "items": [
+        {
+          "id": "category-female__bags",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "bolsos"
+          }
+        },
+        {
+          "id": "category-female__shoes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "zapatos"
+          }
+        },
+        {
+          "id": "category-female__clothes",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ropa"
+          }
+        },
+        {
+          "id": "category-female__belts",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "cinturones"
+          }
+        },
+        {
+          "id": "category-female__accessories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "acesorios"
+          }
+        },
+        {
+          "id": "category-female__see-all",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "text": "ver todo"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__outlet-category--see-all": {
+    "props": {
+      "id": "outlet__category-see-all",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "VER TODO"
+      }
+    }
+  },
+  "menu-item#mobile__menu-department--credit": {
+    "blocks": ["submenu.accordion#mobile__submenu-department--credit"],
+    "props": {
+      "id": "menu-item-credit",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "text": "CRÉDITO"
+      },
+      "blockClass": "mobile__menu-item"
+    }
+  },
+  "submenu.accordion#mobile__submenu-department--credit": {
+    "children": ["menu#mobile__submenu-department--credit"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu#mobile__submenu-department--credit": {
+    "title": "submenu.accordion itmes",
+    "props": {
+      "items": [
+        {
+          "id": "outlet__category-benefits",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "BEFICIOS"
+          }
+        },
+        {
+          "id": "credit__category--pay-for-credit",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "PAGA TU CREDITO"
+          }
+        },
+        {
+          "id": "credit__category--apply-for-credit",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "SOLICITA TU CREDITO"
+          }
+        },
+        {
+          "id": "credit__category--exclusive-offer",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "text": "OFERTA EXCLUSIVA CREDITO LEATHER LOVERS"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  "menu-item#mobile__menu-department--fly-up": {
+    "children": [],
+    "props": {
+      "id": "menu-item-fly-up",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "text": "FLY UP"
+      }
     }
   }
 }
