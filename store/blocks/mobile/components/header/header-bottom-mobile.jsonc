@@ -1,6 +1,6 @@
 {
   "header-row#mobile__haeder-bottom": {
-    "title": "haeder menu mobile",
+    "title": "haeder mobile",
     "children": ["flex-layout.row#mobile__header-buttom-cantainer"],
     "props": {
       "fullWidth": true,
@@ -9,8 +9,9 @@
     }
   },
   "flex-layout.row#mobile__header-buttom-cantainer": {
+    "title": "header container",
     "children": [
-      "flex-layout.col#mobile__header-button-menu",
+      "flex-layout.col#mobile__header-button-menu-container",
       "flex-layout.col#mobile__header-button-logo",
       "flex-layout.row#mobile__options-container"
     ],
@@ -18,14 +19,16 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "flex-layout.col#mobile__header-button-menu": {
-    "children": ["drawer"],
+  "flex-layout.col#mobile__header-button-menu-container": {
+    "title": "container drawer",
+    "children": [ "drawer#mobile__header--menu"],
     "props": {
       "horizontalAlign": "left",
       "verticalAlign": "middle"
     }
   },
   "flex-layout.col#mobile__header-button-logo": {
+    "title": "container logo",
     "children": ["logo#menu__mobile"],
     "props": {
       "horizontalAlign": "center",
@@ -34,8 +37,9 @@
     }
   },
   "flex-layout.row#mobile__options-container": {
+    "title": "container search,login and minicart",
     "children": [
-      "icon-search#mobile__menu",
+      "overlay-trigger#mobile__header--search-trigger",
       "login#menu__mobile",
       "minicart.v2#global__container-minicart"
     ],
@@ -47,7 +51,9 @@
     }
   },
   "logo#menu__mobile": {
+    "title": "logo",
     "props": {
+      "href": "/",
       "url": "assets/image/logo_velez.svg",
       "mobileWidth": "140px",
       "mobileHeight": "30px",
@@ -60,6 +66,7 @@
     }
   },
   "login#menu__mobile": {
+    "title": "login",
     "props": {
       "hideIconLabel": true,
       "showIconProfile": true,

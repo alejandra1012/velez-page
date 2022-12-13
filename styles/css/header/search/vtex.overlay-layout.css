@@ -1,0 +1,13 @@
+.trigger--mobile__header--search-trigger {
+  width: fit-content !important;
+  height: 100%;
+}
+
+.container--mobile__header--search-trigger {
+  border: none;
+  border-radius: 0;
+}
+
+.popper--mobile__header--search-trigger {
+  width: 100%;
+}
