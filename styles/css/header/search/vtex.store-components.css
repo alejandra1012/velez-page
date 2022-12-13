@@ -1,0 +1,24 @@
+.autoCompleteOuterContainer--mobile__minicart--search :global(.vtex-input-prefix__group) {
+  width        : 95%;
+  margin       : 0 auto;
+  border       : none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+.resultsList--mobile__minicart--search {
+  display: none;
+}
+
+.searchBarIcon--mobile__minicart--search {
+  visibility: hidden;
+}
+
+.searchBarIcon--mobile__minicart--search::after {
+  content    : "BUSCAR";
+  font-size  : 10px;
+  color      : #000;
+  visibility : initial;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
