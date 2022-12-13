@@ -1,0 +1,27 @@
+/* MENU MOBILE*/
+
+.flexCol--mobile__menu-button {
+  width : 25px;
+  height: 25px;
+  gap   : 6px;
+}
+
+.flexColChild--mobile__menu-button {
+  width           : 25px;
+  height          : 2px !important;
+  border-radius   : 5px;
+  transition      : all .25s;
+  transform-origin: left;
+}
+
+.flexCol--mobile__menu-button:active .flexColChild:first-child {
+  transform: rotate(43deg);
+}
+
+.flexCol--mobile__menu-button:active .flexColChild:nth-child(even) {
+  opacity: 0;
+}
+
+.flexCol--mobile__menu-button:active .flexColChild:last-child {
+  transform: rotate(-43deg);
+}
