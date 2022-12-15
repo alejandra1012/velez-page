@@ -1,5 +1,6 @@
 {
   "gallery": {
+    "title": "gallery global",
     "props": {
       "layouts": [
         {
@@ -32,11 +33,11 @@
   // },
 
   "product-summary.shelf#gallery--product": {
+    "title": "product",
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-selling-price-range",
-      "product-selling-price#summary"
+      "product-selling-price"
     ],
     "props": {
       "blockClass": "desktop__search-gallery--product"
@@ -44,15 +45,11 @@
   },
   "product-summary-image": {
     "props": {
-      "width": 250,
-      "height": 380
-    }
-  },
-  "product-selling-price#summary": {
-    "props": {
-      "markers": ["highlight"],
-      "alwaysShow": true,
-      "message": "Selling price: {sellingPriceValue}"
+      "showBaged": true,
+      "aspectRatio": {
+        "desktop": "2:2",
+        "mobile": "2:3"
+      }
     }
   }
 }
