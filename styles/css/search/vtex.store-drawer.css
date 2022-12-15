@@ -1,0 +1,23 @@
+.closeIconContainer--mobile__drawer--filter {
+  display: none;
+}
+
+.drawer--mobile__drawer--filter {
+  width : 30vw !important;
+  height: fit-content;
+  top   : 100px;
+}
+
+.overlay--mobile__drawer--filter {
+  background: transparent;
+}
+
+.drawerTriggerContainer :global(.vtex-rich-text-0-x-container) {
+  justify-content: flex-end;
+}
+
+@media (max-width: 440px) {
+  .drawer--mobile__drawer--filter {
+    min-width: 70vw !important;
+  }
+}
