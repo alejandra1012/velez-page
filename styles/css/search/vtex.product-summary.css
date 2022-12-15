@@ -1,3 +1,7 @@
+.container--global__search-result--product {
+  margin: 0 10px;
+}
+
 .containerNormal--desktop__search-gallery--product {
   font-size  : 13px;
   font-weight: 700;

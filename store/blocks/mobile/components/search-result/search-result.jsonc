@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#mobile__serach-result--container": {
+    "children": ["flex-layout.col#mobile__serach-result--container"]
+  },
+  "flex-layout.col#mobile__serach-result--container": {
+    "children": [
+      "flex-layout.row#mobile__breadcrumb-and-filter",
+      "search-content#mobile__content"
+    ],
+    "props": {
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#mobile__breadcrumb-and-filter": {
+    "title": "container filter and breadcrumb",
+    "children": [
+      "breadcrumb.search#mobile__breadcrumb",
+      "drawer#mobile__filter"
+    ],
+    "props": {
+      "horizontalAlign": "rigth",
+      "colSizing": "equal",
+      "preserveLayoutOnMobile": true,
+      "blockClass": [
+        "mobile__breadcrumb-and-filter",
+        "search-result__breadcrumb"
+      ]
+    }
+  },
+  "breadcrumb.search#mobile__breadcrumb": {
+    "title": "breadcrumb",
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 0,
+      "caretIconSize": 0
+    }
+  },
+  "drawer#mobile__filter": {
+    "title": "drawer container filter",
+    "children": ["filter-navigator.v3#mobile__filter"],
+    "blocks": ["drawer-trigger#mobile__filter"],
+    "props": {
+      "slideDirection": "rightToLeft",
+      "maxWidth": "50vw",
+      "blockClass": "mobile__drawer--filter"
+    }
+  },
+  "drawer-trigger#mobile__filter": {
+    "title": "drawer trigger",
+    "children": ["rich-text#mobile__drawer-trigger--filter"]
+  },
+  "rich-text#mobile__drawer-trigger--filter": {
+    "props": {
+      "text": "FILTROS"
+    }
+  },
+  "filter-navigator.v3#mobile__filter": {
+    "title": "filter",
+    "props": {
+      "initiallyCollapsed": true,
+      "layout": "desktop",
+      "updateOnFilterSelectionOnMobile": true,
+      "showClearAllFiltersOnDesktop": true,
+      "blockClass": "mobile__search-result--filter"
+    }
+  },
+  "search-content#mobile__content": {
+    "title": "container gallery",
+    "blocks": ["gallery", "not-found"]
+  }
+}

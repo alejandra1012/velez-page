@@ -28,15 +28,6 @@
   padding-top      : 40%;
 }
 
-@media (min-width: 1500) {
-  .flexColChild--desktop__banner-info :global(.vtex-store-link-0-x-label) {
-    font-size: 15px !important;
-  }
-
-  .flexColChild--desktop__banner-info :global(.vtex-rich-text-0-x-paragraph) {
-    font-size: 20px;
-  }
-}
 
 /* MOBILE */
 
@@ -90,7 +81,7 @@
   .flexColChild--mobile__banner-info :global(.vtex-rich-text-0-x-container) {
     font-size: 16px !important;
   }
-
+  
   .flexColChild--mobile__banner-info :global(.vtex-store-link-0-x-label) {
     font-size: 14px;
   }
@@ -108,5 +99,15 @@
   .flexCol--mobile__banner-info {
     width : 100% !important;
     height: 100%;
+  }
+}
+
+@media (min-width: 1500) {
+  .flexColChild--desktop__banner-info :global(.vtex-store-link-0-x-label) {
+    font-size: 15px !important;
+  }
+
+  .flexColChild--desktop__banner-info :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 20px;
   }
 }

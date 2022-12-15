@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#global__search-result-container--slider-product": {
+    "title": "slider product",
+    "children": [
+      "flex-layout.col#global__search-result-container--slider-product"
+    ],
+    "props": {
+      "marginBottom": 3,
+      "blockClass": "global__search-result-container--slider-product"
+    }
+  },
+  "flex-layout.col#global__search-result-container--slider-product": {
+    "children": [
+      "rich-text#global__search-result--slider-title",
+      "list-context.product-list#global__search-result--product"
+    ],
+    "props": {
+      "paddingLeft": 9,
+      "paddingRight": 9,
+      "blockClass": "global__search-result-container--slider-product"
+    }
+  },
+  "rich-text#global__search-result--slider-title": {
+    "props": {
+      "text": "##### LOS MÁS VENDIDOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "product-summary.shelf#global__search-result--product": {
+    "title": "product shelf",
+    "children": [
+      "product-summary-image#search-result__slider-product",
+      "product-summary-name#search-result__slider-product",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "global__search-result--product"
+    }
+  },
+  "list-context.product-list#global__search-result--product": {
+    "title": "product list",
+    "blocks": ["product-summary.shelf#global__search-result--product"],
+    "children": ["slider-layout#global__search-result--slider-product"],
+    "props": {
+      "maxItems": 6,
+      "blockClass": "global__search-result--slider-product"
+    }
+  },
+  "slider-layout#global__search-result--slider-product": {
+    "title": "slider product",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "arrowSize": {
+        "desktop": 16,
+        "mobile": 12
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "fullWidth": false,
+      "blockClass": "global__search-result--slider-product"
+    }
+  },
+  "product-summary-name#search-result__slider-product": {
+    "title": "name",
+    "props": {
+      "tag": "div"
+    }
+  },
+  "product-summary-image#search-result__slider-product": {
+    "title": "image product",
+    "props": {
+      "showBadge": true,
+      "aspectRatio": {
+        "desktop": "2:3",
+        "tablet": "2:3",
+        "phone": "1:1"
+      }
+    }
+  }
+}

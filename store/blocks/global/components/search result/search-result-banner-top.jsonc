@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#global__search-result--banner-top": {
+    "children": ["rich-text#search-result--banner-top"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-result--banner-top"
+    }
+  },
+  "rich-text#search-result--banner-top": {
+    "props": {
+      "text": "ENVÍOS A TODO EL PAÍS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-mini"
+    }
+  }
+}

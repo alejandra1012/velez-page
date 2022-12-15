@@ -1,15 +1,91 @@
+.filter__container :nth-child(n) {
+  text-transform: uppercase;
+  font-size     : 12px;
+  letter-spacing: 2px;
+}
+
+.caretIcon {
+  width: 12px;
+}
+
 .filtersWrapper--desktop__search-filter {
   width: 18vw;
 }
 
-.searchResultContainer--desktop__container-search {
-  padding: 0 4vw;
+.searchResultContainer--search-result__container-search  {
+   padding-left: 0;
+   padding-right: 0;
 }
 
 .filterIcon--desktop__search-filter {
   justify-content: flex-end;
 }
 
-.filterTitleSpan--desktop__search-filter{
-   overflow: visible;
+.filterTitleSpan--desktop__search-filter {
+  overflow: visible;
 }
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filter__container--clearAllFilters :global(.vtex-button) {
+  position  : absolute;
+  top       : 10px;
+  right     : 10px;
+  font-size : 0;
+  width     : 50%;
+  background: transparent;
+  visibility: hidden;
+
+}
+
+.filter__container--clearAllFilters :global(.vtex-button)::before {
+  content        : "BORRAR TODO";
+  display        : flex;
+  align-items    : center;
+  justify-content: flex-end;
+  margin         : 3px auto;
+  font-size      : 12px;
+  color          : #979899;
+  border         : none;
+  outline        : none;
+  font-weight    : 600;
+  visibility     : initial;
+}
+
+.filterItem :global(.vtex__icon-check) {
+  color: #979899;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+  background: transparent;
+  border    : 1px solid #ddd;
+}
+
+.filterItem--mobile__search-result--filter--selected :global(.vtex-checkbox__inner-container) {
+  outline: #979899 solid 1px;
+}
+
+.filterItem {
+  padding: 3px 3px;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__base-internal){
+  background: #979899;
+} 
+
+.filterTemplateOverflow :global(.vtex-slider__selector){
+  background: #000;
+} 
+
+.filterTemplateOverflow :global(.vtex-slider__values-container) :nth-child(n){
+  color: #000;
+  font-weight: 600;
+} 
+
+.filterTemplateOverflow :global(.vtex-slider__selector-tooltip){
+  background: #000;
+  border: none;
+  border-radius: 0;
+} 
