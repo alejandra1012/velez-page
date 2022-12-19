@@ -1,14 +1,28 @@
 .label--link__product {
   color: #000;
+  padding: 0;
 }
 
 .buttonLink--link__product {
   color: #000;
 }
 
+.buttonLink--link__product:hover,
+.buttonLink--link__product:focus {
+  border-color: #000;
+  background-color:  initial;
+}
+
 .link--button-link__product-two {
-  width: 100%;
+  width        : 100%;
   background   : transparent;
   border       : 1px solid #000;
   border-radius: inherit;
+}
+
+.label--product__link--credit {
+  text-decoration: underline;
+  font-weight    : bold;
+  font-size      : 14px;
+  color          : #535353;
 }

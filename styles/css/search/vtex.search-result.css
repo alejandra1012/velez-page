@@ -12,9 +12,9 @@
   width: 18vw;
 }
 
-.searchResultContainer--search-result__container-search  {
-   padding-left: 0;
-   padding-right: 0;
+.searchResultContainer--search-result__container-search {
+  padding-left : 0;
+  padding-right: 0;
 }
 
 .filterIcon--desktop__search-filter {
@@ -71,21 +71,29 @@
   padding: 3px 3px;
 }
 
-.filterTemplateOverflow :global(.vtex-slider__base-internal){
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
   background: #979899;
-} 
+}
 
-.filterTemplateOverflow :global(.vtex-slider__selector){
+.filterTemplateOverflow :global(.vtex-slider__selector) {
   background: #000;
-} 
+}
 
-.filterTemplateOverflow :global(.vtex-slider__values-container) :nth-child(n){
-  color: #000;
+.filterTemplateOverflow :global(.vtex-slider__values-container) :nth-child(n) {
+  color      : #000;
   font-weight: 600;
-} 
+}
 
-.filterTemplateOverflow :global(.vtex-slider__selector-tooltip){
-  background: #000;
-  border: none;
+.filterTemplateOverflow :global(.vtex-slider__selector-tooltip) {
+  background   : #000;
+  border       : none;
   border-radius: 0;
-} 
+}
+
+.orderByButton {
+  border: none;
+}
+
+.orderByOptionsContainer {
+  top: 50px;
+}

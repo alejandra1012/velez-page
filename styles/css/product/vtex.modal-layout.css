@@ -8,11 +8,17 @@
 }
 
 .triggerContainer :global(.vtex-rich-text-0-x-container--details-size__title) {
-     text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .triggerContainer--product__availability-shops {
-  width: 100%;
-  border: 1px solid #000;
-  
+  cursor: pointer;
+  width     : 100%;
+  border    : 1px solid #000;
+  margin-top: 10px;
+}
+
+.triggerContainer--product__availability-shops :nth-child(n) {
+  font-size: 13px;
 }

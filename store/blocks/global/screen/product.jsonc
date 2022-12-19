@@ -3,7 +3,8 @@
     "title": "PDP",
     "children": [
       "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__container"
+      "flex-layout.row#product__container",
+      "flex-layout.row#global__product-detail-container--slider-product"
     ]
   },
   "store.not-found#product": {
