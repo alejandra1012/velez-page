@@ -13,7 +13,7 @@
     "title": "container images",
     "children": ["product-images"],
     "props": {
-      "width": "60%",
+      "width": "65%",
       "blockClass": "product__container-images"
     }
   },
@@ -47,7 +47,7 @@
     "props": {
       "rowGap": 1,
       "horizontalAlign": "center",
-      "width": "40%",
+      "width": "30%",
       "blockClass": "container___info"
     }
   },
@@ -57,7 +57,6 @@
       "colSizing": "auto",
       "marginTop": 3,
       "horizontalAlign": "left",
-      "colGap": 5,
       "blockClass": "product-intallments"
     }
   },
@@ -65,7 +64,7 @@
     "title": "button credit",
     "props": {
       "label": "Solicita tu crédito aquí",
-      "blockClass": "link__product"
+      "blockClass": ["link__product", "product__link--credit"]
     }
   },
   "sku-selector": {
@@ -118,7 +117,7 @@
       "selectorType": "dropdown",
       "showUnit": false,
       "size": "regular",
-      "blockClass": "product__selector-sku"
+      "blockClass": "global__product--quantity-selector"
     }
   }
 }
