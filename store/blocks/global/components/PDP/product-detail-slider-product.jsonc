@@ -19,6 +19,7 @@
     }
   },
   "rich-text#global__product-detail--slider-title": {
+    "title": "slider title",
     "props": {
       "text": "##### PRODUCTOS SIMILARES",
       "textAlignment": "CENTER",

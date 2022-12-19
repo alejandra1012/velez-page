@@ -15,6 +15,7 @@
     }
   },
   "flex-layout.col#mobile__list-content--image": {
+    "title": "container image",
     "children": ["product-list-image#mobile"],
     "props": {
       "width": "30%"
@@ -49,24 +50,28 @@
     }
   },
   "flex-layout.row#mobile__sub-container--product-name": {
+    "title": "container name",
     "children": ["vtex.product-list:product-name"],
     "props": {
       "horizontalAlign": "center"
     }
   },
   "flex-layout.row#mobile__sub-container--quantity": {
+    "title": "container quantity",
     "children": ["product-quantity-label"],
     "props": {
       "horizontalAlign": "left"
     }
   },
   "flex-layout.row#mobile__sub-container--price": {
+    "title": "container price",
     "children": ["price"],
     "props": {
       "horizontalAlign": "center"
     }
   },
   "flex-layout.col#mobile__main-container--remove": {
+    "title": "container remove button",
     "children": ["remove-button#mobile"],
     "props": {
       "blockClass": "main-container__remove"

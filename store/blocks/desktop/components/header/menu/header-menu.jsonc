@@ -13,6 +13,7 @@
     }
   },
   "menu-item#menu__department--female": {
+    "title": "menu item department female",
     "blocks": ["submenu#submenu__department--female"],
     "props": {
       "id": "menu-item-female",
@@ -24,6 +25,7 @@
     }
   },
   "submenu#submenu__department--female": {
+    "title": "submenu department female",
     "children": ["flex-layout.col#submenu-container__department--female"],
     "props": {
       "width": "100%",
@@ -37,7 +39,6 @@
     ]
   },
   "flex-layout.row#submenu__department--female": {
-    "title": "submenu department female",
     "children": [
       "menu#submenu__department--female",
       "flex-layout.col#image__department--female",
@@ -72,6 +73,7 @@
     }
   },
   "menu-item#female__category-shoes": {
+    "title": "menu item category shoes",
     "blocks": ["submenu#submenu__category--shoes"],
     "props": {
       "id": "female__category-shoes",
@@ -84,6 +86,7 @@
     }
   },
   "submenu#submenu__category--shoes": {
+    "title": "submenu category shoes",
     "children": ["menu#submenu__category--shoes"],
     "props": {}
   },
@@ -160,6 +163,7 @@
     }
   },
   "menu-item#female__category-bags": {
+    "title": "menu item category bags",
     "blocks": ["submenu#submenu__category--bags"],
     "props": {
       "id": "female__category-bags",
@@ -172,6 +176,7 @@
     }
   },
   "submenu#submenu__category--bags": {
+    "title": "submenu category bags",
     "children": ["menu#submenu__category--bags"],
     "props": {}
   },
@@ -224,6 +229,7 @@
     }
   },
   "menu-item#female__categoty-accessories": {
+    "title": "menu item category accessories",
     "blocks": ["submenu#submenu__category--accessories"],
     "props": {
       "id": "female__category-accessories",
@@ -236,6 +242,7 @@
     }
   },
   "submenu#submenu__category--accessories": {
+    "title": "submenu category accessories",
     "children": ["menu#submenu__category--accessories"]
   },
   "menu#submenu__category--accessories": {
@@ -287,6 +294,7 @@
     }
   },
   "menu-item#female__category-leather-jackets": {
+    "title": "menu item category leather jackets",
     "blocks": ["submenu#submenu__category--leather-jackets"],
     "props": {
       "id": "female__category-leather-jackets",
@@ -299,6 +307,7 @@
     }
   },
   "submenu#submenu__category--leather-jackets": {
+    "title": "submenu category leather jackets",
     "children": ["menu#submenu__category--leather-jackets"]
   },
   "menu#submenu__category--leather-jackets": {
@@ -326,6 +335,7 @@
     }
   },
   "menu-item#female__category-clothes": {
+    "title": "menu item category clothes",
     "blocks": ["submenu#submenu__category--clothes"],
     "props": {
       "id": "female__category-clothes",
@@ -338,6 +348,7 @@
     }
   },
   "submenu#submenu__category--clothes": {
+    "title": "submenu category clothes",
     "children": ["menu#submenu__category--clothes"]
   },
   "menu#submenu__category--clothes": {
@@ -429,6 +440,7 @@
     }
   },
   "menu-item#female__category-belts": {
+    "title": "menu item category belts",
     "blocks": ["submenu#submenu__category--belts"],
     "props": {
       "id": "female__category-belts",
@@ -441,6 +453,7 @@
     }
   },
   "submenu#submenu__category--belts": {
+    "title": "submenu category belts",
     "children": ["menu#submenu__category--belts"]
   },
   "menu#submenu__category--belts": {
@@ -476,6 +489,7 @@
     }
   },
   "menu-item#female__category-travel": {
+    "title": "menu item category travel",
     "blocks": ["submenu#submenu__category--travel"],
     "props": {
       "id": "female__category-travel",
@@ -488,6 +502,7 @@
     }
   },
   "submenu#submenu__category--travel": {
+    "title": "submenu category travel",
     "children": ["menu#submenu__category--travel"]
   },
   "menu#submenu__category--travel": {
@@ -523,6 +538,7 @@
     }
   },
   "menu-item#female__category-basic-and-icons": {
+    "title": "menu item category basic and icons",
     "blocks": ["submenu#submenu__category--basic-and-icons"],
     "props": {
       "id": "female__category-basic-and-icons",
@@ -535,6 +551,7 @@
     }
   },
   "submenu#submenu__category--basic-and-icons": {
+    "title": "submenu category basic and icons",
     "children": ["menu#submenu__category--basic-and-icons"]
   },
   "menu#submenu__category--basic-and-icons": {
@@ -554,6 +571,7 @@
     }
   },
   "menu-item#female__category-see-all": {
+    "title": "menu item category see all",
     "blocks": [],
     "props": {
       "id": "female__category-see-all",
@@ -566,6 +584,7 @@
     }
   },
   "menu-item#female__category-leather-care": {
+    "title": "menu item category leather care",
     "blocks": [],
     "props": {
       "id": "female__category-leather-care",
@@ -578,6 +597,7 @@
     }
   },
   "menu-item#female__category-well-being": {
+    "title": "menu item category well being",
     "blocks": [],
     "props": {
       "id": "female__category-well-being",
@@ -590,6 +610,7 @@
     }
   },
   "menu-item#female__category-gift-guide": {
+    "title": "menu item category gift guide",
     "blocks": [],
     "props": {
       "id": "female__category-gift-guide",
@@ -602,6 +623,7 @@
     }
   },
   "menu-item#female__category-gift-voucher": {
+    "title": "menu item category gift voucher",
     "blocks": [],
     "props": {
       "id": "female__category-gift-voucher",
@@ -679,6 +701,7 @@
     }
   },
   "menu-item#menu__department--male": {
+    "title": "menu item department male",
     "blocks": ["submenu#submenu__department--male"],
     "props": {
       "id": "menu-item-male",
@@ -690,6 +713,7 @@
     }
   },
   "submenu#submenu__department--male": {
+    "title": "submenu department male",
     "children": ["flex-layout.col#submenu-container__department--male"],
     "props": {
       "width": "100%",
@@ -703,7 +727,6 @@
     ]
   },
   "flex-layout.row#submenu__department--male": {
-    "title": "submenu department male",
     "children": [
       "menu#submenu__department--male",
       "flex-layout.col#image__department--male",
@@ -738,6 +761,7 @@
     }
   },
   "menu-item#male__category-shoes": {
+    "title": "menu item category shoes",
     "blocks": ["submenu#submenu__male--category--shoes"],
     "props": {
       "id": "male__category-shoes",
@@ -754,6 +778,7 @@
     "children": ["menu#submenu__male--category--shoes"]
   },
   "menu#submenu__male--category--shoes": {
+    "title": "menu items category shoes",
     "props": {
       "items": [
         {
@@ -809,6 +834,7 @@
     }
   },
   "menu-item#male__category-bags": {
+    "title": "menu item category bags",
     "blocks": ["submenu#submenu__male--category--bags"],
     "props": {
       "id": "male__category-bags",
@@ -821,10 +847,11 @@
     }
   },
   "submenu#submenu__male--category--bags": {
+    "title": "submenu category bags",
     "children": ["menu#submenu__male--category--bags"]
   },
   "menu#submenu__male--category--bags": {
-    "title": "submenu category bags",
+    "title": "menu items category bags",
     "props": {
       "items": [
         {
@@ -864,6 +891,7 @@
     }
   },
   "menu-item#male__categoty-accessories": {
+    "title": "menu item category accessories",
     "blocks": ["submenu#submenu__male--category--accessories"],
     "props": {
       "id": "male__category-accessories",
@@ -876,10 +904,11 @@
     }
   },
   "submenu#submenu__male--category--accessories": {
+    "title": "submenu category accessories",
     "children": ["menu#submenu__male--category--accessories"]
   },
   "menu#submenu__male--category--accessories": {
-    "title": "submenu category accessories",
+    "title": "menu items category accessories",
     "props": {
       "items": [
         {
@@ -927,6 +956,7 @@
     }
   },
   "menu-item#male__category-leather-jackets": {
+    "title": "menu item category leather jackets",
     "blocks": ["submenu#submenu__male--category--jackets"],
     "props": {
       "id": "male__category-leather-jackets",
@@ -939,10 +969,11 @@
     }
   },
   "submenu#submenu__male--category--jackets": {
+    "title": "submenu category jackets",
     "children": ["menu#submenu__male--category--jackets"]
   },
   "menu#submenu__male--category--jackets": {
-    "title": "submenu category jackets",
+    "title": "menu items category jackets",
     "props": {
       "items": [
         {
@@ -966,6 +997,7 @@
     }
   },
   "menu-item#male__category-clothes": {
+    "title": "menu item category clothes",
     "blocks": ["submenu#submenu__male--category--clothes"],
     "props": {
       "id": "male__category-clothes",
@@ -978,10 +1010,11 @@
     }
   },
   "submenu#submenu__male--category--clothes": {
+    "title": "submenu category clothes",
     "children": ["menu#submenu__male--category--clothes"]
   },
   "menu#submenu__male--category--clothes": {
-    "title": "submenu category clothes",
+    "title": "menu items category clothes",
     "props": {
       "items": [
         {
@@ -1053,6 +1086,7 @@
     }
   },
   "menu-item#male__category-belts": {
+    "title": "menu item category belts",
     "blocks": ["submenu#submenu__male--category--belts"],
     "props": {
       "id": "male__category-belts",
@@ -1065,10 +1099,11 @@
     }
   },
   "submenu#submenu__male--category--belts": {
+    "title": "submenu category belts",
     "children": ["menu#submenu__male--category--belts"]
   },
   "menu#submenu__male--category--belts": {
-    "title": "submenu category belts",
+    "title": "menu items category belts",
     "props": {
       "items": [
         {
@@ -1100,6 +1135,7 @@
     }
   },
   "menu-item#male__category-travel": {
+    "title": "menu item category travel",
     "blocks": ["submenu#submenu__male--category--travel"],
     "props": {
       "id": "male__category-travel",
@@ -1112,10 +1148,11 @@
     }
   },
   "submenu#submenu__male--category--travel": {
+    "title": "submenu category travel",
     "children": ["menu#submenu__male--category--travel"]
   },
   "menu#submenu__male--category--travel": {
-    "title": "submenu category travel",
+    "title": "menu items category travel",
     "props": {
       "items": [
         {
@@ -1155,6 +1192,7 @@
     }
   },
   "menu-item#male__category-basic-and-icons": {
+    "title": "menu item category basic and icons",
     "blocks": ["submenu#submenu__male--category--basic-and-icons"],
     "props": {
       "id": "male__category-basic-and-icons",
@@ -1167,10 +1205,11 @@
     }
   },
   "submenu#submenu__male--category--basic-and-icons": {
+    "title": "submenu category basic and icons",
     "children": ["menu#submenu__male--category--basic-and-icons"]
   },
   "menu#submenu__male--category--basic-and-icons": {
-    "title": "submenu category basic and icons",
+    "title": "menu items category basic and icons",
     "props": {
       "items": [
         {
@@ -1186,6 +1225,7 @@
     }
   },
   "menu-item#male__category-see-all": {
+    "title": "menu item category see all",
     "props": {
       "id": "male__category-see-all",
       "type": "custom",
@@ -1197,6 +1237,7 @@
     }
   },
   "menu-item#male__category-leather-care": {
+    "title": "menu item category leather care",
     "props": {
       "id": "male__category-leather-care",
       "type": "custom",
@@ -1208,6 +1249,7 @@
     }
   },
   "menu-item#male__category-well-being": {
+    "title": "menu item category well being",
     "props": {
       "id": "male__category-well-being",
       "type": "custom",
@@ -1219,6 +1261,7 @@
     }
   },
   "menu-item#male__category-gift-guide": {
+    "title": "menu item category gift guide",
     "props": {
       "id": "male__category-gift-guide",
       "type": "custom",
@@ -1230,6 +1273,7 @@
     }
   },
   "menu-item#male__category-gift-voucher": {
+    "title": "menu item category gift vaucher",
     "props": {
       "id": "male__category-see-all",
       "type": "custom",
@@ -1262,6 +1306,7 @@
     }
   },
   "menu-item#menu__department--outlet": {
+    "title": "menu item department outlet",
     "blocks": ["submenu#submenu__department--outlet"],
     "props": {
       "id": "menu-item-outlet",
@@ -1273,6 +1318,7 @@
     }
   },
   "submenu#submenu__department--outlet": {
+    "title": "submenu department outlet",
     "children": ["flex-layout.col#submenu-container__department--outlet"],
     "props": {
       "width": "100%",
@@ -1286,7 +1332,6 @@
     ]
   },
   "flex-layout.row#submenu__department--outlet": {
-    "title": "submenu department outlet",
     "children": [
       "menu#submenu__department--outlet",
       "flex-layout.col#image__department--outlet",
@@ -1311,6 +1356,7 @@
     }
   },
   "menu-item#outlet__category-male": {
+    "title": "menu item category male",
     "blocks": ["submenu#submenu__outlet--category--male"],
     "props": {
       "id": "outlet__category-male",
@@ -1323,10 +1369,11 @@
     }
   },
   "submenu#submenu__outlet--category--male": {
+    "title": "submenu category male",
     "children": ["menu#submenu__outlet--category--male"]
   },
   "menu#submenu__outlet--category--male": {
-    "title": "submenu category male",
+    "title": "menu items category male",
     "props": {
       "items": [
         {
@@ -1382,6 +1429,7 @@
     }
   },
   "menu-item#outlet__category-female": {
+    "title": "menu item category female",
     "blocks": ["submenu#submenu__outlet--category--female"],
     "props": {
       "id": "outlet__category-female",
@@ -1394,10 +1442,11 @@
     }
   },
   "submenu#submenu__outlet--category--female": {
+    "title": "submenu category female",
     "children": ["menu#submenu__outlet--category--female"]
   },
   "menu#submenu__outlet--category--female": {
-    "title": "submenu category female",
+    "title": "menu items category female",
     "props": {
       "items": [
         {
@@ -1453,6 +1502,7 @@
     }
   },
   "menu-item#outlet__category-see-all": {
+    "title": "menu item category see all",
     "props": {
       "id": "outlet__category-see-all",
       "type": "custom",
@@ -1488,6 +1538,7 @@
     }
   },
   "menu-item#menu__department--credit": {
+    "title": "menu item department credit",
     "blocks": ["submenu#submenu__department--credit"],
     "props": {
       "id": "menu-item-credit",
@@ -1499,6 +1550,7 @@
     }
   },
   "submenu#submenu__department--credit": {
+    "title": "submenu department credit",
     "children": ["flex-layout.col#submenu-container__department--credit"],
     "props": {
       "width": "100%",
@@ -1613,6 +1665,7 @@
     }
   },
   "menu-item#menu__department--fly-up": {
+    "title": "menu item department fly up",
     "children": [],
     "props": {
       "id": "menu-item-fly-up",

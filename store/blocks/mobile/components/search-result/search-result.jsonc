@@ -1,5 +1,6 @@
 {
   "flex-layout.row#mobile__serach-result--container": {
+    "title": "container search result",
     "children": ["flex-layout.col#mobile__serach-result--container"]
   },
   "flex-layout.col#mobile__serach-result--container": {

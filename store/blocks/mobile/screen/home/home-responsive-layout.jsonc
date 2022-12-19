@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile": {
+    "title": "home mobile",
     "children": [
       "whatsapp-button#global__button",
       "flex-layout.row#mobile__banner-one",

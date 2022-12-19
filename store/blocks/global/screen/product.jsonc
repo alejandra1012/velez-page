@@ -9,9 +9,11 @@
     ]
   },
   "store.not-found#product": {
+    "title": "page not found",
     "blocks": ["rich-text#product__not-found"]
   },
   "rich-text#product__not-found": {
+    "title": "text not found",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

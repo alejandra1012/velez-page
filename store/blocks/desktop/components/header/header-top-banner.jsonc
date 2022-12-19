@@ -8,6 +8,7 @@
     }
   },
   "flex-layout.row#banner-top__container-links": {
+    "title": "container banner top",
     "children": ["link#banner-top__link-one", "link#banner-top__link-two"],
     "props": {
       "fullwidth": true,
