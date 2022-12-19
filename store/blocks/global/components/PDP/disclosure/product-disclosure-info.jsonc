@@ -3,7 +3,8 @@
     "title": "disclosure product details",
     "children": ["disclosure-layout-group#product-info"],
     "props": {
-      "blockClass": "disclosure__product-info"
+      "blockClass": "disclosure__product-info",
+      "width": "100%"
     }
   },
   "disclosure-layout-group#product-info": {
@@ -27,7 +28,10 @@
     }
   },
   "disclosure-trigger#product-info__description": {
-    "children": ["flex-layout.row#description__tilte"]
+    "children": ["flex-layout.row#description__tilte"],
+    "props": {
+      "blockClass": "product__disclosure--trigger"
+    }
   },
   "flex-layout.row#description__tilte": {
     "title": "content",
@@ -51,7 +55,7 @@
     "title": "disclosure conten",
     "children": ["flex-layout.row#description__content"],
     "props": {
-      "blockClass": "disclosure-content"
+      "blockClass": "product__disclosure--content"
     }
   },
   "flex-layout.row#description__content": {
@@ -70,7 +74,10 @@
   },
   "disclosure-trigger#product-info__features": {
     "title": "features",
-    "children": ["flex-layout.row#features__title"]
+    "children": ["flex-layout.row#features__title"],
+    "props": {
+      "blockClass": "product__disclosure--trigger"
+    }
   },
   "flex-layout.row#features__title": {
     "title": "content",
@@ -92,19 +99,18 @@
   },
   "disclosure-content#product-info__features": {
     "title": "disclosure conten",
-    "children": ["flex-layout.row#features__content"]
-  },
-  "flex-layout.row#features__content": {
-    "title": "features content",
-    "children": ["product-specification-group#features__content"]
+    "children": ["product-specification-group#features__content"],
+    "props": {
+      "blockClass": "product__disclosure--content"
+    }
   },
   "product-specification-group#features__content": {
-    "children": [
-      "product-specification-text#group",
-      "product-specification#features__content"
-    ]
+    "children": ["product-specification#features__content"]
   },
   "product-specification#features__content": {
+    "children": ["flex-layout.col#features__content"]
+  },
+  "flex-layout.col#features__content": {
     "children": [
       "product-specification-text#specification",
       "product-specification-values#features__content"
@@ -113,19 +119,16 @@
   "product-specification-values#features__content": {
     "children": ["product-specification-text#value"]
   },
-  "product-specification-text#group": {
-    "props": {
-      "message": "{groupName}"
-    }
-  },
   "product-specification-text#specification": {
     "props": {
-      "message": "{specificationName}"
+      "message": "{specificationName}",
+      "blockClass": "global__disclosure--specification-title"
     }
   },
   "product-specification-text#value": {
     "props": {
-      "message": "{specificationValue}"
+      "message": "{specificationValue}",
+      "blockClass": "global__disclosure--specification-text"
     }
   },
   "disclosure-layout#product-info__shipping-policies": {
@@ -139,7 +142,10 @@
     }
   },
   "disclosure-trigger#product-info__shipping-policies": {
-    "children": ["flex-layout.row#shipping-policies__title"]
+    "children": ["flex-layout.row#shipping-policies__title"],
+    "props": {
+      "blockClass": "product__disclosure--trigger"
+    }
   },
   "flex-layout.row#shipping-policies__title": {
     "title": "content",
@@ -161,7 +167,10 @@
   },
   "disclosure-content#product-info__shipping-policies": {
     "title": "disclosure conten",
-    "children": ["rich-text#shipping-policies__info"]
+    "children": ["rich-text#shipping-policies__info"],
+    "props": {
+      "blockClass": "product__disclosure--content"
+    }
   },
   "rich-text#shipping-policies__info": {
     "title": "policies",
@@ -180,7 +189,10 @@
     }
   },
   "disclosure-trigger#product-info__care": {
-    "children": ["flex-layout.row#care__title"]
+    "children": ["flex-layout.row#care__title"],
+    "props": {
+      "blockClass": "product__disclosure--trigger"
+    }
   },
   "flex-layout.row#care__title": {
     "title": "content",
@@ -195,19 +207,22 @@
     }
   },
   "rich-text#care__title": {
-   "title": "title",
+    "title": "title",
     "props": {
       "text": "CUIDADOS"
     }
   },
   "disclosure-content#product-info__care": {
     "title": "disclosure conten",
-    "children": ["rich-text#care__info"]
+    "children": ["rich-text#care__info"],
+    "props": {
+      "blockClass": "product__disclosure--content"
+    }
   },
   "rich-text#care__info": {
     "title": "care",
     "props": {
-      "text": "**qui va algo**"
+      "text": "![](assets/image/not-wash.svg) No lavar \n\n ![](assets/image/not-tumble-dry.svg) No secar en máquina \n\n ![](assets/image/not-bleach.svg) No usar blanqueador, ni detergentes"
     }
   },
   "disclosure-layout#product-info__care-instructions": {
@@ -221,7 +236,10 @@
     }
   },
   "disclosure-trigger#product-info__care-instructions": {
-    "children": ["flex-layout.row#care-instructions__title"]
+    "children": ["flex-layout.row#care-instructions__title"],
+    "props": {
+      "blockClass": "product__disclosure--trigger"
+    }
   },
   "flex-layout.row#care-instructions__title": {
     "title": "content",
@@ -236,14 +254,17 @@
     }
   },
   "rich-text#care-instructions__title": {
-   "title": "title",
-   "props": {
+    "title": "title",
+    "props": {
       "text": "INSTRUCCIONES DE CUIDADO"
     }
   },
   "disclosure-content#product-info__care-instructions": {
     "title": "disclosure conten",
-    "children": ["rich-text#care-instructions__info"]
+    "children": ["rich-text#care-instructions__info"],
+    "props": {
+      "blockClass": "product__disclosure--content"
+    }
   },
   "rich-text#care-instructions__info": {
     "title": "care instruction",
