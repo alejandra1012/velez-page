@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#global__product-detail-container--slider-product": {
+    "title": "slider product",
+    "children": [
+      "flex-layout.col#global__product-detail-container--slider-product"
+    ],
+    "props": {
+      "marginBottom": 3,
+      "blockClass": "global__product-detail-container--slider-product"
+    }
+  },
+  "flex-layout.col#global__product-detail-container--slider-product": {
+    "children": [
+      "rich-text#global__product-detail--slider-title",
+      "list-context.product-list#global__product-detail--product"
+    ],
+    "props": {
+      "blockClass": "global__product-detail-container--slider-product"
+    }
+  },
+  "rich-text#global__product-detail--slider-title": {
+    "props": {
+      "text": "##### PRODUCTOS SIMILARES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "product-summary.shelf#global__product-detail--product": {
+    "title": "product shelf",
+    "children": [
+      "product-summary-image#product-detail__slider-product",
+      "product-summary-name#product-detail__slider-product",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "global__product-detail--product"
+    }
+  },
+  "list-context.product-list#global__product-detail--product": {
+    "title": "product list",
+    "blocks": ["product-summary.shelf#global__product-detail--product"],
+    "children": ["slider-layout#global__product-detail--slider-product"],
+    "props": {
+      "maxItems": 6,
+      "blockClass": "global__product-detail--slider-product"
+    }
+  },
+  "slider-layout#global__product-detail--slider-product": {
+    "title": "slider product",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "arrowSize": {
+        "desktop": 16,
+        "mobile": 12
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "fullWidth": false,
+      "blockClass": "global__product-detail--slider-product"
+    }
+  },
+  "product-summary-name#product-detail__slider-product": {
+    "title": "name",
+    "props": {
+      "tag": "div"
+    }
+  },
+  "product-summary-image#product-detail__slider-product": {
+    "title": "image product",
+    "props": {
+      "showBadge": true,
+      "aspectRatio": {
+        "desktop": "2:3",
+        "tablet": "2:3",
+        "phone": "2:3"
+      }
+    }
+  }
+}
