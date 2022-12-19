@@ -2,7 +2,7 @@
   "drawer#mobile__header--menu": {
     "title": "menu drawer",
     "children": ["menu#mobile__container-menu--menu"]
-  }, 
+  },
   "menu#mobile__container-menu--menu": {
     "title": "menu container",
     "children": [
@@ -24,6 +24,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "MUJER"
       },
       "blockClass": "mobile__menu-item"
@@ -64,6 +65,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ZAPATOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -84,6 +86,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "tenis"
           }
         },
@@ -92,6 +95,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "botas y botines"
           }
         },
@@ -100,6 +104,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "mocasines"
           }
         },
@@ -108,6 +113,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "sandalias"
           }
         },
@@ -116,6 +122,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "con cordones"
           }
         },
@@ -124,6 +131,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "tacones"
           }
         },
@@ -132,6 +140,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "baletas"
           }
         },
@@ -140,6 +149,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -155,6 +165,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BOLSOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -175,6 +186,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "shopping"
           }
         },
@@ -183,6 +195,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "manos libres"
           }
         },
@@ -191,6 +204,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "morrales"
           }
         },
@@ -199,6 +213,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "bowling"
           }
         },
@@ -207,6 +222,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -222,6 +238,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ACCESORIOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -289,6 +306,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CHAQUETAS DE CUERO"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -309,6 +327,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "chaquetas"
           }
         },
@@ -317,6 +336,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -332,6 +352,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ROPA"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -352,6 +373,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "prendas de cuero"
           }
         },
@@ -360,6 +382,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "chaquetas"
           }
         },
@@ -368,6 +391,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "buzos"
           }
         },
@@ -376,6 +400,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "camisas"
           }
         },
@@ -384,6 +409,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "jeans y pantalones"
           }
         },
@@ -392,6 +418,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "faldas y vestidos"
           }
         },
@@ -400,6 +427,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "camisetas"
           }
         },
@@ -408,6 +436,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "bufandas"
           }
         },
@@ -416,6 +445,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "shorts"
           }
         },
@@ -424,6 +454,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -439,6 +470,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CINTURONES"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -459,6 +491,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "unifaz"
           }
         },
@@ -467,6 +500,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "doble faz"
           }
         },
@@ -475,6 +509,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -490,6 +525,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "TRAVEL"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -510,6 +546,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "maletas"
           }
         },
@@ -518,6 +555,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "accsesorios para vaje"
           }
         },
@@ -526,6 +564,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -541,6 +580,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BASICO E ICONOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -561,6 +601,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -576,6 +617,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "VER TODO"
       }
     }
@@ -587,6 +629,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CUIDADOS DEL CUERO"
       }
     }
@@ -598,6 +641,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BIENESTAR"
       }
     }
@@ -609,6 +653,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "- GUIA DE REGALOS"
       }
     }
@@ -620,6 +665,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "- BONO DE REGALOS"
       }
     }
@@ -631,6 +677,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "HOMBRE"
       },
       "blockClass": "mobile__menu-item"
@@ -671,6 +718,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ZAPATOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -691,6 +739,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "tenis"
           }
         },
@@ -699,6 +748,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "mocasines"
           }
         },
@@ -707,6 +757,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "con cordones"
           }
         },
@@ -715,6 +766,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "sandalias"
           }
         },
@@ -723,6 +775,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "botas"
           }
         },
@@ -731,6 +784,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -746,6 +800,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BOLSOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -766,6 +821,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "morrales"
           }
         },
@@ -774,6 +830,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "manos libres"
           }
         },
@@ -782,6 +839,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "riñoneras"
           }
         },
@@ -790,6 +848,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -805,6 +864,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ACCESORIOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -825,6 +885,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "billeteras"
           }
         },
@@ -833,6 +894,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "organizador de viaje"
           }
         },
@@ -841,6 +903,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "llaveros y manillas"
           }
         },
@@ -849,6 +912,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "perfumes"
           }
         },
@@ -857,6 +921,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -872,6 +937,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CHAQUETAS DE CUERO"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -892,6 +958,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "chaquetas"
           }
         },
@@ -900,6 +967,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -915,6 +983,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "ROPA"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -935,6 +1004,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "prendas de cuero"
           }
         },
@@ -943,6 +1013,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "camisetas y polos"
           }
         },
@@ -951,6 +1022,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "chaquetas"
           }
         },
@@ -959,6 +1031,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "camisas"
           }
         },
@@ -967,6 +1040,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "jeans y pantalones"
           }
         },
@@ -975,6 +1049,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "bermudas"
           }
         },
@@ -983,6 +1058,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "buzos"
           }
         },
@@ -991,6 +1067,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1006,6 +1083,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CINTURONES"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -1026,6 +1104,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "unifaz"
           }
         },
@@ -1034,6 +1113,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "doble faz"
           }
         },
@@ -1042,6 +1122,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1057,6 +1138,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "TRAVEL"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -1077,6 +1159,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "organizador de viaje"
           }
         },
@@ -1085,6 +1168,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "maletas"
           }
         },
@@ -1093,6 +1177,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "accsesorios para viaje"
           }
         },
@@ -1101,6 +1186,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1118,6 +1204,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BASICO E ICONOS"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -1139,6 +1226,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1152,7 +1240,8 @@
       "id": "male__category-see-all",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "VER TODO"
       }
     }
@@ -1162,7 +1251,8 @@
       "id": "male__category-leather-care",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CUIDADOS DEL CUERO"
       }
     }
@@ -1172,7 +1262,8 @@
       "id": "male__category-well-being",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "BIENESTAR"
       }
     }
@@ -1182,7 +1273,8 @@
       "id": "male__category-gift-guide",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "- GUIA DE REGALOS"
       }
     }
@@ -1192,7 +1284,8 @@
       "id": "male__category-see-all",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "- BONO DE REGALOS"
       }
     }
@@ -1204,6 +1297,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "OUTLET"
       },
       "blockClass": "mobile__menu-item"
@@ -1234,6 +1328,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "HOMBRE"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -1254,6 +1349,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "bolsos"
           }
         },
@@ -1262,6 +1358,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "zapatos"
           }
         },
@@ -1270,6 +1367,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ropa"
           }
         },
@@ -1278,6 +1376,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "cinturones"
           }
         },
@@ -1286,6 +1385,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "acesorios"
           }
         },
@@ -1294,6 +1394,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1309,6 +1410,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "MUJER"
       },
       "blockClass": ["mobile__menu-item", "mobile__submenu-item"]
@@ -1329,6 +1431,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "bolsos"
           }
         },
@@ -1337,6 +1440,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "zapatos"
           }
         },
@@ -1345,6 +1449,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ropa"
           }
         },
@@ -1353,6 +1458,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "cinturones"
           }
         },
@@ -1361,6 +1467,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "acesorios"
           }
         },
@@ -1369,6 +1476,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "ver todo"
           }
         }
@@ -1382,7 +1490,8 @@
       "id": "outlet__category-see-all",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "VER TODO"
       }
     }
@@ -1394,6 +1503,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
+        "href": "/electrodomesticos",
         "text": "CRÉDITO"
       },
       "blockClass": "mobile__menu-item"
@@ -1413,7 +1523,8 @@
           "id": "outlet__category-benefits",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "BEFICIOS"
           }
         },
@@ -1421,7 +1532,8 @@
           "id": "credit__category--pay-for-credit",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "PAGA TU CREDITO"
           }
         },
@@ -1429,7 +1541,8 @@
           "id": "credit__category--apply-for-credit",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "SOLICITA TU CREDITO"
           }
         },
@@ -1437,7 +1550,8 @@
           "id": "credit__category--exclusive-offer",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
             "text": "OFERTA EXCLUSIVA CREDITO LEATHER LOVERS"
           }
         }
@@ -1452,7 +1566,8 @@
       "id": "menu-item-fly-up",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "text": "FLY UP"
       }
     }
