@@ -1,0 +1,27 @@
+/* DESKTOP */
+
+.flexRow--header__banner-top {
+  width: 80%;
+}
+
+.flexRowContent--header__banner-top {
+  height     : 30px;
+  align-items: center;
+}
+
+.flexRowContent--header__banner-top .stretchChildrenWidth:nth-child(even) {
+  text-align-last: left;
+}
+
+.flexRowContent--header__banner-top .stretchChildrenWidth:nth-child(odd) {
+  text-align-last: right;
+}
+
+
+.flexRowContent--header__banner-top :nth-child(2n)::before {
+  content  : '|';
+  color    : white;
+  font-size: 15px;
+  margin   : 0 8px;
+}
+

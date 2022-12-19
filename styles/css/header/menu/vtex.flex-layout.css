@@ -25,3 +25,28 @@
 .flexCol--mobile__menu-button:active .flexColChild:last-child {
   transform: rotate(-43deg);
 }
+
+/* MENU DESKTOP*/
+
+.flexCol--flex__menu--departments {
+  width     : 65% !important;
+  text-align: center;
+}
+
+.flexRowContent--menu__submenu--department .stretchChildrenWidth {
+  min-height : 50vh !important;
+  text-align : start;
+  align-items: flex-start;
+}
+
+.flexCol--flex__menu--departments--links {
+  min-height: 54vh;
+}
+
+.flexRow--menu__submenu--department {
+  padding: 0 2vw;
+}
+
+.flexRowContent--header-bottom__menu :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0 8px;
+}

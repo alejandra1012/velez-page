@@ -1,0 +1,16 @@
+/* MOBILE */
+
+.logoContainer {
+  padding: 0;
+}
+
+.logoImage--mobile__menu-logo {
+  width: 25vw;
+}
+
+/* DESKTOP */
+
+.logoImage--header__bottom--logo {
+  width: 7vw;
+}
+

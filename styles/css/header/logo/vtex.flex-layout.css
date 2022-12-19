@@ -1,0 +1,7 @@
+.flexRowContent--desktop__header-bottom .stretchChildrenWidth {
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+  align-self     : center;
+}
+
