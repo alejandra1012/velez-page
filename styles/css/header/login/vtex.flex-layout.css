@@ -1,0 +1,7 @@
+/* MOBILE */
+
+.stretchChildrenWidth :global(.vtex-login-2-x-profileIcon--mobile__menu-icons) {
+  width : 5vw;
+  height: 18px;
+}
+

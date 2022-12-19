@@ -9,19 +9,11 @@
   font-size: 13px;
 }
 
-.label--banner__top {
-  letter-spacing: 0;
-}
-
 /* DESKTOP */
 
 .link--link_menu_departments {
   color    : #000;
   font-size: 15px;
   font-weight: bold;
-}
-
-.label--header__banner-top {
-  letter-spacing: 0;
 }
 

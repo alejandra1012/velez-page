@@ -1,9 +1,15 @@
+/* MOBILE SEARCH */
+
 .autoCompleteOuterContainer--mobile__minicart--search :global(.vtex-input-prefix__group) {
   width        : 95%;
   margin       : 0 auto;
   border       : none;
   border-bottom: 1px solid #000;
   border-radius: 0;
+}
+.autoCompleteOuterContainer--mobile__minicart--search :global(.vtex-styleguide-9-x-input) {
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .resultsList--mobile__minicart--search {
@@ -21,4 +27,49 @@
   visibility : initial;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+/* DESKTOP SEARCH*/
+
+.autoCompleteOuterContainer--header__bottom--search :global(.vtex-input-prefix__group) {
+  border       : none;
+  border-radius: 0;
+}
+
+.autoCompleteOuterContainer--header__bottom--search :global(.vtex-styleguide-9-x-input) {
+  border-bottom : 1px solid black;
+  font-size     : 10px;
+  padding-bottom: 5px;
+  padding-left  : 9px;
+  align-self    : flex-end;
+  width         : 15vw;
+  background    : transparent;
+  text-transform: uppercase;
+}
+
+.autoCompleteOuterContainer--header__bottom--search :global(.vtex-input__suffix) {
+  padding: 0;
+}
+
+.searchBarIcon--header__bottom--search--search {
+  padding   : 0;
+  background: #fff;
+}
+
+.searchBarIcon--clear {
+  background: #fff;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-biggy-autocomplete) {
+  top : 2vh;
+  left: -23vw;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-itemList) {
+  text-align: start;
+}
+
+.portalWrapper--header__bottom--search :global(.vtex-search-1-x-tileListItem) {
+  width : 13vw;
+  height: 30vh;
 }
