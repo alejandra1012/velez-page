@@ -1,0 +1,14 @@
+{
+  "whatsapp-button#global__button": {
+    "title": "button whatsapp",
+    "props": {
+      "logo": "assets/image/btn_whatsapp.png",
+      "phone": "+573212018212",
+      "message": "Hola :)",
+      "width": 45,
+      "height": 45,
+      "radio": 100,
+      "background": "green"
+    }
+  }
+}
