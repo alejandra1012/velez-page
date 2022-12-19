@@ -28,6 +28,7 @@
     }
   },
   "disclosure-trigger#product-info__description": {
+    "title": "trigger content",
     "children": ["flex-layout.row#description__tilte"],
     "props": {
       "blockClass": "product__disclosure--trigger"
@@ -73,7 +74,7 @@
     }
   },
   "disclosure-trigger#product-info__features": {
-    "title": "features",
+    "title": "trigger content",
     "children": ["flex-layout.row#features__title"],
     "props": {
       "blockClass": "product__disclosure--trigger"
@@ -142,6 +143,7 @@
     }
   },
   "disclosure-trigger#product-info__shipping-policies": {
+    "title": "trigger content",
     "children": ["flex-layout.row#shipping-policies__title"],
     "props": {
       "blockClass": "product__disclosure--trigger"
@@ -189,6 +191,7 @@
     }
   },
   "disclosure-trigger#product-info__care": {
+    "title": "trigger content",
     "children": ["flex-layout.row#care__title"],
     "props": {
       "blockClass": "product__disclosure--trigger"
@@ -236,6 +239,7 @@
     }
   },
   "disclosure-trigger#product-info__care-instructions": {
+    "title": "trigger content",
     "children": ["flex-layout.row#care-instructions__title"],
     "props": {
       "blockClass": "product__disclosure--trigger"
@@ -273,6 +277,7 @@
     }
   },
   "disclosure-state-indicator#product-info": {
+    "title": "state indicator",
     "props": {
       "Show": "icon#angle--up",
       "Hide": "icon#angle--down"

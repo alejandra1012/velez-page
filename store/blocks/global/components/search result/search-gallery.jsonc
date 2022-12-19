@@ -22,16 +22,6 @@
       "ThreeLineSummary": "product-summary.shelf#gallery--product"
     }
   },
-  // "gallery-layout-switcher": {
-  //   "children": ["gallery-layout-option#desktop"]
-  // },
-  // "gallery-layout-option#desktop": {
-  //   "children": ["icon-cart"],
-  //   "props": {
-  //     "name": "desktop"
-  //   }
-  // },
-
   "product-summary.shelf#gallery--product": {
     "title": "product",
     "children": [

@@ -10,6 +10,7 @@
     }
   },
   "store.search#department": {
+    "title": "search department",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -19,6 +20,7 @@
     }
   },
   "store.search#category": {
+    "title": "search result category",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -28,6 +30,7 @@
     }
   },
   "store.search#subcategory": {
+    "title": "search result subcategory",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -37,6 +40,7 @@
     }
   },
   "store.search#brand": {
+    "title": "search result brand",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -46,6 +50,7 @@
     }
   },
   "search-result-layout": {
+    "title": "search result layout",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -56,9 +61,11 @@
     "children": ["not-found"]
   },
   "store.not-found#search": {
+    "title": "page not found",
     "blocks": ["rich-text#not-found"]
   },
   "rich-text#not-found": {
+    "title": "text not found",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

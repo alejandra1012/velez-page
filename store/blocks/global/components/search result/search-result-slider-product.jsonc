@@ -21,6 +21,7 @@
     }
   },
   "rich-text#global__search-result--slider-title": {
+    "title": "slider title",
     "props": {
       "text": "##### LOS MÁS VENDIDOS",
       "textAlignment": "CENTER",

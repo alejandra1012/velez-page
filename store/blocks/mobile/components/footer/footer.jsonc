@@ -12,12 +12,14 @@
     ]
   },
   "flex-layout.row#mobile__footer-container--contact": {
+    "title": "banner bottom",
     "children": ["rich-text#mobile__footer--top-contact"],
     "props": {
       "blockClass": "mobile__footer-container--contact"
     }
   },
   "rich-text#mobile__footer--top-contact": {
+    "title": "banner bottom text",
     "props": {
       "text": "**Línea de servicio al cliente \n 01 8000 114 000**",
       "textAlignment": "CENTER",
@@ -25,6 +27,7 @@
     }
   },
   "disclosure-layout-group#footer__menu--mobile": {
+    "title": "disclosure group",
     "children": [
       "disclosure-layout#footer__menu--our-philosophy",
       "disclosure-layout#footer__menu--we-hepl-me",
@@ -35,12 +38,14 @@
     }
   },
   "disclosure-layout#footer__menu--our-philosophy": {
+    "title": "disclosure our philosophy",
     "children": [
       "disclosure-trigger#our-philosophy",
       "disclosure-content#menu__our-philosophy"
     ]
   },
   "disclosure-trigger#our-philosophy": {
+    "title": "container tigger",
     "children": [
       "rich-text#menu__title--our-philosophy",
       "disclosure-state-indicator"
@@ -50,15 +55,18 @@
     }
   },
   "rich-text#menu__title--our-philosophy": {
+    "title": "title trigger",
     "props": {
       "text": "**NUESTRA FILOSOFÍA**",
       "font": "t-small"
     }
   },
   "disclosure-content#menu__our-philosophy": {
+    "title": "disclosure content",
     "children": ["menu#menu__mobile--philosophy"]
   },
   "menu#menu__mobile--philosophy": {
+    "title": "menu items",
     "props": {
       "items": [
         {
@@ -100,12 +108,14 @@
     }
   },
   "disclosure-layout#footer__menu--we-hepl-me": {
+    "title": "disclosure our we help me",
     "children": [
       "disclosure-trigger#we-hepl-me",
       "disclosure-content#menu__we-hepl-me"
     ]
   },
   "disclosure-trigger#we-hepl-me": {
+    "title": "container tigger",
     "children": [
       "rich-text#menu__title--we-hepl-me",
       "disclosure-state-indicator"
@@ -115,15 +125,18 @@
     }
   },
   "rich-text#menu__title--we-hepl-me": {
+    "title": "title trigger",
     "props": {
       "text": "**TE AYUDAMOS**",
       "font": "t-small"
     }
   },
   "disclosure-content#menu__we-hepl-me": {
+    "title": "disclosure content",
     "children": ["menu#menu__mobile--we-help-me"]
   },
   "menu#menu__mobile--we-help-me": {
+    "title": "menu items",
     "props": {
       "items": [
         {
@@ -180,12 +193,14 @@
     }
   },
   "disclosure-layout#footer__our-store": {
+    "title": "disclosure our store",
     "children": [
       "disclosure-trigger#our-store",
       "disclosure-content#menu__our-store"
     ]
   },
   "disclosure-trigger#our-store": {
+    "title": "container tigger",
     "children": [
       "rich-text#menu__title--our-store",
       "disclosure-state-indicator"
@@ -195,15 +210,18 @@
     }
   },
   "rich-text#menu__title--our-store": {
+    "title": "title trigger",
     "props": {
       "text": "**NUESTRAS TIENDAS**",
       "font": "t-small"
     }
   },
   "disclosure-content#menu__our-store": {
+    "title": "disclosure content",
     "children": ["menu#menu__mobile--our-store"]
   },
   "menu#menu__mobile--our-store": {
+    "title": "menu items",
     "props": {
       "items": [
         {
