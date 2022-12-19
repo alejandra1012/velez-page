@@ -106,6 +106,7 @@
           "type": "custom",
           "itemProps": {
             "type": "external",
+            "href": "/electrodomesticos",
             "text": "Nuestro compromiso social y humano"
           }
         },
@@ -114,6 +115,7 @@
           "type": "custom",
           "itemProps": {
             "type": "external",
+            "href": "/electrodomesticos",
             "text": "Moda responsable"
           }
         },
@@ -122,6 +124,7 @@
           "type": "custom",
           "itemProps": {
             "type": "external",
+            "href": "/electrodomesticos",
             "text": "Trabaja con nosotros"
           }
         }
@@ -151,6 +154,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Contacto / PQRs"
           }
         },
@@ -159,6 +163,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Política de devoluciones"
           }
         },
@@ -167,6 +172,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "¿Como comprar?"
           }
         },
@@ -175,6 +181,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Preguntas frecuentes"
           }
         },
@@ -183,6 +190,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Términos y condiciones"
           }
         },
@@ -191,6 +199,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Nuesta políticas"
           }
         }
@@ -220,6 +229,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Colombia"
           }
         },
@@ -228,6 +238,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Costa Rica"
           }
         },
@@ -236,6 +247,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "El Salvador"
           }
         },
@@ -244,6 +256,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Guatemala"
           }
         },
@@ -252,6 +265,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Panamá"
           }
         },
@@ -260,6 +274,7 @@
           "type": "custom",
           "itemProps": {
             "type": "extrenal",
+            "href": "/electrodomesticos",
             "text": "Perú"
           }
         }
@@ -286,6 +301,7 @@
     "title": "link loyalty program",
     "props": {
       "label": "PROGRAMA DE FIDELIZACIÓN",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   },
@@ -293,6 +309,7 @@
     "title": "link leather lover",
     "props": {
       "label": "CRÉDITO LEATHER LOVERS",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   },
@@ -300,6 +317,7 @@
     "title": "link grows with us",
     "props": {
       "label": "CRECE CON NOSOTROS",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   },
@@ -307,6 +325,7 @@
     "title": "link corporate sales",
     "props": {
       "label": "VENTAS CORPORATIVAS",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   },
@@ -314,6 +333,7 @@
     "title": "link distributors",
     "props": {
       "label": "DISTRIBUIDORES",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   },
@@ -321,6 +341,7 @@
     "title": "link online shop",
     "props": {
       "label": "TIENDA VIRTUAL",
+      "href": "/electrodomesticos",
       "blockClass": "footer__links"
     }
   }

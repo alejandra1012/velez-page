@@ -19,6 +19,7 @@
     "title": "link one",
     "props": {
       "label": "Exclusivo online. 20% DCTO en producto de línea. Ref Selecc.",
+      "href": "/electrodomesticos",
       "blockClass": "header__banner-top"
     }
   },
@@ -26,6 +27,7 @@
     "title": "link two",
     "props": {
       "label": "Exclusivo online. Lleva 2 unidades con el 50% DCTO en TODO Outlet.",
+      "href": "/electrodomesticos",
       "blockClass": "header__banner-top"
     }
   }

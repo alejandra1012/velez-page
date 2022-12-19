@@ -34,12 +34,14 @@
   "link#banner__top--mobile--one": {
     "props": {
       "label": "Exclusivo online. 30% DCTO en producto de línea. Ref Selecc. | COMPRAR >>",
+      "href": "/electrodomesticos",
       "blockClass": "banner__top"
     }
   },
   "link#banner__top--mobile--two": {
     "props": {
       "label": "Envío gratis por compras superiores a $250.000",
+      "href": "/electrodomesticos",
       "blockClass": "banner__top--mobile"
     }
   }

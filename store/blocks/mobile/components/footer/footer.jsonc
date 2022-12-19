@@ -82,7 +82,8 @@
           "id": "our-commitment",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Nuestro compromiso social y humano"
           }
         },
@@ -90,7 +91,8 @@
           "id": "responsible-fashion",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Moda responsable"
           }
         },
@@ -98,7 +100,8 @@
           "id": "works-with-us",
           "type": "custom",
           "itemProps": {
-            "type": "external",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Trabaja con nosotros"
           }
         }
@@ -143,7 +146,8 @@
           "id": "contact-PQRs",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Contacto / PQRs"
           }
         },
@@ -151,7 +155,8 @@
           "id": "return-policy",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Política de devoluciones"
           }
         },
@@ -159,7 +164,8 @@
           "id": "how-to-buy",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "¿Como comprar?"
           }
         },
@@ -167,7 +173,8 @@
           "id": "frequently-questions",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Preguntas frecuentes"
           }
         },
@@ -175,7 +182,8 @@
           "id": "terms-and-conditions",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Términos y condiciones"
           }
         },
@@ -183,7 +191,8 @@
           "id": "our-policies",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Nuesta políticas"
           }
         }
@@ -228,7 +237,8 @@
           "id": "store-colombia",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Colombia"
           }
         },
@@ -236,7 +246,8 @@
           "id": "store-costa-rica",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Costa Rica"
           }
         },
@@ -244,7 +255,8 @@
           "id": "store-salvador",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "El Salvador"
           }
         },
@@ -252,7 +264,8 @@
           "id": "store-guatemala",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Guatemala"
           }
         },
@@ -260,7 +273,8 @@
           "id": "store-panama",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Panamá"
           }
         },
@@ -268,7 +282,8 @@
           "id": "store-peru",
           "type": "custom",
           "itemProps": {
-            "type": "extrenal",
+            "type": "internal",
+            "href":"/electrodomesticos",
             "text": "Perú"
           }
         }
@@ -312,36 +327,42 @@
   "link#footer-mobile__links--loyalty-program": {
     "props": {
       "label": "PROGRAMA DE FIDELIZACIÓN",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
   "link#footer-mobile__links--credit-leather-lovers": {
     "props": {
       "label": "CRÉDITO LEATHER LOVERS",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
   "link#footer-mobile__links--grows-with-us": {
     "props": {
       "label": "CRECE CON NOSOTROS",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
   "link#footer-mobile__links--corporate-sales": {
     "props": {
       "label": "VENTAS CORPORATIVAS",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
   "link#footer-mobile__links--distributors": {
     "props": {
       "label": "DISTRIBUIDORES",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
   "link#footer-mobile__links--online-shop": {
     "props": {
       "label": "TIENDA VIRTUAL",
+      "href":"/electrodomesticos",
       "blockClass": "footer-mobile__links"
     }
   },
