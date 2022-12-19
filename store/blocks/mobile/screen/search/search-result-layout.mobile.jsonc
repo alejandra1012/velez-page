@@ -2,6 +2,7 @@
   "search-result-layout.mobile": {
     "title": "search result mobile",
     "children": [
+      "whatsapp-button#global__button",
       "flex-layout.row#global__search-result--banner-top",
       "flex-layout.row#global__search-result-container--slider-product",
       "flex-layout.row#mobile__serach-result--container"

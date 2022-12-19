@@ -12,6 +12,7 @@
   "flex-layout.col#desktop__our-legacy--container": {
     "title": "our legacy container",
     "children": [
+      "whatsapp-button#global__button",
       "flex-layout.row#desktop__our-legacy--banner-one",
       "flex-layout.row#global__our-artisans--description",
       "flex-layout.row#desktop__our-legacy--images-artisans",

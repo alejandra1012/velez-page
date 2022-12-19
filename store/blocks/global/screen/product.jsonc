@@ -2,6 +2,7 @@
   "store.product": {
     "title": "PDP",
     "children": [
+      "whatsapp-button#global__button",
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__container",
       "flex-layout.row#global__product-detail-container--slider-product"

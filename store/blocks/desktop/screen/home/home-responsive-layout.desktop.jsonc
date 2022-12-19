@@ -11,6 +11,7 @@
   },
   "flex-layout.col#desktop__conatiner-home": {
     "children": [
+      "whatsapp-button#global__button",
       "flex-layout.row#desktop__banner-one",
       "flex-layout.row#desktop__banner-two",
       "flex-layout.row#global__home--container-slider-navidad",
