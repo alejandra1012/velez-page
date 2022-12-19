@@ -1,9 +1,17 @@
 {
   "flex-layout.row#product__breadcrumb": {
     "title": "breadcrumb",
-    "children": ["breadcrumb"],
+    "children": ["breadcrumb#global__product-detail"],
     "props": {
-      "marginTop": 8
+      "blockClass": "product-detail__breadcrumb"
+    }
+  },
+  "breadcrumb#global__product-detail": {
+    "title": "breadcrumb",
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 0,
+      "caretIconSize": 0
     }
   }
 }

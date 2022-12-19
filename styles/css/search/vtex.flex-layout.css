@@ -27,7 +27,6 @@
 
 .flexRowContent--search-result__breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::after {
    content    : "/";
-   color      : #979899;
    font-size  : 16px;
    font-weight: bold;
 }
@@ -42,6 +41,10 @@
    display    : flex;
    flex-wrap  : wrap;
    align-items: center;
+}
+
+.flexRowContent--search-result__breadcrumb :global(.vtex-breadcrumb-1-x-link) {
+   color: #000;
 }
 
 .flexRowContent--search-result__breadcrumb :global(.vtex-breadcrumb-1-x-link):hover {
