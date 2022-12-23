@@ -1,62 +1,119 @@
-# Minimum Boilerplate Theme
+# Velez Store
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+Velez store es una replica de la tienda Velez, construida en la plataforma de VTEX IO.<br/>
+Pagina oficial [Velez](https://www.velez.com.co/).
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+#### Home
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+![Linio](../assets/image/README.PNG)
 
-## Configuration
+## Configuracion
 
-### Step 1 -  Basic setup
+### Paso 1
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+Acceda a la guia basica de configuracion de [VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1). Ademas de esto debera tener instalado el [CLI](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-installation-and-command-reference) (Command Line Interface) de VTEX IO
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+### Paso 2 - Clonar el repositorio
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+[Clona](https://github.com/MiguelFoliaco/store-theme-linio) este repositorio en tu maquina local para poder trabajar y accede a el por tu terminal.
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+### Paso 3 - Edita el `manifest.json`
 
-Then, access the repository's directory using your terminal. 
+Una vez clonado el repositorio hay que hacer unas cuantas modificaciones en el manifest.json del proyecto.
 
-### Step 3 - Editing the `Manifest.json`
-
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+Tendras que modificar valores de la propiedad `vendor` por el nombre de la cuenta en la que estes trabajando. la propiedad `name` no es obligatoria modificarla para su uso pero puedes cambiarla por el nombre que quieras
 
 ```json
 {
   "vendor": "storecomponents",
-  "name": "my-test-theme",
+  "name": "my-test-theme"
 }
 ```
 
-### Step 4 -  Installing required apps
+### Paso 4 - Desinstalar el store-theme predeterminado
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+Al ejecutar `vtex list`, puede verificar si algún tema está instalado.
 
-Run  `vtex list`  and check whether those apps are already installed. 
+Es común tener ya instalado un `vtex.store-theme` cuando inicia el proceso de desarrollo frontal de la tienda.
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
+Por lo tanto, si lo encuentra en la lista de aplicaciones, copie su nombre y version, luego utilícelo junto con el comando `vtex uninstall`. Por ejemplo:
 
 ```json
-vtex uninstall vtex.store-theme
+vtex uninstall vtex.store-theme@0.0.1
 ```
 
-### Step 6- Run and preview your store
+### Paso 6 - Ejecute un preview de la tienda
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
+Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `Aplicación vinculada con éxito`. Luego, ejecute el comando `vtex browser` para abrir una ventana del navegador que tenga su tienda vinculada.
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
+
+## Store Components
+
+```json
+{
+  "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-video": "1.x",
+    "vtex.store-newsletter": "1.x",
+    "vtex.store-link": "0.x",
+    "vtex.search": "1.x",
+    "vtex.store-icons": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.product-price": "1.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.overlay-layout": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
+}
+```
+### Custom component
+
+```json
+{
+  "{vendor}.whatsapp-button": "0.x"
+}
+```
+
+#### Aplicaciones
+
+| Nombre                                                                                                | Version |
+| ----------------------------------------------------------------------------------------------------- | ------- |
+| [{vendor}.whatsapp-button](https://github.com/laguado415/itgloberspartnercl-whatsapp-button)       | 0.x     |
